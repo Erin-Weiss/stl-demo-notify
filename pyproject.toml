@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stl-demo-notify"
+version = "0.1.0"
+description = "Demolition site notification lists, walking checklists, and interactive maps for St. Louis parcel data."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Erin Weiss" }]
+dependencies = [
+    "geopandas",
+    "pandas",
+    "openpyxl",
+    "requests",
+    "folium",
+    "pyarrow",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+stl-demo-notify = "stl_demo_notify.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
