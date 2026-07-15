@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import io
 import logging
-import re
 import zipfile
 from pathlib import Path
 
@@ -13,6 +12,7 @@ import pandas as pd
 import requests
 
 from . import config
+from .matching import norm_id
 
 logger = logging.getLogger(__name__)
 
@@ -40,13 +40,6 @@ def find_file(folder: Path, suffix: str) -> Path | None:
         if path.is_file():
             return path
     return None
-
-
-def norm_id(value: object) -> str:
-    if value is None or (isinstance(value, float) and pd.isna(value)):
-        return ""
-    s = re.sub(r"\.0+$", "", str(value).strip())
-    return re.sub(r"[^0-9]", "", s)
 
 
 def build_parcel_cache(force: bool = False) -> Path:
