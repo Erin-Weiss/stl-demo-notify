@@ -125,6 +125,13 @@ def apply_structure_filter(
     return kept, excluded, field_review
 
 
+def grouped_demo_addresses(detail_kept: pd.DataFrame) -> pd.Series:
+    """Map each neighbor_handle to the sorted, deduplicated demo addresses near it."""
+    return detail_kept.groupby("neighbor_handle")["demo_address"].apply(
+        lambda s: sorted(set(s))
+    )
+
+
 def dedupe_and_totals(detail_kept: pd.DataFrame) -> tuple[pd.DataFrame, int, int]:
     """Collapse neighbor rows to one per unique address, with print-order totals.
 
@@ -134,10 +141,8 @@ def dedupe_and_totals(detail_kept: pd.DataFrame) -> tuple[pd.DataFrame, int, int
     """
     out_cols = [c for c in config.OUTPUT_COLS if c in detail_kept.columns]
 
-    near_sites_map = detail_kept.groupby("neighbor_handle")["demo_address"].apply(
-        lambda s: sorted(set(s))
-    )
-    near_sites_join = near_sites_map.apply("; ".join)
+    near_sites = grouped_demo_addresses(detail_kept)
+    near_sites_join = near_sites.apply("; ".join)
 
     dedup = detail_kept.drop_duplicates("neighbor_handle").copy()
     keep_cols = ["neighbor_handle"] + out_cols + [
@@ -145,9 +150,7 @@ def dedupe_and_totals(detail_kept: pd.DataFrame) -> tuple[pd.DataFrame, int, int
     ]
     dedup = dedup[keep_cols + ["_row"]]
     dedup["near_demo_sites"] = dedup["neighbor_handle"].map(near_sites_join)
-    dedup["notifications_needed"] = dedup["neighbor_handle"].map(
-        near_sites_map.apply(len)
-    )
+    dedup["notifications_needed"] = dedup["neighbor_handle"].map(near_sites.apply(len))
 
     if "SITEADDR" in dedup.columns:
         street = dedup["SITEADDR"].astype(str).str.replace(
