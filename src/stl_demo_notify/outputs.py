@@ -11,7 +11,13 @@ import pandas as pd
 
 from . import analysis, config
 
-CHECKLIST_COLUMNS = ["done", "SITEADDR", "suggested_hangers", "LANDUSE_DESC", "distance_ft"]
+CHECKLIST_COLUMNS = [
+    "done",
+    "SITEADDR",
+    "suggested_hangers",
+    "LANDUSE_DESC",
+    "distance_ft",
+]
 
 ASSUMPTIONS = [
     "{buffer_feet:g} ft is measured outward from the demolition parcel's "

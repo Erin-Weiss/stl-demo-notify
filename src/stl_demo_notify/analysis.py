@@ -131,7 +131,8 @@ def apply_structure_filter(
     conflict = (vacant == "N") | (improved > 0)
     excluded["review_flag"] = ""
     excluded.loc[conflict, "review_flag"] = [
-        _review_reason(v, imp) for v, imp in zip(vacant[conflict], improved[conflict])
+        _review_reason(v, imp)
+        for v, imp in zip(vacant[conflict], improved[conflict], strict=True)
     ]
 
     field_review = excluded[conflict].drop_duplicates("neighbor_handle").copy()

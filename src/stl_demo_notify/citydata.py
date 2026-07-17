@@ -118,4 +118,4 @@ def fetch_landuse_vocabulary(force: bool = False) -> Path:
 def load_landuse_lookup() -> dict[str, str]:
     """Return a land use code -> description dict for analysis.label_landuse."""
     vocab = pd.read_csv(config.LANDUSE_VOCABULARY_PATH, dtype={"code": str})
-    return dict(zip(vocab["code"], vocab["description"]))
+    return dict(zip(vocab["code"], vocab["description"], strict=True))

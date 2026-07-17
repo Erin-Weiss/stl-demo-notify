@@ -16,15 +16,20 @@ LEGEND_HTML = """
             box-shadow: 0 1px 4px rgba(0,0,0,.3);">
   <b>Legend</b><br>
   <span style="display:inline-block;width:12px;height:12px;background:#cc0000;
-        opacity:.85;border:1px solid #8b0000;margin-right:6px;"></span>Demolition site<br>
+        opacity:.85;border:1px solid #8b0000;margin-right:6px;">
+  </span>Demolition site<br>
   <span style="display:inline-block;width:12px;height:12px;background:#cc0000;
-        opacity:.15;border:1px solid #cc0000;margin-right:6px;"></span>Notification zone<br>
+        opacity:.15;border:1px solid #cc0000;margin-right:6px;">
+  </span>Notification zone<br>
   <span style="display:inline-block;width:12px;height:12px;background:#1f6fb2;
-        opacity:.45;border:1px solid #1f6fb2;margin-right:6px;"></span>Door hanger parcel<br>
+        opacity:.45;border:1px solid #1f6fb2;margin-right:6px;">
+  </span>Door hanger parcel<br>
   <span style="display:inline-block;width:12px;height:12px;background:#1f6fb2;
-        opacity:.85;border:1px solid #1f6fb2;margin-right:6px;"></span>Darker blue = near multiple sites<br>
+        opacity:.85;border:1px solid #1f6fb2;margin-right:6px;">
+  </span>Darker blue = near multiple sites<br>
   <span style="display:inline-block;width:12px;height:12px;background:#e07b00;
-        opacity:.6;border:1px solid #e07b00;margin-right:6px;"></span>Field review parcel
+        opacity:.6;border:1px solid #e07b00;margin-right:6px;">
+  </span>Field review parcel
 </div>
 """
 
@@ -164,12 +169,17 @@ def build_map(
     """Build the notification map: one togglable layer per site, address search,
     legend, and zoom-dependent labels."""
     matched_sites = [
-        (i, site_idx) for i, site_idx in enumerate(sites.index, 1) if site_idx in matches
+        (i, site_idx)
+        for i, site_idx in enumerate(sites.index, 1)
+        if site_idx in matches
     ]
     simplified = parcels_m.geometry.simplify(0.5)
 
     demo_pts = gpd.GeoSeries(
-        [parcels_m.geometry.loc[matches[site_idx]].centroid for _, site_idx in matched_sites],
+        [
+            parcels_m.geometry.loc[matches[site_idx]].centroid
+            for _, site_idx in matched_sites
+        ],
         crs=parcels_m.crs,
     ).to_crs(4326)
 
@@ -199,9 +209,11 @@ def build_map(
     field_review_all = excluded[excluded["review_flag"] != ""]
     review_by_site = dict(tuple(field_review_all.groupby("site_index")))
 
-    for (i, site_idx), pt in zip(matched_sites, demo_pts):
+    for (i, site_idx), pt in zip(matched_sites, demo_pts, strict=True):
         demo_address = (
-            str(sites.loc[site_idx, "address"]) if "address" in sites.columns else str(site_idx)
+            str(sites.loc[site_idx, "address"])
+            if "address" in sites.columns
+            else str(site_idx)
         )
         parcel_idx = matches[site_idx]
         fg = folium.FeatureGroup(name=f"Site {i:02d}: {demo_address}", show=True)
@@ -242,7 +254,12 @@ def build_map(
                 kept_gdf,
                 style_function=lambda f, s=BLUE_STYLE: s,
                 tooltip=folium.GeoJsonTooltip(
-                    fields=["SITEADDR", "suggested_hangers", "near_demo_sites", "LANDUSE_DESC"],
+                    fields=[
+                        "SITEADDR",
+                        "suggested_hangers",
+                        "near_demo_sites",
+                        "LANDUSE_DESC",
+                    ],
                     aliases=["Address", "Hangers", "Near demo sites", "Use"],
                 ),
             ).add_to(fg)
@@ -282,7 +299,9 @@ def build_map(
 
         folium.Marker(
             location=[pt.y, pt.x],
-            icon=folium.DivIcon(html=_site_label_html(i, demo_address), icon_size=(0, 0)),
+            icon=folium.DivIcon(
+                html=_site_label_html(i, demo_address), icon_size=(0, 0)
+            ),
         ).add_to(fg)
 
         fg.add_to(m)
