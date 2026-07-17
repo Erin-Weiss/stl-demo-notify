@@ -166,7 +166,22 @@ def write_site_checklists(
         sheet_frames.append((i, demo_apn, demo_address, table, site_review))
 
     with pd.ExcelWriter(path) as xw:
-        pd.DataFrame(summary_rows).to_excel(xw, sheet_name="Summary", index=False)
+        summary_df = pd.DataFrame(summary_rows)
+        if not summary_df.empty:
+            totals = {
+                "demo_apn": "",
+                "demo_address": "TOTAL",
+                "addresses": int(summary_df["addresses"].sum()),
+                "suggested_hangers": int(summary_df["suggested_hangers"].sum()),
+                "field_review_parcels": int(summary_df["field_review_parcels"].sum()),
+            }
+            summary_df = pd.concat(
+                [summary_df, pd.DataFrame([totals])], ignore_index=True
+            )
+        summary_df = summary_df.rename(
+            columns={"suggested_hangers": "suggested_hangers (separate-events basis)"}
+        )
+        summary_df.to_excel(xw, sheet_name="Summary", index=False)
 
         for i, demo_apn, demo_address, table, site_review in sheet_frames:
             name = _safe_sheet_name(i, str(demo_address))

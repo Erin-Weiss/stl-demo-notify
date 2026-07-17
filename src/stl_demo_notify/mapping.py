@@ -251,7 +251,9 @@ def build_map(
         if site_review is not None and len(site_review):
             site_review = site_review.drop_duplicates("neighbor_handle")
             review_gdf = gpd.GeoDataFrame(
-                site_review[["SITEADDR", "exclusion_reason"]].fillna("").astype(str),
+                site_review[["SITEADDR", "exclusion_reason", "review_flag"]]
+                .fillna("")
+                .astype(str),
                 geometry=simplified.loc[site_review["_row"]].values,
                 crs=parcels_m.crs,
             ).to_crs(4326)
@@ -259,8 +261,8 @@ def build_map(
                 review_gdf,
                 style_function=lambda f, s=ORANGE_STYLE: s,
                 tooltip=folium.GeoJsonTooltip(
-                    fields=["SITEADDR", "exclusion_reason"],
-                    aliases=["Address", "Why flagged"],
+                    fields=["SITEADDR", "exclusion_reason", "review_flag"],
+                    aliases=["Address", "Why excluded", "Field review reason"],
                 ),
             ).add_to(fg)
 

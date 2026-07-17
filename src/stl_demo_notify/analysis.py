@@ -74,7 +74,9 @@ def label_landuse(detail: pd.DataFrame, landuse_lookup: dict[str, str]) -> pd.Da
 
     def _label(code: object) -> str:
         digits = norm_id(code) or "0"
-        return landuse_lookup[str(int(digits))]
+        return landuse_lookup.get(
+            str(int(digits)), f"Code {digits} (not in city vocabulary)"
+        )
 
     detail["LANDUSE_DESC"] = detail["LANDUSE1"].map(_label)
     return detail
@@ -84,6 +86,16 @@ def suggested_hangers(numunits: pd.Series) -> pd.Series:
     """Assessor dwelling unit count, floored at 1 hanger per address."""
     units = pd.to_numeric(numunits, errors="coerce").fillna(0)
     return units.clip(lower=1).astype(int)
+
+
+def _review_reason(vacant_value: str, improved_value: float) -> str:
+    """Describe which conflicting field(s) triggered a field-review flag."""
+    reasons = []
+    if vacant_value == "N":
+        reasons.append("VACANTLAND marked 'N' (not vacant)")
+    if improved_value > 0:
+        reasons.append(f"ASMTIMPROV recorded at {improved_value:g} (> 0)")
+    return "CHECK: " + "; ".join(reasons)
 
 
 def apply_structure_filter(
@@ -112,9 +124,9 @@ def apply_structure_filter(
     improved = pd.to_numeric(excluded.get("ASMTIMPROV", 0), errors="coerce").fillna(0)
     conflict = (vacant == "N") | (improved > 0)
     excluded["review_flag"] = ""
-    excluded.loc[conflict, "review_flag"] = (
-        "CHECK: not flagged vacant and/or improvement value > 0"
-    )
+    excluded.loc[conflict, "review_flag"] = [
+        _review_reason(v, imp) for v, imp in zip(vacant[conflict], improved[conflict])
+    ]
 
     field_review = excluded[conflict].drop_duplicates("neighbor_handle").copy()
     field_review["near_demo_sites"] = field_review["neighbor_handle"].map(
@@ -130,6 +142,14 @@ def grouped_demo_addresses(detail_kept: pd.DataFrame) -> pd.Series:
     return detail_kept.groupby("neighbor_handle")["demo_address"].apply(
         lambda s: sorted(set(s))
     )
+
+
+def parse_siteaddr(siteaddr: pd.Series) -> tuple[pd.Series, pd.Series]:
+    """Split a SITEADDR column into (street name, house number) for sorting/grouping."""
+    addr = siteaddr.astype(str)
+    street = addr.str.replace(r"^\d+[-\d]*\s*", "", regex=True)
+    house_num = pd.to_numeric(addr.str.extract(r"^(\d+)")[0], errors="coerce")
+    return street, house_num
 
 
 def dedupe_and_totals(detail_kept: pd.DataFrame) -> tuple[pd.DataFrame, int, int]:
@@ -153,12 +173,7 @@ def dedupe_and_totals(detail_kept: pd.DataFrame) -> tuple[pd.DataFrame, int, int
     dedup["notifications_needed"] = dedup["neighbor_handle"].map(near_sites.apply(len))
 
     if "SITEADDR" in dedup.columns:
-        street = dedup["SITEADDR"].astype(str).str.replace(
-            r"^\d+[-\d]*\s*", "", regex=True
-        )
-        house_num = pd.to_numeric(
-            dedup["SITEADDR"].astype(str).str.extract(r"^(\d+)")[0], errors="coerce"
-        )
+        street, house_num = parse_siteaddr(dedup["SITEADDR"])
         dedup = (
             dedup.assign(_street=street, _num=house_num)
             .sort_values(["_street", "_num"])
@@ -185,12 +200,7 @@ def walking_order(
     centroids = parcels_m.geometry.loc[df["_row"]].centroid
     df["_x"] = centroids.x.values
     df["_y"] = centroids.y.values
-    df["_street"] = df["SITEADDR"].astype(str).str.replace(
-        r"^\d+[-\d]*\s*", "", regex=True
-    )
-    df["_num"] = pd.to_numeric(
-        df["SITEADDR"].astype(str).str.extract(r"^(\d+)")[0], errors="coerce"
-    )
+    df["_street"], df["_num"] = parse_siteaddr(df["SITEADDR"])
 
     street_centroid = df.groupby("_street")[["_x", "_y"]].mean()
     remaining = set(street_centroid.index)

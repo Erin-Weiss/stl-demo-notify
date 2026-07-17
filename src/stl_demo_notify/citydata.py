@@ -116,12 +116,6 @@ def fetch_landuse_vocabulary(force: bool = False) -> Path:
 
 
 def load_landuse_lookup() -> dict[str, str]:
-    """Return a land use code -> description dict, with a fallback for unknown codes."""
+    """Return a land use code -> description dict for analysis.label_landuse."""
     vocab = pd.read_csv(config.LANDUSE_VOCABULARY_PATH, dtype={"code": str})
-    lookup = dict(zip(vocab["code"], vocab["description"]))
-
-    class _LandUseLookup(dict):
-        def __missing__(self, key: str) -> str:
-            return f"Code {key} (not in city vocabulary)"
-
-    return _LandUseLookup(lookup)
+    return dict(zip(vocab["code"], vocab["description"]))
