@@ -95,21 +95,22 @@ def write_doorhanger_outputs(
 ) -> None:
     """Write the master door hanger list, field review list, and combined workbook."""
     output_dir.mkdir(parents=True, exist_ok=True)
-    dedup_out = dedup.drop(columns=["_row"])
-    field_review_out = field_review.drop(columns=["_row"])
+    internal_cols = ["_row", "site_index"]
+    dedup_out = dedup.drop(columns=internal_cols, errors="ignore")
+    field_review_out = field_review.drop(columns=internal_cols, errors="ignore")
 
     dedup_out.to_csv(output_dir / "doorhanger_list.csv", index=False)
     field_review_out.to_csv(output_dir / "field_review_list.csv", index=False)
 
     with pd.ExcelWriter(output_dir / "doorhanger_list.xlsx") as xw:
         dedup_out.to_excel(xw, sheet_name="Doorhanger List", index=False)
-        detail_kept.drop(columns=["_row"]).to_excel(
+        detail_kept.drop(columns=internal_cols, errors="ignore").to_excel(
             xw, sheet_name="Detail by Demo Site", index=False
         )
         field_review_out.to_excel(xw, sheet_name="Field Review", index=False)
-        excluded.drop_duplicates("neighbor_handle").drop(columns=["_row"]).to_excel(
-            xw, sheet_name="Excluded (likely vacant)", index=False
-        )
+        excluded.drop_duplicates("neighbor_handle").drop(
+            columns=internal_cols, errors="ignore"
+        ).to_excel(xw, sheet_name="Excluded (likely vacant)", index=False)
 
 
 def _safe_sheet_name(i: int, label: str) -> str:

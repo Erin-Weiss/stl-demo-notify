@@ -1,0 +1,1637 @@
+neighbor_handle,SITEADDR,ZIP,NUMBLDGS,NUMUNITS,LANDUSE1,VACANTLAND,ASMTIMPROV,LANDUSE_DESC,suggested_hangers,near_demo_sites,notifications_needed
+13539000180,2025 ADELAIDE AV,63107,1,2,1120,N,3580,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000190,2029 ADELAIDE AV,63107,1,2,1120,N,770,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000200,2031 ADELAIDE AV,63107,1,1,1110,N,6000,Single-family residence,1,2104 Harris Avenue,1
+13539000230,2039 ADELAIDE AV,63107,1,2,1120,N,12800,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000250,2049 ADELAIDE AV,63107,1,1,1110,N,12520,Single-family residence,1,2104 Harris Avenue,1
+13542000160,2109 ADELAIDE AV,63107,1,2,1120,N,900,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000180,2117 ADELAIDE AV,63107,1,2,1120,N,720,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000190,2119 ADELAIDE AV,63107,1,2,1120,N,710,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000200,2121 ADELAIDE AV,63107,1,1,1110,N,2200,Single-family residence,1,2104 Harris Avenue,1
+13542000205,2125 ADELAIDE AV,63107,1,1,1110,N,1020,Single-family residence,1,2104 Harris Avenue,1
+13542000210,2127 ADELAIDE AV,63107,1,1,1110,N,4010,Single-family residence,1,2104 Harris Avenue,1
+13542000220,2129 ADELAIDE AV,63107,1,2,1120,N,1990,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000230,2133 ADELAIDE AV,63107,1,1,1110,N,2350,Single-family residence,1,2104 Harris Avenue,1
+13542000240,2135-7 ADELAIDE AV,63107,1,4,1140,N,3720,Four-family / small multi-family,4,2104 Harris Avenue,1
+13721000450,4573 ALDINE AV,63113,1,2,1120,N,1500,Two-family (duplex/flat),2,1803 Cora Avenue,1
+13721000460,4575 ALDINE AV,63113,1,1,1110,N,1570,Single-family residence,1,1803 Cora Avenue,1
+13721000500,4587 ALDINE AV,63113,1,2,1120,N,680,Two-family (duplex/flat),2,1803 Cora Avenue,1
+13721000510,4589 ALDINE AV,63113,1,1,1110,N,790,Single-family residence,1,1803 Cora Avenue,1
+13721000520,4591 ALDINE AV,63113,1,1,1110,N,1790,Single-family residence,1,1803 Cora Avenue,1
+13721000530,4593 ALDINE AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue,1
+13723000010,4596 ALDINE AV,63113,1,1,1110,N,12840,Single-family residence,1,1803 Cora Avenue,1
+14475000050,4635 ALDINE AV,63113,1,1,1110,N,3220,Single-family residence,1,1803 Cora Avenue,1
+14475000060,4641 ALDINE AV,63113,1,1,1110,N,1510,Single-family residence,1,1803 Cora Avenue,1
+14476000026,4642 ALDINE AV,63113,2,2,1118,N,8170,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue,1
+13539000110,5429 ALGERNON ST,63107,1,1,1110,N,5690,Single-family residence,1,2104 Harris Avenue,1
+13546000010,4500 ALICE AV,63115,2,1,5000,N,2850,"Commercial/retail, general",1,4016 Carter Avenue,1
+13546000020,4502 ALICE AV,63115,1,1,1110,N,4370,Single-family residence,1,4016 Carter Avenue,1
+13546000030,4506 ALICE AV,63115,1,1,1110,N,2320,Single-family residence,1,4016 Carter Avenue,1
+13546000040,4508 ALICE AV,63115,1,1,1110,N,2120,Single-family residence,1,4016 Carter Avenue,1
+13546000050,4510 ALICE AV,63115,1,1,1110,N,3020,Single-family residence,1,4016 Carter Avenue,1
+13546000060,4514 ALICE AV,63115,1,1,1110,N,1370,Single-family residence,1,4016 Carter Avenue,1
+13546000070,4516 ALICE AV,63115,1,1,1110,N,1930,Single-family residence,1,4016 Carter Avenue,1
+13546000080,4520 ALICE AV,63115,1,1,1110,N,1960,Single-family residence,1,4016 Carter Avenue,1
+13546000090,4522 ALICE AV,63115,1,1,1110,N,1740,Single-family residence,1,4016 Carter Avenue,1
+13546000100,4526 ALICE AV,63115,1,1,1110,N,2550,Single-family residence,1,4016 Carter Avenue,1
+13546000110,4530 ALICE AV,63115,1,1,1110,N,1300,Single-family residence,1,4016 Carter Avenue,1
+13546000120,4532 ALICE AV,63115,1,1,1110,N,3430,Single-family residence,1,4016 Carter Avenue,1
+13546000130,4534 ALICE AV,63115,1,1,1110,N,4120,Single-family residence,1,4016 Carter Avenue,1
+13546000140,4538-40 ALICE AV,63115,1,4,1140,N,2670,Four-family / small multi-family,4,4016 Carter Avenue,1
+13546000150,4542 ALICE AV,63115,1,2,1120,N,3540,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13546000160,4546 ALICE AV,63115,1,2,1120,N,3470,Two-family (duplex/flat),2,4016 Carter Avenue,1
+14463000200,4408 ASHLAND AV,63115,1,4,1140,N,3850,Four-family / small multi-family,4,4461 Elmbank Avenue,1
+14463000190,4414 ASHLAND AV,63115,1,2,1120,N,1380,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447030220,4415 ASHLAND AV,63115,1,1,1110,N,810,Single-family residence,1,4461 Elmbank Avenue,1
+14463000180,4416 ASHLAND AV,63115,1,2,1120,N,550,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000170,4418 ASHLAND AV,63115,1,2,1120,N,1050,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447030240,4421 ASHLAND AV,63115,1,1,1110,N,290,Single-family residence,1,4461 Elmbank Avenue,1
+14463000140,4424 ASHLAND AV,63115,1,2,1120,N,1350,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040170,4431 ASHLAND AV,63115,1,2,1120,N,2170,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000120,4432 ASHLAND AV,63115,1,1,1110,N,2030,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000110,4434 ASHLAND AV,63115,1,1,1110,N,1290,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040180,4435 ASHLAND AV,63115,1,1,1110,N,1680,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040190,4439 ASHLAND AV,63115,1,1,1110,N,1230,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000100,4440 ASHLAND AV,63115,1,1,1110,N,1630,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040200,4441 ASHLAND AV,63115,1,2,1120,N,290,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040210,4445 ASHLAND AV,63115,1,2,1120,N,2190,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000090,4446 ASHLAND AV,63115,1,4,1140,N,2450,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000080,4448-50 ASHLAND AV,63115,1,4,1140,N,3010,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040220,4449-51 ASHLAND AV,63115,1,2,1120,N,1460,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000070,4452-4 ASHLAND AV,63115,1,4,1140,N,2980,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040230,4453 ASHLAND AV,63115,1,2,1120,N,1500,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040240,4455 ASHLAND AV,63115,1,1,1110,N,2520,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000050,4456-8 ASHLAND AV,63115,1,4,1140,N,2340,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000040,4460 ASHLAND AV,63115,1,1,1110,N,580,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040250,4461 ASHLAND AV,63115,1,1,1110,N,1180,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000030,4462 ASHLAND AV,63115,1,1,1110,N,1700,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040260,4463 ASHLAND AV,63115,1,1,1110,N,1280,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000020,4466 ASHLAND AV,63115,1,2,1120,N,850,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14447040280,4475 ASHLAND AV,63115,1,1,1110,N,2300,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue,4
+14447040290,4479 ASHLAND AV,63115,1,1,1110,N,1320,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue,4
+14447040300,4483 ASHLAND AV,63115,1,1,1110,N,1480,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,5
+14462050260,4512 ASHLAND AV,63115,1,1,1110,N,290,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050250,4516 ASHLAND AV,63115,1,1,1110,N,4110,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050240,4520 ASHLAND AV,63115,1,1,1110,N,1370,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060310,4523 ASHLAND AV,63115,1,2,1120,N,3650,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050230,4524 ASHLAND AV,63115,1,1,1110,N,1280,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050220,4528 ASHLAND AV,63115,1,1,1110,N,2340,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14462050210,4530 ASHLAND AV,63115,1,1,1110,N,2400,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14448060320,4531 ASHLAND AV,63115,1,2,1120,N,2260,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060330,4533 ASHLAND AV,63115,1,2,1120,N,1060,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050200,4534 ASHLAND AV,63115,1,1,1110,N,0,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14448060350,4541 ASHLAND AV,63115,1,1,1110,N,2980,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue,2
+14448060360,4543 ASHLAND AV,63115,1,2,1120,N,4170,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060370,4545 ASHLAND AV,63115,1,2,1120,N,2480,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050160,4546 ASHLAND AV,63115,1,1,1110,N,4910,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14448060380,4549 ASHLAND AV,63115,1,2,1120,N,2220,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050150,4550 ASHLAND AV,63115,1,1,1110,N,4320,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14448060390,4553 ASHLAND AV,63115,1,2,1120,N,2360,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050140,4554 ASHLAND AV,63115,1,1,1110,N,4320,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14448060400,4555 ASHLAND AV,63115,1,1,1120,N,2720,Two-family (duplex/flat),1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050130,4558 ASHLAND AV,63115,1,1,1110,N,4900,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14448060410,4559 ASHLAND AV,63115,1,2,1120,N,2260,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060420,4561 ASHLAND AV,63115,1,2,1120,N,1170,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050120,4562 ASHLAND AV,63115,1,1,1110,N,5120,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050110,4600-2 ASHLAND AV,63115,1,4,1140,N,3550,Four-family / small multi-family,4,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14449010090,4601 ASHLAND AV,63115,1,1,1110,N,1530,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14449010100,4603 ASHLAND AV,63115,1,1,1110,N,1580,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050100,4604 ASHLAND AV,63115,1,2,1120,N,1700,Two-family (duplex/flat),2,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14449010110,4607 ASHLAND AV,63115,1,1,1110,N,3450,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050090,4608 ASHLAND AV,63115,1,1,1110,N,2030,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14449010120,4609 ASHLAND AV,63115,1,1,1110,N,2220,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14449010130,4611 ASHLAND AV,63115,1,1,1110,N,2300,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050080,4612 ASHLAND AV,63115,1,1,1110,N,1150,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050070,4614 ASHLAND AV,63115,1,1,1110,N,3420,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14449010140,4615 ASHLAND AV,63115,1,1,1110,N,1890,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050060,4616 ASHLAND AV,63115,1,1,1110,N,3080,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14449010150,4617 ASHLAND AV,63115,1,1,1110,N,1920,Single-family residence,1,4541 Ashland Avenue,1
+14462050050,4618 ASHLAND AV,63115,1,1,1110,N,2520,Single-family residence,1,4541 Ashland Avenue,1
+14449010160,4619 ASHLAND AV,63115,1,1,1110,N,2220,Single-family residence,1,4541 Ashland Avenue,1
+14462050040,4620 ASHLAND AV,63115,1,1,1110,N,2100,Single-family residence,1,4541 Ashland Avenue,1
+13769000170,1162 AUBERT AV,63113,1,1,1110,N,290,Single-family residence,1,1219 Bayard Avenue,1
+13769000180,1200 AUBERT AV,63113,1,1,1110,N,860,Single-family residence,1,1219 Bayard Avenue,1
+13769000190,1202 AUBERT AV,63113,1,1,1110,N,350,Single-family residence,1,1219 Bayard Avenue,1
+13769000210,1212-6 AUBERT AV,63113,1,6,1185,N,25520,"Residential variant, likely condo/misc (?)",6,1219 Bayard Avenue; 4926 Page Boulevard,2
+13769000220,1218 AUBERT AV,63113,1,1,1110,N,340,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13769000230,1222 AUBERT AV,63113,1,1,1110,N,290,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13769000240,1224 AUBERT AV,63113,1,1,1110,N,290,Single-family residence,1,4926 Page Boulevard,1
+13769000255,1232 AUBERT AV,63113,1,1,1110,N,2410,Single-family residence,1,4926 Page Boulevard,1
+13768030010,1238-40 AUBERT AV,63113,1,4,1140,N,290,Four-family / small multi-family,4,4926 Page Boulevard,1
+13768030020,1244 AUBERT AV,63113,1,2,1120,N,790,Two-family (duplex/flat),2,4926 Page Boulevard,1
+13768030030,1246 AUBERT AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,4926 Page Boulevard,1
+13768040160,1253 AUBERT AV,63113,1,2,1120,N,1670,Two-family (duplex/flat),2,4926 Page Boulevard,1
+13768030080,1260-2 AUBERT AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,4926 Page Boulevard,1
+13786000265,1300-420 AUBERT AV,63113,1,0,5000,N,78100,"Commercial/retail, general",1,1336 N Euclid Avenue; 4926 Page Boulevard,2
+13787000096,1315 AUBERT AV,63113,1,0,6519,N,233400,Code 6519 (not in dictionary),1,1336 N Euclid Avenue; 4926 Page Boulevard,2
+13767000457,4945 AUBERT CT,63113,1,1,1110,N,2360,Single-family residence,1,4926 Page Boulevard,1
+13767000456,4947 AUBERT CT,63113,1,1,1110,N,2340,Single-family residence,1,4926 Page Boulevard,1
+13767000455,4949 AUBERT CT,63113,1,1,1110,N,3400,Single-family residence,1,4926 Page Boulevard,1
+13767000454,4951 AUBERT CT,63113,1,1,1110,N,3400,Single-family residence,1,4926 Page Boulevard,1
+13767000453,4953 AUBERT CT,63113,1,1,1110,N,2360,Single-family residence,1,4926 Page Boulevard,1
+13767000452,4955 AUBERT CT,63113,1,1,1110,N,2340,Single-family residence,1,4926 Page Boulevard,1
+13762050110,764 BAYARD AV,63108,1,1,1110,N,1940,Single-family residence,1,912 Bayard Avenue,1
+13762050150,776 BAYARD AV,63108,1,1,1110,N,830,Single-family residence,1,912 Bayard Avenue,1
+13763050420,781 BAYARD AV,63108,1,2,1120,N,1780,Two-family (duplex/flat),2,912 Bayard Avenue,1
+13763050400,785 BAYARD AV,63108,1,2,1120,N,3060,Two-family (duplex/flat),2,912 Bayard Avenue,1
+13763050390,789 BAYARD AV,63108,1,1,1110,N,460,Single-family residence,1,912 Bayard Avenue,1
+13762050260,908 BAYARD AV,63108,1,1,1110,N,1890,Single-family residence,1,912 Bayard Avenue,1
+13763050360,909 BAYARD AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,912 Bayard Avenue,1
+13762050290,914 BAYARD AV,63108,1,1,1110,N,2100,Single-family residence,1,912 Bayard Avenue,1
+13763050340,917 BAYARD AV,63108,1,1,1110,N,1690,Single-family residence,1,912 Bayard Avenue,1
+13762050300,920 BAYARD AV,63108,1,1,1110,N,2290,Single-family residence,1,912 Bayard Avenue,1
+13762050310,922 BAYARD AV,63108,1,1,1110,N,1150,Single-family residence,1,912 Bayard Avenue,1
+13762050320,924 BAYARD AV,63108,1,1,1110,N,1140,Single-family residence,1,912 Bayard Avenue,1
+13762050330,926 BAYARD AV,63108,1,1,1110,N,290,Single-family residence,1,912 Bayard Avenue,1
+13770000540,1113 BAYARD AV,63113,1,1,1110,N,7340,Single-family residence,1,1151 Walton Avenue,1
+13770000520,1117 BAYARD AV,63113,1,1,1110,N,2610,Single-family residence,1,1151 Walton Avenue,1
+13771000010,1118-20 BAYARD AV,63113,1,4,1140,N,3980,Four-family / small multi-family,4,1151 Walton Avenue,1
+13770000510,1119 BAYARD AV,63113,1,1,1110,N,3170,Single-family residence,1,1151 Walton Avenue,1
+13771000050,1132 BAYARD AV,63113,1,1,1110,N,290,Single-family residence,1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000085,1138 BAYARD AV,63113,1,0,5000,N,132400,"Commercial/retail, general",1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000110,1152-4 BAYARD AV,63113,1,4,1140,N,290,Four-family / small multi-family,4,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000180,1210 BAYARD AV,63113,1,2,1120,N,1870,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13770000410,1215 BAYARD AV,63113,1,1,1110,N,2750,Single-family residence,1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13770000400,1217 BAYARD AV,63113,1,1,1110,N,3990,Single-family residence,1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13770000390,1219 BAYARD AV,63113,1,1,1110,N,290,Single-family residence,1,1151 Walton Avenue,1
+13771000210,1224 BAYARD AV,63113,1,1,1110,N,5400,Single-family residence,1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000220,1228 BAYARD AV,63113,1,1,1120,N,910,Two-family (duplex/flat),1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13770000360,1231 BAYARD AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1219 Bayard Avenue,1
+13771000231,1232 BAYARD AV,63113,1,1,1120,N,2970,Two-family (duplex/flat),1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000235,1234 BAYARD AV,63113,1,1,1120,N,2960,Two-family (duplex/flat),1,1219 Bayard Avenue,1
+13770000320,1243 BAYARD AV,63113,1,1,1110,N,3380,Single-family residence,1,1219 Bayard Avenue,1
+13778000020,1310 BAYARD AV,63113,1,1,1110,N,4720,Single-family residence,1,1336 N Euclid Avenue,1
+13778000030,1312 BAYARD AV,63113,1,1,1110,N,710,Single-family residence,1,1336 N Euclid Avenue,1
+13778000040,1316 BAYARD AV,63113,1,1,1110,N,2710,Single-family residence,1,1336 N Euclid Avenue,1
+13778000050,1318 BAYARD AV,63113,1,1,1110,N,3200,Single-family residence,1,1336 N Euclid Avenue,1
+13785000290,1319 BAYARD AV,63113,1,2,1120,N,0,Two-family (duplex/flat),2,1336 N Euclid Avenue,1
+13785000280,1321-3 BAYARD AV,63113,1,4,1140,N,290,Four-family / small multi-family,4,1336 N Euclid Avenue,1
+13785000240,1337-9 BAYARD AV,63113,1,4,1140,N,1900,Four-family / small multi-family,4,1336 N Euclid Avenue,1
+13785000210,1353-61 BAYARD AV,63113,1,8,1185,N,1250,"Residential variant, likely condo/misc (?)",8,1336 N Euclid Avenue,1
+13778000160,1362 BAYARD AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1336 N Euclid Avenue,1
+14840000220,5020-2 CABANNE AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+15150000260,5029 CABANNE AV,63113,1,1,1110,N,680,Single-family residence,1,5052 Cates Avenue,1
+14840000200,5032 CABANNE AV,63113,1,1,1110,N,1150,Single-family residence,1,5052 Cates Avenue,1
+14840000190,5036 CABANNE AV,63113,1,1,1110,N,25940,Single-family residence,1,5052 Cates Avenue,1
+15150000280,5037 CABANNE AV,63113,1,1,1110,N,9740,Single-family residence,1,5052 Cates Avenue,1
+15150000290,5041 CABANNE AV,63113,1,1,1110,N,4990,Single-family residence,1,5052 Cates Avenue,1
+15150000300,5043 CABANNE AV,63113,1,1,1110,N,4370,Single-family residence,1,5052 Cates Avenue,1
+15150000310,5047 CABANNE AV,63113,1,1,1110,N,330,Single-family residence,1,5052 Cates Avenue,1
+14840000150,5050 CABANNE AV,63113,1,1,1110,N,6460,Single-family residence,1,5052 Cates Avenue,1
+15150000320,5051 CABANNE AV,63113,1,1,1110,N,5220,Single-family residence,1,5052 Cates Avenue,1
+15150000330,5055 CABANNE AV,63113,1,1,1110,N,3350,Single-family residence,1,5052 Cates Avenue,1
+14840000130,5056 CABANNE AV,63113,1,1,1110,N,4290,Single-family residence,1,5052 Cates Avenue,1
+14840000120,5060 CABANNE AV,63113,1,1,1110,N,4690,Single-family residence,1,5052 Cates Avenue,1
+14840000110,5064 CABANNE AV,63113,1,1,1110,N,4180,Single-family residence,1,5052 Cates Avenue,1
+15150000360,5065 CABANNE AV,63113,1,1,1110,N,3450,Single-family residence,1,5052 Cates Avenue,1
+15150000370,5069 CABANNE AV,63113,1,1,1110,N,810,Single-family residence,1,5052 Cates Avenue,1
+14840000090,5070 CABANNE AV,63113,1,1,1110,N,5920,Single-family residence,1,5052 Cates Avenue,1
+14840000080,5072 CABANNE AV,63113,1,1,1110,N,4390,Single-family residence,1,5052 Cates Avenue,1
+15150000380,5073 CABANNE AV,63113,1,1,1110,N,4930,Single-family residence,1,5052 Cates Avenue,1
+15150000395,5075 CABANNE AV,63113,1,2,1120,N,3960,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000070,5076 CABANNE AV,63113,1,1,1110,N,6080,Single-family residence,1,5052 Cates Avenue,1
+14840000050,5082 CABANNE AV,63113,1,1,1110,N,2560,Single-family residence,1,5052 Cates Avenue,1
+15150000405,5083 CABANNE AV,63113,1,2,1120,N,1660,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000040,5084 CABANNE AV,63113,1,1,1110,N,290,Single-family residence,1,5052 Cates Avenue,1
+14840000030,5088 CABANNE AV,63113,1,1,1110,N,5580,Single-family residence,1,5052 Cates Avenue,1
+14840000020,5090 CABANNE AV,63113,1,1,1110,N,11350,Single-family residence,1,5052 Cates Avenue,1
+14840000010,5094 CABANNE AV,63113,1,1,1110,N,26200,Single-family residence,1,5052 Cates Avenue,1
+14848000070,5200 CABANNE AV,63113,1,1,1110,N,4280,Single-family residence,1,5207 Kensington Avenue,1
+14848000050,5204 CABANNE AV,63113,1,1,1110,N,5680,Single-family residence,1,5207 Kensington Avenue,1
+14848000040,5208-10 CABANNE AV,63113,1,4,1140,N,2740,Four-family / small multi-family,4,5207 Kensington Avenue,1
+14848000030,5212-4 CABANNE AV,63113,1,2,1120,N,1460,Two-family (duplex/flat),2,5207 Kensington Avenue,1
+14899000030,4026 CARTER AV,63107,1,1,1110,N,2490,Single-family residence,1,4016 Carter Avenue,1
+14899000020,4036 CARTER AV,63107,1,1,1120,N,720,Two-family (duplex/flat),1,4016 Carter Avenue,1
+14899000010,4042 CARTER AV,63107,1,1,1110,N,610,Single-family residence,1,4016 Carter Avenue,1
+14840000270,5003 CATES AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000270,5006 CATES AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000290,5007 CATES AV,63108,1,1,1110,N,4740,Single-family residence,1,5052 Cates Avenue,1
+14839000260,5008 CATES AV,63108,1,2,1120,N,3390,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000300,5009 CATES AV,63108,1,1,1110,N,1250,Single-family residence,1,5052 Cates Avenue,1
+14839000240,5014 CATES AV,63108,1,1,1110,N,8590,Single-family residence,1,5052 Cates Avenue,1
+14840000310,5015 CATES AV,63108,1,1,1110,N,12040,Single-family residence,1,5052 Cates Avenue,1
+14839000225,5018 CATES AV,63108,1,1,1110,N,6310,Single-family residence,1,5052 Cates Avenue,1
+14840000330,5023 CATES AV,63108,1,1,1110,N,5870,Single-family residence,1,5052 Cates Avenue,1
+14839000210,5024 CATES AV,63108,1,2,1120,N,8220,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000340,5025 CATES AV,63108,1,2,1120,N,3540,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000200,5026-8 CATES AV,63108,1,2,1120,N,4630,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000190,5030 CATES AV,63108,1,2,1120,N,3080,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000360,5033 CATES AV,63108,1,2,1120,N,2380,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000170,5034-6 CATES AV,63108,1,1,1110,N,290,Single-family residence,1,5052 Cates Avenue,1
+14840000380,5039 CATES AV,63108,1,1,1110,N,5660,Single-family residence,1,5052 Cates Avenue,1
+14839000150,5040-2 CATES AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000390,5041 CATES AV,63108,1,2,1120,N,6140,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000400,5045 CATES AV,63108,1,2,1120,N,1530,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000120,5050 CATES AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000420,5051-3 CATES AV,63108,1,2,1120,N,2790,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000100,5056-8 CATES AV,63108,1,2,1120,N,1520,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000440,5059 CATES AV,63108,1,1,1110,N,1200,Single-family residence,1,5052 Cates Avenue,1
+14840000450,5061 CATES AV,63108,1,1,1110,N,2770,Single-family residence,1,5052 Cates Avenue,1
+14839000080,5064-6 CATES AV,63108,1,2,1120,N,1500,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14840000460,5065 CATES AV,63108,1,1,1110,N,4220,Single-family residence,1,5052 Cates Avenue,1
+14840000470,5067 CATES AV,63108,1,1,1110,N,1740,Single-family residence,1,5052 Cates Avenue,1
+14839000050,5072 CATES AV,63108,1,1,1110,N,1280,Single-family residence,1,5052 Cates Avenue,1
+14840000480,5073 CATES AV,63108,1,1,1110,N,1280,Single-family residence,1,5052 Cates Avenue,1
+14839000040,5074 CATES AV,63108,1,1,1110,N,2000,Single-family residence,1,5052 Cates Avenue,1
+14840000495,5075 CATES AV,63108,1,1,1120,N,7850,Two-family (duplex/flat),1,5052 Cates Avenue,1
+14839000030,5076 CATES AV,63108,1,1,1110,N,810,Single-family residence,1,5052 Cates Avenue,1
+14839000020,5078-84 CATES AV,63108,1,4,1140,N,290,Four-family / small multi-family,4,5052 Cates Avenue,1
+14840000510,5079 CATES AV,63108,1,1,1110,N,4330,Single-family residence,1,5052 Cates Avenue,1
+14840000520,5081 CATES AV,63108,1,1,1110,N,4640,Single-family residence,1,5052 Cates Avenue,1
+14840000530,5085 CATES AV,63108,1,1,1110,N,3060,Single-family residence,1,5052 Cates Avenue,1
+14840000535,5087 CATES AV,63108,1,1,1110,N,6980,Single-family residence,1,5052 Cates Avenue,1
+14842000250,5100-2 CATES AV,63108,1,2,1120,N,2870,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14841000270,5101 CATES AV,63108,1,1,1110,N,5110,Single-family residence,1,5052 Cates Avenue,1
+14842000080,5156 CATES AV,63108,1,1,1110,N,4520,Single-family residence,1,5207 Kensington Avenue,1
+14842000070,5160-2 CATES AV,63108,1,4,1140,N,3620,Four-family / small multi-family,4,5207 Kensington Avenue,1
+14842000050,5170-2 CATES AV,63108,1,4,1140,N,1770,Four-family / small multi-family,4,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14841000490,5171 CATES AV,63108,1,2,1120,N,2480,Two-family (duplex/flat),2,5207 Kensington Avenue,1
+14841000500,5175 CATES AV,63108,1,1,1110,N,1280,Single-family residence,1,5207 Kensington Avenue,1
+14841000510,5177 CATES AV,63108,1,1,1110,N,4060,Single-family residence,1,5207 Kensington Avenue,1
+14841000525,5179-81 CATES AV,63108,1,2,1120,N,2520,Two-family (duplex/flat),2,5207 Kensington Avenue,1
+14841000540,5185 CATES AV,63108,1,1,1120,N,3300,Two-family (duplex/flat),1,5207 Kensington Avenue,1
+14841000550,5189 CATES AV,63108,1,2,1120,N,3670,Two-family (duplex/flat),2,5207 Kensington Avenue,1
+14842000010,5190 CATES AV,63108,1,1,1110,N,28620,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14841000570,5195 CATES AV,63108,1,2,1120,N,2630,Two-family (duplex/flat),2,5207 Kensington Avenue,1
+14847000050,5200-6 CATES AV,63108,2,2,6390,N,0,Code 6390 (not in dictionary),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14848000160,5233 CATES AV,63108,1,1,1120,N,1350,Two-family (duplex/flat),1,5207 Kensington Avenue,1
+14848000170,5235 CATES AV,63108,1,1,1120,N,4830,Two-family (duplex/flat),1,5207 Kensington Avenue,1
+14848000180,5237 CATES AV,63108,1,1,1120,N,4830,Two-family (duplex/flat),1,5207 Kensington Avenue,1
+14848000190,5239-41 CATES AV,63108,1,2,1120,N,2510,Two-family (duplex/flat),2,5207 Kensington Avenue,1
+14848000200,5243 CATES AV,63108,1,1,1120,N,3400,Two-family (duplex/flat),1,5207 Kensington Avenue,1
+14848000210,5245 CATES AV,63108,1,1,1120,N,3400,Two-family (duplex/flat),1,5207 Kensington Avenue,1
+14465000020,3022 CLARENCE AV,63115,1,1,1110,N,2760,Single-family residence,1,4327 Labadie Avenue,1
+14465000041,3030 CLARENCE AV,63115,1,1,1110,N,1990,Single-family residence,1,4327 Labadie Avenue,1
+14465000070,3038 CLARENCE AV,63115,1,1,1110,N,890,Single-family residence,1,4327 Labadie Avenue,1
+13620000420,3043 CLARENCE AV,63115,1,1,1110,N,1920,Single-family residence,1,4327 Labadie Avenue,1
+14465000080,3044 CLARENCE AV,63115,1,1,1110,N,2340,Single-family residence,1,4327 Labadie Avenue,1
+14465000130,3110 CLARENCE AV,63115,1,1,1110,N,2420,Single-family residence,1,4327 Labadie Avenue,1
+13620000390,3111 CLARENCE AV,63115,1,1,1110,N,2570,Single-family residence,1,4327 Labadie Avenue,1
+13620000380,3115 CLARENCE AV,63115,1,1,1110,N,1130,Single-family residence,1,4327 Labadie Avenue,1
+14844000520,720 CLARENDON AV,63108,1,2,1120,N,1850,Two-family (duplex/flat),2,5206 Kensington Avenue,1
+14845000150,721-7 CLARENDON AV,63108,1,1,1110,N,290,Single-family residence,1,5206 Kensington Avenue,1
+14846000190,807-9 CLARENDON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000180,811-3 CLARENDON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000650,814 CLARENDON AV,63108,1,0,5000,N,4600,"Commercial/retail, general",1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000080,915 CLARENDON AV,63108,1,1,1110,N,4270,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000075,917 CLARENDON AV,63108,1,1,1110,N,2580,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000070,919 CLARENDON AV,63108,1,1,1110,N,2690,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14900000350,4206 CLAY AV,63115,1,1,1110,N,1290,Single-family residence,1,4016 Carter Avenue,1
+14900000360,4210 CLAY AV,63115,1,1,1110,N,550,Single-family residence,1,4016 Carter Avenue,1
+14900000370,4212 CLAY AV,63115,1,1,1110,N,1400,Single-family residence,1,4016 Carter Avenue,1
+14900000380,4214 CLAY AV,63115,1,1,1110,N,2220,Single-family residence,1,4016 Carter Avenue,1
+14900000410,4224 CLAY AV,63115,1,1,1110,N,2870,Single-family residence,1,4016 Carter Avenue,1
+14900000420,4226 CLAY AV,63115,1,1,1110,N,380,Single-family residence,1,4016 Carter Avenue,1
+14896000150,4227 CLAY AV,63115,1,1,1110,N,2230,Single-family residence,1,4016 Carter Avenue,1
+14900000430,4228 CLAY AV,63115,1,1,1110,N,810,Single-family residence,1,4016 Carter Avenue,1
+14897000200,4239 CLAY AV,63115,1,1,1110,N,3540,Single-family residence,1,4016 Carter Avenue,1
+14899000230,4240 CLAY AV,63115,1,1,1120,N,6300,Two-family (duplex/flat),1,4016 Carter Avenue,1
+14899000240,4242 CLAY AV,63115,1,1,1110,N,2400,Single-family residence,1,4016 Carter Avenue,1
+14897000180,4245 CLAY AV,63115,1,0,1010,Y,1090,Code 1010 (not in dictionary),1,4016 Carter Avenue,1
+14899000260,4246 CLAY AV,63115,1,1,1110,N,290,Single-family residence,1,4016 Carter Avenue,1
+14897000170,4247 CLAY AV,63115,1,1,1110,N,1210,Single-family residence,1,4016 Carter Avenue,1
+14899000285,4248 CLAY AV,63115,1,1,0,N,1050,Unclassified,1,4016 Carter Avenue,1
+14899000295,4252 CLAY AV,63115,1,1,0,N,1050,Unclassified,1,4016 Carter Avenue,1
+14897000140,4255 CLAY AV,63115,1,1,1110,N,7220,Single-family residence,1,4016 Carter Avenue,1
+14897000130,4259 CLAY AV,63115,1,1,1110,N,1870,Single-family residence,1,4016 Carter Avenue,1
+14897000125,4261 CLAY AV,63115,1,1,1110,N,2580,Single-family residence,1,4016 Carter Avenue,1
+13396000370,4211 COLLEGE AV,63107,1,1,1110,N,1930,Single-family residence,1,4016 Carter Avenue,1
+13396000350,4219 COLLEGE AV,63107,1,1,1110,N,2140,Single-family residence,1,4016 Carter Avenue,1
+13396000340,4223 COLLEGE AV,63107,1,2,1120,N,1680,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13396000330,4225 COLLEGE AV,63107,1,1,1110,N,1390,Single-family residence,1,4016 Carter Avenue,1
+13396000310,4229 COLLEGE AV,63107,1,2,1120,N,1010,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13396000300,4231 COLLEGE AV,63107,1,2,1120,N,0,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13396000280,4243 COLLEGE AV,63107,1,2,1120,N,1840,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13396000270,4245 COLLEGE AV,63107,1,1,1110,N,1340,Single-family residence,1,4016 Carter Avenue,1
+13396000260,4247 COLLEGE AV,63107,1,2,1120,N,2120,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13396000250,4249 COLLEGE AV,63107,1,1,1110,N,1300,Single-family residence,1,4016 Carter Avenue,1
+13397000400,4301 COLLEGE AV,63107,1,2,1120,N,1600,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13397000340,4321 COLLEGE AV,63107,1,2,1120,N,1140,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13397000330,4325 COLLEGE AV,63107,1,1,1110,N,2450,Single-family residence,1,4016 Carter Avenue,1
+13775030510,1408-10 CORA AV,63113,1,1,1110,N,1630,Single-family residence,1,4599 Page Boulevard,1
+13775040090,1431 CORA AV,63113,2,0,5000,N,2100,"Commercial/retail, general",1,4599 Page Boulevard,1
+15638000595,1525 CORA AV,63113,1,2,5000,N,290,"Commercial/retail, general",2,1803 Cora Avenue,1
+15638000580,1529 CORA AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1803 Cora Avenue,1
+13721000560,1710 CORA AV,63113,1,2,1120,N,1270,Two-family (duplex/flat),2,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000540,1713 CORA AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000525,1717 CORA AV,63113,1,1,1110,N,1600,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13721000600,1726 CORA AV,63113,1,0,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000500,1731 CORA AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000490,1803 CORA AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1825 Cora Avenue,1
+15638000480,1809 CORA AV,63113,1,1,1110,N,2580,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000440,1821 CORA AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000430,1823 CORA AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+13720000660,1824-6 CORA AV,63113,1,4,1140,N,290,Four-family / small multi-family,4,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000420,1825 CORA AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 4649 N Market Street,2
+15638000410,1901 CORA AV,63113,1,1,1110,N,2120,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000390,1907 CORA AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000380,1911 CORA AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+13719000490,1916 CORA AV,63113,1,1,1120,N,1490,Two-family (duplex/flat),1,1803 Cora Avenue; 1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,4
+15638000370,1917 CORA AV,63113,1,1,1110,N,1540,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,4
+13719000510,1922 CORA AV,63113,1,1,1110,N,1370,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,4
+13717000710,2526 CORA AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13716000010,2616 CORA AV,63113,1,0,6800,N,0,School / educational,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13713000163,2701 CORA AV,63113,1,1,1110,N,990,Single-family residence,1,4577 Cottage Avenue,1
+13713000162,2703 CORA AV,63113,1,1,1110,N,990,Single-family residence,1,4577 Cottage Avenue,1
+13713000161,2709 CORA AV,63113,1,1,1110,N,2040,Single-family residence,1,4577 Cottage Avenue,1
+13713000160,2711 CORA AV,63113,1,1,1110,N,2040,Single-family residence,1,4577 Cottage Avenue,1
+13711020580,2914 CORA AV,63115,1,2,1120,N,380,Two-family (duplex/flat),2,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710010120,3025 CORA AV,63115,1,1,1110,N,6910,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+14461000010,3111 CORA AV,63115,1,0,6800,N,0,School / educational,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+14449010170,3500 CORA AV,63115,1,1,1110,N,2040,Single-family residence,1,4541 Ashland Avenue,1
+14449010180,3502 CORA AV,63115,1,1,1110,N,2440,Single-family residence,1,4541 Ashland Avenue,1
+14449010190,3506 CORA AV,63115,1,1,1110,N,2120,Single-family residence,1,4541 Ashland Avenue,1
+14449010200,3508 CORA AV,63115,1,1,1110,N,2670,Single-family residence,1,4541 Ashland Avenue,1
+14449010210,3512 CORA AV,63115,1,1,1110,N,1840,Single-family residence,1,4541 Ashland Avenue,1
+14449010230,3520 CORA AV,63115,1,1,1110,N,1210,Single-family residence,1,4541 Ashland Avenue,1
+14449010240,3524 CORA AV,63115,1,1,1110,N,2260,Single-family residence,1,4541 Ashland Avenue,1
+14449010250,3530 CORA AV,63115,1,2,1120,N,2920,Two-family (duplex/flat),2,4541 Ashland Avenue,1
+14449010260,3532 CORA AV,63115,1,2,1120,N,3200,Two-family (duplex/flat),2,4541 Ashland Avenue,1
+14449020160,3600 CORA AV,63115,1,1,1110,N,2550,Single-family residence,1,4541 Ashland Avenue,1
+13702000290,4427 COTE BRILLIANTE AV,63113,1,1,1110,N,290,Single-family residence,1,4438 N Market Street,1
+13702000370,4447 COTE BRILLIANTE AV,63113,1,0,6911,N,0,Church / religious,1,4438 N Market Street,1
+13720000520,4569 COTE BRILLIANTE AV,63113,1,1,1110,N,1610,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13720000530,4575 COTE BRILLIANTE AV,63113,1,1,1110,N,740,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13720000540,4577 COTE BRILLIANTE AV,63113,1,2,1120,N,710,Two-family (duplex/flat),2,1803 Cora Avenue; 1825 Cora Avenue,2
+13720000560,4585 COTE BRILLIANTE AV,63113,1,1,1110,N,1550,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13721000030,4586 COTE BRILLIANTE AV,63113,1,1,1110,N,3040,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13720000590,4591 COTE BRILLIANTE AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+14474000070,4635 COTE BRILLIANTE AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+14475000010,4648-50 COTE BRILLIANTE AV,63113,1,4,1140,N,1410,Four-family / small multi-family,4,1803 Cora Avenue; 1825 Cora Avenue,2
+14474000090,4649 COTE BRILLIANTE AV,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13717000290,4522 COTTAGE AV,63113,1,1,1110,N,1440,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13717000280,4524 COTTAGE AV,63113,1,1,1110,N,1280,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13717000240,4534 COTTAGE AV,63113,1,1,1110,N,510,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13717000220,4538 COTTAGE AV,63113,1,1,1110,N,490,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13717000210,4540 COTTAGE AV,63113,1,1,1110,N,3200,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13717000140,4556 COTTAGE AV,63113,1,1,1110,N,3700,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13716000620,4571 COTTAGE AV,63113,1,1,1110,N,850,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13716000630,4575 COTTAGE AV,63113,1,1,1110,N,290,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13716000640,4577 COTTAGE AV,63113,1,1,1110,N,290,Single-family residence,1,4565 Saint Ferdinand Avenue; 4615 Saint Ferdinand Avenue,2
+13717000070,4578 COTTAGE AV,63113,1,1,1122,N,1810,Code 1122 (not in dictionary),1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+14470000230,4633 COTTAGE AV,63113,1,1,1110,N,1090,Single-family residence,1,4615 Saint Ferdinand Avenue,1
+14470000270,4647 COTTAGE AV,63113,1,1,1110,N,1600,Single-family residence,1,4615 Saint Ferdinand Avenue,1
+14470000290,4653 COTTAGE AV,63113,1,1,1110,N,1530,Single-family residence,1,4615 Saint Ferdinand Avenue,1
+14471000010,4660 COTTAGE AV,63113,1,1,1110,N,1920,Single-family residence,1,4615 Saint Ferdinand Avenue; 4649 N Market Street,2
+14845000155,5201-13 DELMAR BLVD,63108,1,0,5000,N,27300,"Commercial/retail, general",1,5206 Kensington Avenue,1
+14845000165,5215-35 DELMAR BLVD,63108,1,0,5990,N,59100,Code 5990 (not in dictionary),1,5206 Kensington Avenue,1
+14845000185,5239-49 DELMAR BLVD,63108,1,0,5990,N,52200,Code 5990 (not in dictionary),1,5206 Kensington Avenue,1
+15638000050,1524 DICK GREGORY PL,63113,1,2,1118,N,5830,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue,1
+15638000060,1528 DICK GREGORY PL,63113,1,2,1118,N,5730,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue,1
+15638000070,1700 DICK GREGORY PL,63113,1,2,1118,N,5880,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue,1
+15638000080,1702 DICK GREGORY PL,63113,1,2,1118,N,5900,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue,1
+15638000090,1704 DICK GREGORY PL,63113,1,2,1118,N,5900,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue,1
+15638000100,1710 DICK GREGORY PL,63113,1,2,1118,N,5900,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000111,1714 DICK GREGORY PL,63113,1,3,1118,N,5920,"Single-family variant, likely attached/row (?)",3,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000160,1726 DICK GREGORY PL,63113,1,1,1110,N,6380,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000170,1728 DICK GREGORY PL,63113,1,1,1110,N,4760,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000190,1802 DICK GREGORY PL,63113,1,2,1118,N,5920,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue; 1825 Cora Avenue,2
+14474000050,1805 DICK GREGORY PL,63113,1,0,6913,N,8900,Religious-related building (?),1,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000210,1814 DICK GREGORY PL,63113,1,2,1120,N,2270,Two-family (duplex/flat),2,1803 Cora Avenue; 1825 Cora Avenue,2
+15638000230,1820 DICK GREGORY PL,63113,1,2,1118,N,12030,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000240,1822 DICK GREGORY PL,63113,1,2,1118,N,12070,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000250,1832 DICK GREGORY PL,63113,1,2,1118,N,5730,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000260,1900 DICK GREGORY PL,63113,1,2,1118,N,5900,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000270,1904 DICK GREGORY PL,63113,1,2,1118,N,5860,"Single-family variant, likely attached/row (?)",2,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+14473000050,1907-15 DICK GREGORY PL,63113,1,0,6911,N,0,Church / religious,1,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+15638000310,1916 DICK GREGORY PL,63113,1,1,1110,N,290,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+13775030250,4568 DR MARTIN LUTHER KING DR,63113,1,0,5000,N,2700,"Commercial/retail, general",1,4599 Page Boulevard,1
+13775030240,4570 DR MARTIN LUTHER KING DR,63113,1,2,1120,N,1140,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13775030220,4574 DR MARTIN LUTHER KING DR,63113,1,0,3421,N,5800,Code 3421 (not in dictionary),1,4599 Page Boulevard,1
+13775030221,4604-6 DR MARTIN LUTHER KING DR,63113,1,0,5000,N,114500,"Commercial/retail, general",1,4599 Page Boulevard,1
+13779000550,4821 DR MARTIN LUTHER KING DR,63113,3,0,6411,N,3600,"Repair services, often auto (?)",1,1336 N Euclid Avenue,1
+13783000040,4849 DR MARTIN LUTHER KING DR,63113,1,1,5000,N,1710,"Commercial/retail, general",1,1336 N Euclid Avenue,1
+13783000045,4851 DR MARTIN LUTHER KING DR,63113,1,1,5000,N,670,"Commercial/retail, general",1,1336 N Euclid Avenue,1
+13783000060,4859 DR MARTIN LUTHER KING DR,63113,1,1,5000,N,780,"Commercial/retail, general",1,1336 N Euclid Avenue,1
+13783000065,4861 DR MARTIN LUTHER KING DR,63113,1,1,5000,N,20,"Commercial/retail, general",1,1336 N Euclid Avenue,1
+13618000200,4414 ELMBANK AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4458 Elmbank Avenue; 4461 Elmbank Avenue,3
+14463000280,4415 ELMBANK AV,63115,1,2,1120,N,1860,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000290,4417 ELMBANK AV,63115,1,2,1120,N,1880,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000190,4418 ELMBANK AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4458 Elmbank Avenue; 4461 Elmbank Avenue,3
+14463000300,4421 ELMBANK AV,63115,1,2,1120,N,3150,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000170,4422 ELMBANK AV,63115,1,1,1110,N,1240,Single-family residence,1,3010 N Newstead Avenue; 4458 Elmbank Avenue; 4461 Elmbank Avenue,3
+13618000160,4424 ELMBANK AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4458 Elmbank Avenue; 4461 Elmbank Avenue,3
+13618000150,4430 ELMBANK AV,63115,1,1,1110,N,1740,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000140,4432 ELMBANK AV,63115,1,2,1120,N,1250,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000340,4433-7 ELMBANK AV,63115,1,0,6911,N,0,Church / religious,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000350,4439 ELMBANK AV,63115,1,1,1110,N,1390,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000360,4441 ELMBANK AV,63115,1,2,1120,N,2430,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000370,4445-7 ELMBANK AV,63115,1,4,1140,N,2960,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000090,4446 ELMBANK AV,63115,1,1,1110,N,1640,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000080,4448 ELMBANK AV,63115,1,2,1120,N,2660,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000070,4452 ELMBANK AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000390,4453-5 ELMBANK AV,63115,1,2,1120,N,2010,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000060,4454-6 ELMBANK AV,63115,1,2,1120,N,710,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000400,4457-9 ELMBANK AV,63115,1,4,1140,N,2940,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000050,4458 ELMBANK AV,63115,1,1,1110,N,290,Single-family residence,1,4461 Elmbank Avenue,1
+13618000040,4460 ELMBANK AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000410,4461 ELMBANK AV,63115,1,2,1110,N,1050,Single-family residence,2,4458 Elmbank Avenue,1
+14463000420,4463 ELMBANK AV,63115,1,2,1120,N,740,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000430,4465 ELMBANK AV,63115,1,1,1110,N,2590,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000020,4466 ELMBANK AV,63115,1,1,1110,N,2450,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000440,4467 ELMBANK AV,63115,1,2,1120,N,2070,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000010,4470 ELMBANK AV,63115,1,4,1140,N,1730,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14463000450,4471-3 ELMBANK AV,63115,1,4,1140,N,1160,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+14462050380,4515 ELMBANK AV,63115,1,1,1110,N,1240,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050390,4517 ELMBANK AV,63115,1,1,1110,N,2630,Single-family residence,1,4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14462050400,4519 ELMBANK AV,63115,1,1,1110,N,1550,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060190,4520 ELMBANK AV,63115,1,1,1110,N,2980,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue,3
+14462050410,4521 ELMBANK AV,63115,1,2,1120,N,3030,Two-family (duplex/flat),2,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060180,4524 ELMBANK AV,63115,1,1,1110,N,2570,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue,3
+14462050420,4525 ELMBANK AV,63115,1,2,1120,N,1250,Two-family (duplex/flat),2,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050430,4527-9 ELMBANK AV,63115,1,4,1140,N,4740,Four-family / small multi-family,4,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060170,4528 ELMBANK AV,63115,1,1,1110,N,3310,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue,3
+14462050440,4531-3 ELMBANK AV,63115,1,4,1140,N,2930,Four-family / small multi-family,4,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060160,4532 ELMBANK AV,63115,1,1,1110,N,2880,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue,3
+14462050450,4535-7 ELMBANK AV,63115,1,4,1140,N,2790,Four-family / small multi-family,4,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060150,4538 ELMBANK AV,63115,1,1,1110,N,1820,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue,3
+14462060140,4540 ELMBANK AV,63115,1,1,1110,N,3460,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,4
+14462060120,4544 ELMBANK AV,63115,1,1,1110,N,4340,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,4
+14462050460,4545 ELMBANK AV,63115,1,1,1110,N,4790,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060110,4548 ELMBANK AV,63115,1,1,1110,N,4750,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,4
+14462050472,4549 ELMBANK AV,63115,1,1,1110,N,3770,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060100,4552 ELMBANK AV,63115,1,1,1110,N,4770,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,4
+14462060090,4556 ELMBANK AV,63115,1,1,1110,N,4170,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,4
+14462050485,4557 ELMBANK AV,63115,1,1,1110,N,3860,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060080,4560 ELMBANK AV,63115,1,1,1110,N,4540,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,4
+14462050500,4561 ELMBANK AV,63115,1,1,1110,N,1950,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060070,4600 ELMBANK AV,63115,1,2,1120,N,3750,Two-family (duplex/flat),2,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,4
+14462050510,4601 ELMBANK AV,63115,1,1,1110,N,4280,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050520,4605 ELMBANK AV,63115,1,2,1120,N,3490,Two-family (duplex/flat),2,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462050530,4607-9 ELMBANK AV,63115,1,4,1140,N,3600,Four-family / small multi-family,4,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14462060060,4608 ELMBANK AV,63115,1,1,1110,N,3000,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,4
+14462060050,4614 ELMBANK AV,63115,1,1,1110,N,2490,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462050550,4615 ELMBANK AV,63115,1,2,1120,N,1930,Two-family (duplex/flat),2,4541 Ashland Avenue,1
+14462060040,4618 ELMBANK AV,63115,1,1,1110,N,2670,Single-family residence,1,4615 Labadie Avenue,1
+14462050560,4619 ELMBANK AV,63115,1,1,1110,N,3280,Single-family residence,1,4541 Ashland Avenue,1
+14462050570,4621 ELMBANK AV,63115,1,1,1110,N,3070,Single-family residence,1,4541 Ashland Avenue,1
+14462060030,4624 ELMBANK AV,63115,1,1,1110,N,2170,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+14462060020,4628 ELMBANK AV,63115,1,1,1110,N,3410,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+14838000410,5057-9 ENRIGHT AV,63108,1,2,1120,N,2660,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000430,5065 ENRIGHT AV,63108,1,2,1120,N,5110,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000440,5067-9 ENRIGHT AV,63108,1,2,1120,N,2020,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000450,5071-3 ENRIGHT AV,63108,1,2,1120,N,4100,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14843000510,5159 ENRIGHT AV,63108,1,1,1110,N,1040,Single-family residence,1,5206 Kensington Avenue,1
+14843000520,5163 ENRIGHT AV,63108,1,1,1110,N,15780,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14844000100,5166 ENRIGHT AV,63108,1,1,1110,N,10100,Single-family residence,1,5206 Kensington Avenue,1
+14843000530,5167 ENRIGHT AV,63108,1,1,1110,N,15220,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14844000090,5168 ENRIGHT AV,63108,1,1,1110,N,9300,Single-family residence,1,5206 Kensington Avenue,1
+14843000540,5169 ENRIGHT AV,63108,1,1,1110,N,18800,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000550,5171 ENRIGHT AV,63108,1,1,1110,N,3450,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000560,5173 ENRIGHT AV,63108,1,1,1110,N,5150,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14844000070,5174-6 ENRIGHT AV,63108,1,4,1140,N,290,Four-family / small multi-family,4,5206 Kensington Avenue,1
+14843000570,5175 ENRIGHT AV,63108,1,1,1110,N,1470,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000580,5177-9 ENRIGHT AV,63108,1,2,1120,N,2860,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14844000060,5178-80 ENRIGHT AV,63108,1,4,1140,N,3710,Four-family / small multi-family,4,5206 Kensington Avenue,1
+14843000590,5181 ENRIGHT AV,63108,1,1,1110,N,680,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14844000050,5184 ENRIGHT AV,63108,1,1,1110,N,920,Single-family residence,1,5206 Kensington Avenue,1
+14843000600,5185 ENRIGHT AV,63108,1,1,1110,N,740,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14844000040,5186 ENRIGHT AV,63108,1,2,1120,N,3350,Two-family (duplex/flat),2,5206 Kensington Avenue,1
+14843000610,5187 ENRIGHT AV,63108,1,1,1110,N,4920,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14844000030,5188 ENRIGHT AV,63108,1,1,1120,N,4100,Two-family (duplex/flat),1,5206 Kensington Avenue,1
+14844000025,5190 ENRIGHT AV,63108,1,4,1140,N,1760,Four-family / small multi-family,4,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000635,5191 ENRIGHT AV,63108,1,1,1110,N,1930,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000640,5193 ENRIGHT AV,63108,1,2,1120,N,6780,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14845000140,5200 ENRIGHT AV,63108,1,2,1120,N,1790,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14845000130,5204 ENRIGHT AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000220,5205 ENRIGHT AV,63108,1,1,1120,N,290,Two-family (duplex/flat),1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14845000120,5206 ENRIGHT AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14845000110,5210 ENRIGHT AV,63108,1,2,1120,N,2020,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000240,5211 ENRIGHT AV,63108,1,1,1120,N,9620,Two-family (duplex/flat),1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14845000100,5212 ENRIGHT AV,63108,1,2,1120,N,2560,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000260,5217 ENRIGHT AV,63108,1,1,1110,N,1650,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000270,5219 ENRIGHT AV,63108,1,1,1110,N,290,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14845000070,5222-4 ENRIGHT AV,63108,1,1,1120,N,620,Two-family (duplex/flat),1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000280,5223 ENRIGHT AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14845000060,5226 ENRIGHT AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue,1
+14846000290,5227 ENRIGHT AV,63108,1,2,1120,N,4330,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14845000050,5228 ENRIGHT AV,63108,1,2,1120,N,2270,Two-family (duplex/flat),2,5206 Kensington Avenue,1
+14846000300,5229 ENRIGHT AV,63108,1,1,1120,N,6210,Two-family (duplex/flat),1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000310,5231 ENRIGHT AV,63108,1,2,1120,N,1530,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000320,5237 ENRIGHT AV,63108,1,1,1110,N,5110,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000330,5239 ENRIGHT AV,63108,1,1,1110,N,3930,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000340,5241 ENRIGHT AV,63108,1,2,1120,N,2190,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000350,5243 ENRIGHT AV,63108,1,1,1110,N,680,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000360,5245 ENRIGHT AV,63108,1,2,1120,N,5490,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+13774030190,4550 EVANS AV,63113,1,1,1110,N,290,Single-family residence,1,4599 Page Boulevard,1
+13774030160,4556 EVANS AV,63113,1,1,1110,N,290,Single-family residence,1,4599 Page Boulevard,1
+13775030310,4559 EVANS AV,63113,1,1,1110,N,3060,Single-family residence,1,4599 Page Boulevard,1
+13774030140,4560 EVANS AV,63113,1,1,1110,N,2820,Single-family residence,1,4599 Page Boulevard,1
+13774030100,4572 EVANS AV,63113,1,2,1120,N,3330,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774030090,4574-8 EVANS AV,63113,1,6,1185,N,28940,"Residential variant, likely condo/misc (?)",6,4599 Page Boulevard,1
+13774030080,4580 EVANS AV,63113,1,2,1120,N,3970,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774030070,4582 EVANS AV,63113,1,1,1110,N,3040,Single-family residence,1,4599 Page Boulevard,1
+13775030410,4585 EVANS AV,63113,1,1,1110,N,1180,Single-family residence,1,4599 Page Boulevard,1
+13774030060,4588-90 EVANS AV,63113,1,4,1140,N,2270,Four-family / small multi-family,4,4599 Page Boulevard,1
+13774030050,4592-4 EVANS AV,63113,1,4,1140,N,2460,Four-family / small multi-family,4,4599 Page Boulevard,1
+13774030030,4598 EVANS AV,63113,1,1,1110,N,290,Single-family residence,1,4599 Page Boulevard,1
+13774030010,4606-8 EVANS AV,63113,1,4,1140,N,2250,Four-family / small multi-family,4,4599 Page Boulevard,1
+13775030500,4613 EVANS AV,63113,1,1,1110,N,1170,Single-family residence,1,4599 Page Boulevard,1
+13775040120,4621 EVANS AV,63113,1,1,1110,N,2580,Single-family residence,1,4599 Page Boulevard,1
+13774040110,4622-4 EVANS AV,63113,1,4,1140,N,3370,Four-family / small multi-family,4,4599 Page Boulevard,1
+13774040100,4626 EVANS AV,63113,1,2,1120,N,1650,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774040090,4628 EVANS AV,63113,1,2,1120,N,1590,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13775040145,4629 EVANS AV,63113,1,1,1110,N,17780,Single-family residence,1,4599 Page Boulevard,1
+13774040080,4630 EVANS AV,63113,1,2,1120,N,2740,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13775040160,4631 EVANS AV,63113,1,1,1110,N,15690,Single-family residence,1,4599 Page Boulevard,1
+13775040170,4637 EVANS AV,63113,1,1,1110,N,18350,Single-family residence,1,4599 Page Boulevard,1
+13775040180,4643 EVANS AV,63113,1,4,1140,N,4150,Four-family / small multi-family,4,4599 Page Boulevard,1
+13540000130,2007 FAIR AV,63107,1,2,1120,N,4700,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13540000140,2011 FAIR AV,63107,1,2,1120,N,2450,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000100,2014 FAIR AV,63107,1,2,1120,N,3970,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13540000150,2015 FAIR AV,63107,1,2,1120,N,1080,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000090,2018 FAIR AV,63107,1,1,1110,N,3920,Single-family residence,1,2104 Harris Avenue,1
+13540000160,2019-21 FAIR AV,63107,1,2,1120,N,4010,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000080,2022 FAIR AV,63107,1,1,1110,N,2440,Single-family residence,1,2104 Harris Avenue,1
+13539000070,2024 FAIR AV,63107,1,2,1120,N,2500,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13540000170,2025 FAIR AV,63107,1,2,1120,N,3830,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000060,2026 FAIR AV,63107,1,1,1110,N,5490,Single-family residence,1,2104 Harris Avenue,1
+13540000180,2029 FAIR AV,63107,1,2,1120,N,10500,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000050,2030 FAIR AV,63107,1,2,1120,N,1890,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13540000190,2031 FAIR AV,63107,1,2,1120,N,4940,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000045,2034 FAIR AV,63107,1,1,1110,N,3630,Single-family residence,1,2104 Harris Avenue,1
+13540000200,2037-9 FAIR AV,63107,2,2,5000,N,4280,"Commercial/retail, general",2,2104 Harris Avenue,1
+13539000040,2038 FAIR AV,63107,1,2,1120,N,3470,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13539000030,2040 FAIR AV,63107,1,1,1120,N,45170,Two-family (duplex/flat),1,2104 Harris Avenue,1
+13539000020,2042 FAIR AV,63107,1,1,1110,N,980,Single-family residence,1,2104 Harris Avenue,1
+13540000210,2043 FAIR AV,63107,1,2,1120,N,1990,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13540000220,2047 FAIR AV,63107,1,1,1110,N,7010,Single-family residence,1,2104 Harris Avenue,1
+13539000010,2048 FAIR AV,63107,1,2,1120,N,7350,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000130,2100-2 FAIR AV,63107,1,2,1120,N,4430,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000140,2101-3 FAIR AV,63107,1,2,1120,N,3490,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000120,2104 FAIR AV,63107,1,2,1120,N,3890,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000150,2105 FAIR AV,63107,1,1,1110,N,7620,Single-family residence,1,2104 Harris Avenue,1
+13542000110,2106-8 FAIR AV,63107,1,2,1120,N,4260,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000160,2107-9 FAIR AV,63107,1,2,1120,N,5250,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000100,2110-2 FAIR AV,63107,1,2,1120,N,1910,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000170,2111 FAIR AV,63107,1,1,1110,N,4060,Single-family residence,1,2104 Harris Avenue,1
+13542000090,2114 FAIR AV,63107,1,2,1120,N,3680,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000080,2116 FAIR AV,63107,1,1,1110,N,4290,Single-family residence,1,2104 Harris Avenue,1
+13541000190,2121 FAIR AV,63107,1,2,1120,N,3930,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000070,2122 FAIR AV,63107,1,2,1120,N,3220,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000060,2124 FAIR AV,63107,1,2,1120,N,1120,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000200,2127 FAIR AV,63107,1,2,1120,N,2830,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000210,2129 FAIR AV,63107,1,2,1120,N,1760,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000050,2130 FAIR AV,63107,1,1,1110,N,780,Single-family residence,1,2104 Harris Avenue,1
+13542000040,2132 FAIR AV,63107,1,2,1120,N,3020,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000230,2133 FAIR AV,63107,1,2,1120,N,1520,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000030,2134-6 FAIR AV,63107,1,2,1120,N,3650,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000020,2138 FAIR AV,63107,1,2,1120,N,3550,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000240,2139 FAIR AV,63107,1,1,1110,N,5710,Single-family residence,1,2104 Harris Avenue,1
+13541000250,2141-3 FAIR AV,63107,1,4,1140,N,3080,Four-family / small multi-family,4,2104 Harris Avenue,1
+13542000010,2142-4 FAIR AV,63107,1,4,1140,N,2020,Four-family / small multi-family,4,2104 Harris Avenue,1
+13541000260,2147 FAIR AV,63107,1,2,1120,N,1490,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000270,2149 FAIR AV,63107,1,2,1120,N,3450,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000287,2161 FAIR AV,63107,2,1,5000,N,49020,"Commercial/retail, general",1,2104 Harris Avenue,1
+13771000610,4803 FOUNTAIN AV,63113,1,12,1185,N,66350,"Residential variant, likely condo/misc (?)",12,1151 Walton Avenue; 912 Bayard Avenue,2
+13771000620,4807 FOUNTAIN AV,63113,1,1,1110,N,7830,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13762050420,4808 FOUNTAIN AV,63113,1,1,1110,N,1070,Single-family residence,1,912 Bayard Avenue,1
+13771000630,4809-11 FOUNTAIN AV,63113,1,2,1120,N,3170,Two-family (duplex/flat),2,1151 Walton Avenue; 912 Bayard Avenue,2
+13762050410,4810 FOUNTAIN AV,63113,1,1,1110,N,7510,Single-family residence,1,912 Bayard Avenue,1
+13771000640,4813-5 FOUNTAIN AV,63113,1,1,1110,N,1850,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13762050400,4814 FOUNTAIN AV,63113,1,1,1110,N,5350,Single-family residence,1,912 Bayard Avenue,1
+13771000650,4817 FOUNTAIN AV,63113,1,1,1110,N,860,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13762050390,4818 FOUNTAIN AV,63113,1,1,1110,N,5400,Single-family residence,1,912 Bayard Avenue,1
+13771000660,4819 FOUNTAIN AV,63113,1,1,1110,N,4440,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13771000670,4823 FOUNTAIN AV,63113,1,1,1110,N,2280,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13762050370,4824 FOUNTAIN AV,63113,1,1,1110,N,1290,Single-family residence,1,912 Bayard Avenue,1
+13771000680,4825 FOUNTAIN AV,63113,1,1,1110,N,2990,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13762050360,4826 FOUNTAIN AV,63113,1,1,1110,N,790,Single-family residence,1,912 Bayard Avenue,1
+13771000690,4829 FOUNTAIN AV,63113,1,1,1110,N,1980,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13762050350,4830 FOUNTAIN AV,63113,1,1,1110,N,1850,Single-family residence,1,912 Bayard Avenue,1
+13771000700,4831-7 FOUNTAIN AV,63113,3,8,5000,N,0,"Commercial/retail, general",8,1151 Walton Avenue; 912 Bayard Avenue,2
+13763050330,4844 FOUNTAIN AV,63113,1,1,1110,N,6060,Single-family residence,1,912 Bayard Avenue,1
+13770000550,4845 FOUNTAIN AV,63113,1,1,1110,N,19890,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13763050320,4846 FOUNTAIN AV,63113,1,1,1110,N,6500,Single-family residence,1,912 Bayard Avenue,1
+13763050310,4848 FOUNTAIN AV,63113,1,1,1110,N,2410,Single-family residence,1,912 Bayard Avenue,1
+13770000570,4851 FOUNTAIN AV,63113,1,1,1110,N,3040,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13763050300,4852 FOUNTAIN AV,63113,1,1,1110,N,1980,Single-family residence,1,912 Bayard Avenue,1
+13763050290,4854 FOUNTAIN AV,63113,1,1,1110,N,5090,Single-family residence,1,912 Bayard Avenue,1
+13770000590,4855-7 FOUNTAIN AV,63113,1,2,1120,N,3520,Two-family (duplex/flat),2,1151 Walton Avenue; 912 Bayard Avenue,2
+13763050280,4858 FOUNTAIN AV,63113,1,1,1110,N,2460,Single-family residence,1,912 Bayard Avenue,1
+13770000600,4859 FOUNTAIN AV,63113,1,1,1110,N,2750,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13763050270,4860 FOUNTAIN AV,63113,1,1,1110,N,1330,Single-family residence,1,912 Bayard Avenue,1
+13770000610,4861 FOUNTAIN AV,63113,1,1,1110,N,7280,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+13763050260,4864 FOUNTAIN AV,63113,1,1,1110,N,6550,Single-family residence,1,912 Bayard Avenue,1
+13763050250,4868 FOUNTAIN AV,63113,1,1,1110,N,6090,Single-family residence,1,912 Bayard Avenue,1
+13763050240,4870 FOUNTAIN AV,63113,1,1,1110,N,4450,Single-family residence,1,912 Bayard Avenue,1
+13763050230,4874 FOUNTAIN AV,63113,1,1,1110,N,4150,Single-family residence,1,912 Bayard Avenue,1
+13763050220,4876 FOUNTAIN AV,63113,1,1,1110,N,590,Single-family residence,1,912 Bayard Avenue,1
+13703000210,4403 GARFIELD AV,63113,1,1,1110,N,1850,Single-family residence,1,4438 N Market Street,1
+13702000160,4406 GARFIELD AV,63113,1,1,1110,N,2660,Single-family residence,1,4438 N Market Street,1
+13703000220,4407 GARFIELD AV,63113,1,1,1110,N,400,Single-family residence,1,4438 N Market Street,1
+13703000250,4413 GARFIELD AV,63113,1,1,1110,N,540,Single-family residence,1,4438 N Market Street,1
+13703000260,4415 GARFIELD AV,63113,1,1,1110,N,490,Single-family residence,1,4438 N Market Street,1
+13702000110,4426 GARFIELD AV,63113,1,1,1110,N,100,Single-family residence,1,4438 N Market Street,1
+13703000290,4427 GARFIELD AV,63113,1,1,1110,N,1140,Single-family residence,1,4438 N Market Street,1
+13703000310,4431 GARFIELD AV,63113,1,2,1120,N,2000,Two-family (duplex/flat),2,4438 N Market Street,1
+13702000060,4438 GARFIELD AV,63113,1,1,1110,N,1160,Single-family residence,1,4438 N Market Street,1
+13703000350,4439 GARFIELD AV,63113,1,2,1120,N,950,Two-family (duplex/flat),2,4438 N Market Street,1
+13702000045,4440 GARFIELD AV,63113,1,1,1110,N,2590,Single-family residence,1,4438 N Market Street,1
+13702000030,4446 GARFIELD AV,63113,1,1,1110,N,0,Single-family residence,1,4438 N Market Street,1
+13702000020,4448-50 GARFIELD AV,63113,1,3,1130,N,2680,Three-family,3,4438 N Market Street,1
+13703000370,4449 GARFIELD AV,63113,1,1,1110,N,500,Single-family residence,1,4438 N Market Street,1
+14900000120,4016 GREEN LEA PL,63107,1,1,1110,N,1370,Single-family residence,1,4016 Carter Avenue,1
+14899000120,4017 GREEN LEA PL,63107,1,1,1110,N,1160,Single-family residence,1,4016 Carter Avenue,1
+14899000130,4019 GREEN LEA PL,63107,1,1,1110,N,1580,Single-family residence,1,4016 Carter Avenue,1
+14899000140,4021 GREEN LEA PL,63107,1,1,1110,N,1540,Single-family residence,1,4016 Carter Avenue,1
+14899000150,4023 GREEN LEA PL,63107,1,1,1110,N,1550,Single-family residence,1,4016 Carter Avenue,1
+14900000090,4024 GREEN LEA PL,63107,1,1,1110,N,1880,Single-family residence,1,4016 Carter Avenue,1
+14900000080,4026 GREEN LEA PL,63107,1,1,1110,N,3530,Single-family residence,1,4016 Carter Avenue,1
+14899000170,4027 GREEN LEA PL,63107,1,1,1110,N,1460,Single-family residence,1,4016 Carter Avenue,1
+14899000180,4031 GREEN LEA PL,63107,1,1,1110,N,3450,Single-family residence,1,4016 Carter Avenue,1
+14900000050,4032 GREEN LEA PL,63107,1,1,1110,N,2420,Single-family residence,1,4016 Carter Avenue,1
+14900000040,4034 GREEN LEA PL,63107,1,1,1110,N,1430,Single-family residence,1,4016 Carter Avenue,1
+14899000190,4035 GREEN LEA PL,63107,1,1,1110,N,1770,Single-family residence,1,4016 Carter Avenue,1
+14899000200,4037 GREEN LEA PL,63107,1,1,1110,N,1860,Single-family residence,1,4016 Carter Avenue,1
+14900000030,4038 GREEN LEA PL,63107,1,1,1110,N,1540,Single-family residence,1,4016 Carter Avenue,1
+14899000220,4045 GREEN LEA PL,63107,1,1,1110,N,2290,Single-family residence,1,4016 Carter Avenue,1
+14469050190,4412-4 GREER AV,63115,1,2,1120,N,1370,Two-family (duplex/flat),2,3010 N Newstead Avenue; 4458 Elmbank Avenue,2
+13618000290,4417 GREER AV,63115,1,1,1110,N,1140,Single-family residence,1,3010 N Newstead Avenue; 4458 Elmbank Avenue; 4461 Elmbank Avenue,3
+14469050170,4420 GREER AV,63115,1,1,1110,N,2280,Single-family residence,1,3010 N Newstead Avenue; 4458 Elmbank Avenue,2
+14469050160,4422 GREER AV,63115,1,2,1120,N,740,Two-family (duplex/flat),2,3010 N Newstead Avenue; 4458 Elmbank Avenue,2
+14469050150,4426 GREER AV,63115,1,1,1110,N,960,Single-family residence,1,3010 N Newstead Avenue; 4458 Elmbank Avenue,2
+13618000320,4429 GREER AV,63115,1,1,1120,N,3830,Two-family (duplex/flat),1,3010 N Newstead Avenue; 4458 Elmbank Avenue; 4461 Elmbank Avenue,3
+14469050100,4440 GREER AV,63115,1,2,1120,N,1400,Two-family (duplex/flat),2,3010 N Newstead Avenue; 4458 Elmbank Avenue; 4461 Elmbank Avenue,3
+13618000390,4443 GREER AV,63115,1,2,1120,N,290,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14469050080,4448 GREER AV,63115,1,1,1110,N,2180,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000410,4449 GREER AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14469050070,4452 GREER AV,63115,1,1,1110,N,1970,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14469050060,4454 GREER AV,63115,1,1,1110,N,2660,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000430,4455 GREER AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14469050050,4458 GREER AV,63115,1,1,1110,N,2140,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000440,4459 GREER AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000450,4463 GREER AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14469050030,4464 GREER AV,63115,1,1,1110,N,1820,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000460,4465 GREER AV,63115,1,1,1110,N,1190,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14469050010,4468-70 GREER AV,63115,1,2,1120,N,290,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+14462060250,4515 GREER AV,63115,1,1,1110,N,1440,Single-family residence,1,4458 Elmbank Avenue; 4528 Ashland Avenue; 4549 Labadie Avenue,3
+14462060260,4517 GREER AV,63115,1,1,1110,N,2920,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue,2
+13710020210,4520 GREER AV,63115,1,1,1110,N,290,Single-family residence,1,4549 Labadie Avenue,1
+14462060270,4521 GREER AV,63115,1,1,1110,N,1540,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue,2
+13710020200,4522 GREER AV,63115,1,1,1110,N,290,Single-family residence,1,4549 Labadie Avenue,1
+14462060280,4525 GREER AV,63115,1,1,1110,N,910,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue,2
+13710020190,4526 GREER AV,63115,1,1,1110,N,800,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462060290,4527 GREER AV,63115,1,1,1110,N,1990,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue,2
+13710020180,4528 GREER AV,63115,1,1,1110,N,2370,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462060300,4529 GREER AV,63115,1,1,1110,N,2140,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue,2
+13710020170,4530 GREER AV,63115,1,1,1110,N,290,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462060310,4531 GREER AV,63115,1,1,1110,N,2120,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13710020160,4534 GREER AV,63115,1,1,1110,N,290,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462060320,4535 GREER AV,63115,1,1,1110,N,1090,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+14462060330,4537 GREER AV,63115,1,1,1110,N,2430,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13710020140,4538 GREER AV,63115,1,1,1110,N,230,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462060340,4539 GREER AV,63115,1,1,1110,N,2100,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+14462060350,4543 GREER AV,63115,1,1,1110,N,4280,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13710020130,4544 GREER AV,63115,1,1,1110,N,3910,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462060360,4547 GREER AV,63115,1,1,1110,N,3220,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13710020120,4548 GREER AV,63115,1,1,1110,N,3800,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+13710020110,4552 GREER AV,63115,1,1,1110,N,3680,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462060370,4553 GREER AV,63115,1,1,1110,N,4170,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13710020100,4556 GREER AV,63115,1,1,1110,N,3380,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+14462060380,4557 GREER AV,63115,1,1,1110,N,3400,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13710020090,4560 GREER AV,63115,1,1,1110,N,4750,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+14462060390,4561 GREER AV,63115,1,1,1110,N,4040,Single-family residence,1,4528 Ashland Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+14462060400,4601-3 GREER AV,63115,1,4,1140,N,2840,Four-family / small multi-family,4,4549 Labadie Avenue; 4615 Labadie Avenue,2
+13710020080,4604 GREER AV,63115,1,1,1110,N,990,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020070,4606 GREER AV,63115,1,2,1120,N,2740,Two-family (duplex/flat),2,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020060,4608 GREER AV,63115,1,2,1120,N,2590,Two-family (duplex/flat),2,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+14462060420,4609-11 GREER AV,63115,1,2,1120,N,2430,Two-family (duplex/flat),2,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+14462060430,4615 GREER AV,63115,1,1,1110,N,1270,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020050,4616 GREER AV,63115,1,1,1110,N,4420,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+14462060440,4619 GREER AV,63115,1,1,1110,N,1500,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020040,4622 GREER AV,63115,1,1,1110,N,2660,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+14462060453,4623 GREER AV,63115,1,1,1110,N,1580,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020030,4624 GREER AV,63115,1,1,1110,N,3060,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+14462060455,4625 GREER AV,63115,1,1,1110,N,2780,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020020,4626 GREER AV,63115,1,1,1110,N,3310,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020010,4628 GREER AV,63115,1,1,1110,N,3060,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710010070,4656 GREER AV,63115,1,2,1120,N,2620,Two-family (duplex/flat),2,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010060,4660 GREER AV,63115,1,4,1140,N,1790,Four-family / small multi-family,4,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010050,4664 GREER AV,63115,1,2,1120,N,2280,Two-family (duplex/flat),2,4615 Labadie Avenue; 4651 Labadie Avenue,2
+14480000430,4700 GREER AV,63115,1,2,1120,N,3020,Two-family (duplex/flat),2,4651 Labadie Avenue,1
+14481030410,4701 GREER AV,63115,1,1,1110,N,4050,Single-family residence,1,4651 Labadie Avenue,1
+14481030420,4703 GREER AV,63115,1,1,1110,N,910,Single-family residence,1,4651 Labadie Avenue,1
+14480000420,4704 GREER AV,63115,1,2,1120,N,3160,Two-family (duplex/flat),2,4651 Labadie Avenue,1
+14480000410,4708 GREER AV,63115,1,2,1120,N,3330,Two-family (duplex/flat),2,4651 Labadie Avenue,1
+13781000250,4714 HAMMETT PL,63113,1,1,1110,N,290,Single-family residence,1,4649 N Market Street,1
+13781000240,4718 HAMMETT PL,63113,1,4,1140,N,1950,Four-family / small multi-family,4,4649 N Market Street,1
+14477010320,4719 HAMMETT PL,63113,1,1,1110,N,6600,Single-family residence,1,4649 N Market Street,1
+13540000100,2006 HARRIS AV,63107,1,1,1110,N,4590,Single-family residence,1,2104 Harris Avenue,1
+13540000090,2012 HARRIS AV,63107,1,1,1110,N,6990,Single-family residence,1,2104 Harris Avenue,1
+13540000080,2018 HARRIS AV,63107,1,1,1110,N,17750,Single-family residence,1,2104 Harris Avenue,1
+13540000070,2022 HARRIS AV,63107,1,1,1110,N,5500,Single-family residence,1,2104 Harris Avenue,1
+13540000060,2026 HARRIS AV,63107,1,1,1110,N,5110,Single-family residence,1,2104 Harris Avenue,1
+13540000050,2030 HARRIS AV,63107,1,1,1110,N,5890,Single-family residence,1,2104 Harris Avenue,1
+13540000040,2034 HARRIS AV,63107,1,1,1110,N,5300,Single-family residence,1,2104 Harris Avenue,1
+13540000030,2040 HARRIS AV,63107,1,1,1110,N,7090,Single-family residence,1,2104 Harris Avenue,1
+13540000020,2044 HARRIS AV,63107,1,1,1110,N,7240,Single-family residence,1,2104 Harris Avenue,1
+13540000010,2048 HARRIS AV,63107,1,1,1110,N,4070,Single-family residence,1,2104 Harris Avenue,1
+13541000120,2108 HARRIS AV,63107,1,1,1110,N,4490,Single-family residence,1,2104 Harris Avenue,1
+13541000110,2110-2 HARRIS AV,63107,1,4,1140,N,4330,Four-family / small multi-family,4,2104 Harris Avenue,1
+13541000100,2116 HARRIS AV,63107,1,1,1110,N,7480,Single-family residence,1,2104 Harris Avenue,1
+13541000090,2120 HARRIS AV,63107,1,1,1110,N,3390,Single-family residence,1,2104 Harris Avenue,1
+13541000080,2124 HARRIS AV,63107,1,1,1110,N,10980,Single-family residence,1,2104 Harris Avenue,1
+13541000070,2130 HARRIS AV,63107,1,2,1120,N,4010,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000060,2134 HARRIS AV,63107,1,1,1120,N,4820,Two-family (duplex/flat),1,2104 Harris Avenue,1
+13541000050,2138 HARRIS AV,63107,1,2,1120,N,2620,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13541000040,2142 HARRIS AV,63107,1,1,1110,N,8080,Single-family residence,1,2104 Harris Avenue,1
+13541000030,2146 HARRIS AV,63107,1,1,1120,N,5930,Two-family (duplex/flat),1,2104 Harris Avenue,1
+13541000020,2150-2 HARRIS AV,63107,1,4,1140,N,2210,Four-family / small multi-family,4,2104 Harris Avenue,1
+13541000010,2154-6 HARRIS AV,63107,1,0,5000,N,2200,"Commercial/retail, general",1,2104 Harris Avenue,1
+14441090075,3621-3 HARRIS AV,63115,1,4,1140,N,760,Four-family / small multi-family,4,4236 Sacramento Avenue,1
+13716000070,4566 KENNERLY AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,3
+13715000480,4567 KENNERLY AV,63113,1,1,1110,N,100,Single-family residence,1,4547 Maffitt Avenue; 4577 Cottage Avenue,2
+13716000060,4570 KENNERLY AV,63113,1,1,1110,N,0,Single-family residence,1,4547 Maffitt Avenue; 4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,3
+13715000490,4571 KENNERLY AV,63113,1,1,1110,N,2820,Single-family residence,1,4547 Maffitt Avenue; 4577 Cottage Avenue,2
+13713000170,4611 KENNERLY AV,63113,1,1,1110,N,2540,Single-family residence,1,4577 Cottage Avenue,1
+14470000190,4618 KENNERLY AV,63113,1,1,1110,N,1820,Single-family residence,1,4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,2
+14470000120,4638 KENNERLY AV,63113,1,1,1110,N,2400,Single-family residence,1,4615 Saint Ferdinand Avenue,1
+14470000110,4640 KENNERLY AV,63113,1,1,1110,N,1130,Single-family residence,1,4615 Saint Ferdinand Avenue,1
+15057000230,4737-9 KENSINGTON AV,63108,1,4,1140,N,1650,Four-family / small multi-family,4,912 Bayard Avenue,1
+15057000240,4741 KENSINGTON AV,63108,1,1,1110,N,3790,Single-family residence,1,912 Bayard Avenue,1
+14839000310,5005 KENSINGTON AV,63108,1,0,5810,N,30300,Code 5810 (not in dictionary),1,5052 Cates Avenue,1
+14838000230,5012 KENSINGTON AV,63108,1,2,1120,N,2380,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000180,5024 KENSINGTON AV,63108,1,2,1120,N,1830,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000170,5028 KENSINGTON AV,63108,1,1,1110,N,2090,Single-family residence,1,5052 Cates Avenue,1
+14838000160,5030 KENSINGTON AV,63108,1,1,1110,N,290,Single-family residence,1,5052 Cates Avenue,1
+14839000360,5031 KENSINGTON AV,63108,1,2,1120,N,3900,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000150,5032 KENSINGTON AV,63108,1,1,1110,N,0,Single-family residence,1,5052 Cates Avenue,1
+14839000370,5033 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000130,5038 KENSINGTON AV,63108,1,1,1110,N,290,Single-family residence,1,5052 Cates Avenue,1
+14839000400,5041-3 KENSINGTON AV,63108,1,4,1140,N,2600,Four-family / small multi-family,4,5052 Cates Avenue,1
+14839000410,5049 KENSINGTON AV,63108,1,1,1110,N,3470,Single-family residence,1,5052 Cates Avenue,1
+14838000090,5050 KENSINGTON AV,63108,1,2,1120,N,2730,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000420,5051 KENSINGTON AV,63108,1,1,1110,N,1120,Single-family residence,1,5052 Cates Avenue,1
+14839000430,5053 KENSINGTON AV,63108,1,1,1110,N,290,Single-family residence,1,5052 Cates Avenue,1
+14839000440,5055-7 KENSINGTON AV,63108,1,2,1120,N,1090,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000070,5058 KENSINGTON AV,63108,1,1,1110,N,4180,Single-family residence,1,5052 Cates Avenue,1
+14839000450,5059-61 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000050,5064 KENSINGTON AV,63108,1,1,1110,N,4070,Single-family residence,1,5052 Cates Avenue,1
+14839000470,5065 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14838000040,5068 KENSINGTON AV,63108,1,1,1110,N,1300,Single-family residence,1,5052 Cates Avenue,1
+14838000030,5070-2 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000500,5075 KENSINGTON AV,63108,1,1,1120,N,290,Two-family (duplex/flat),1,5052 Cates Avenue,1
+14839000510,5077 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14839000540,5087 KENSINGTON AV,63108,1,1,1110,N,4260,Single-family residence,1,5052 Cates Avenue,1
+14842000290,5101 KENSINGTON AV,63108,1,2,1120,N,2150,Two-family (duplex/flat),2,5052 Cates Avenue,1
+14843000110,5156 KENSINGTON AV,63108,1,2,1120,N,4090,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14842000450,5157 KENSINGTON AV,63108,1,1,1110,N,1260,Single-family residence,1,5207 Kensington Avenue,1
+14843000100,5158-60 KENSINGTON AV,63108,1,2,1120,N,2440,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14842000460,5159 KENSINGTON AV,63108,1,1,1110,N,12000,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000080,5166 KENSINGTON AV,63108,1,2,1120,N,6410,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000070,5168-70 KENSINGTON AV,63108,1,2,1120,N,1790,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14842000490,5169 KENSINGTON AV,63108,1,2,1120,N,6120,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000060,5172 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14842000500,5173 KENSINGTON AV,63108,1,1,1110,N,2490,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000055,5174-8 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14842000510,5175 KENSINGTON AV,63108,1,1,1110,N,700,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14842000520,5179 KENSINGTON AV,63108,1,1,1110,N,290,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000030,5182-4 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000020,5186-8 KENSINGTON AV,63108,1,2,1120,N,3110,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14843000010,5190-8 KENSINGTON AV,63108,3,7,1185,N,20620,"Residential variant, likely condo/misc (?)",7,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000150,5200-2 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000090,5201 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000130,5206-8 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5207 Kensington Avenue,1
+14847000110,5207 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue,1
+14847000120,5209 KENSINGTON AV,63108,1,1,1110,N,1180,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000120,5210-2 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000130,5211 KENSINGTON AV,63108,1,1,1110,N,4200,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000140,5215-7 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000160,5221 KENSINGTON AV,63108,1,1,1110,N,19000,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000090,5222-4 KENSINGTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000170,5223 KENSINGTON AV,63108,1,1,1110,N,4480,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000080,5226 KENSINGTON AV,63108,1,2,1120,N,3900,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000190,5227 KENSINGTON AV,63108,1,1,1110,N,5130,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000210,5231 KENSINGTON AV,63108,1,1,1110,N,3660,Single-family residence,1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000060,5232 KENSINGTON AV,63108,1,1,1120,N,3730,Two-family (duplex/flat),1,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14847000220,5235-7 KENSINGTON AV,63108,1,2,1120,N,2620,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14846000040,5238 KENSINGTON AV,63108,1,2,1120,N,1680,Two-family (duplex/flat),2,5206 Kensington Avenue; 5207 Kensington Avenue,2
+14465000530,4307 LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,4327 Labadie Avenue,1
+14468060140,4316 LABADIE AV,63115,1,1,1110,N,2660,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000510,4325 LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000520,4327 LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue,1
+14468060050,4346 LABADIE AV,63115,1,2,1120,N,2320,Two-family (duplex/flat),2,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+14468060040,4350 LABADIE AV,63115,1,1,1110,N,720,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+14468060010,4358 LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+14469050310,4419 LABADIE AV,63115,1,1,1110,N,970,Single-family residence,1,3010 N Newstead Avenue,1
+14469060150,4430 LABADIE AV,63115,1,0,6800,N,15300,School / educational,1,3010 N Newstead Avenue,1
+14469050360,4433 LABADIE AV,63115,1,4,1140,N,3530,Four-family / small multi-family,4,3010 N Newstead Avenue; 4458 Elmbank Avenue,2
+14469060140,4436 LABADIE AV,63115,1,1,1110,N,1310,Single-family residence,1,3010 N Newstead Avenue,1
+14469060130,4438 LABADIE AV,63115,1,1,1110,N,1970,Single-family residence,1,3010 N Newstead Avenue,1
+14469050390,4443 LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4458 Elmbank Avenue,2
+14469050410,4449 LABADIE AV,63115,1,1,1110,N,780,Single-family residence,1,4458 Elmbank Avenue,1
+14469050430,4455 LABADIE AV,63115,1,1,1110,N,1380,Single-family residence,1,4458 Elmbank Avenue,1
+14469050440,4457 LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue,1
+14469050450,4459 LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue,1
+14469050460,4463 LABADIE AV,63115,1,1,1110,N,1310,Single-family residence,1,4458 Elmbank Avenue,1
+14469050470,4465 LABADIE AV,63115,1,1,1110,N,1730,Single-family residence,1,4458 Elmbank Avenue,1
+14469050480,4467 LABADIE AV,63115,1,1,1110,N,4400,Single-family residence,1,4458 Elmbank Avenue,1
+14469050490,4475 LABADIE AV,63115,1,1,1110,N,920,Single-family residence,1,4458 Elmbank Avenue,1
+14469050510,4479 LABADIE AV,63115,1,4,1140,N,2690,Four-family / small multi-family,4,4458 Elmbank Avenue,1
+13711020250,4520 LABADIE AV,63115,1,1,1110,N,1690,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020240,4522 LABADIE AV,63115,1,1,1120,N,290,Two-family (duplex/flat),1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13710020310,4523 LABADIE AV,63115,1,2,1120,N,290,Two-family (duplex/flat),2,4549 Labadie Avenue,1
+13711020230,4526 LABADIE AV,63115,1,2,1120,N,1060,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13710020320,4527 LABADIE AV,63115,1,1,1110,N,1020,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+13711020220,4528 LABADIE AV,63115,1,2,1140,N,1070,Four-family / small multi-family,2,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13711020200,4532 LABADIE AV,63115,1,1,1110,N,1640,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13710020340,4533 LABADIE AV,63115,1,1,1110,N,930,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+13711020180,4540 LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13711020170,4546 LABADIE AV,63115,1,0,1000,N,760,Code 1000 (not in dictionary),1,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13711020160,4548-50 LABADIE AV,63115,1,2,1120,N,3970,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13710020370,4549 LABADIE AV,63115,1,1,1110,N,1070,Single-family residence,1,4615 Labadie Avenue,1
+13710020380,4553 LABADIE AV,63115,1,1,1110,N,2280,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue,2
+13710020410,4563-5 LABADIE AV,63115,1,4,1140,N,1680,Four-family / small multi-family,4,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020110,4600 LABADIE AV,63115,1,2,1120,N,1740,Two-family (duplex/flat),2,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020420,4603 LABADIE AV,63115,1,1,1110,N,2320,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020100,4604 LABADIE AV,63115,1,1,1110,N,2240,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020430,4607 LABADIE AV,63115,1,2,1120,N,990,Two-family (duplex/flat),2,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020080,4608 LABADIE AV,63115,1,1,1110,N,2470,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020440,4609-11 LABADIE AV,63115,1,2,1120,N,3160,Two-family (duplex/flat),2,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020070,4610 LABADIE AV,63115,1,1,1110,N,2780,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020450,4613-5 LABADIE AV,63115,1,2,1120,N,890,Two-family (duplex/flat),2,4549 Labadie Avenue; 4651 Labadie Avenue,2
+13711020060,4614 LABADIE AV,63115,1,1,1110,N,2940,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020460,4617 LABADIE AV,63115,1,1,1110,N,1330,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020050,4618 LABADIE AV,63115,1,1,1110,N,4150,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020470,4619 LABADIE AV,63115,1,2,1120,N,2300,Two-family (duplex/flat),2,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020040,4622 LABADIE AV,63115,1,1,1110,N,1750,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020480,4623 LABADIE AV,63115,1,1,1110,N,2290,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020030,4626 LABADIE AV,63115,1,1,1110,N,1820,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020020,4628 LABADIE AV,63115,1,1,1110,N,1800,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13710020495,4629 LABADIE AV,63115,1,1,0,N,2140,Unclassified,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711010160,4638 LABADIE AV,63115,1,1,1110,N,2200,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010130,4639 LABADIE AV,63115,1,1,1110,N,1950,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010150,4640 LABADIE AV,63115,1,1,1110,N,2500,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010140,4641 LABADIE AV,63115,1,1,1110,N,940,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010150,4645 LABADIE AV,63115,1,1,1110,N,2300,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010160,4647 LABADIE AV,63115,1,1,1110,N,2200,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010130,4650 LABADIE AV,63115,1,1,1110,N,1680,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010170,4651 LABADIE AV,63115,1,1,1110,N,2440,Single-family residence,1,4615 Labadie Avenue,1
+13711010120,4652 LABADIE AV,63115,1,2,1120,N,1920,Two-family (duplex/flat),2,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010180,4653 LABADIE AV,63115,1,1,1110,N,1070,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010110,4654 LABADIE AV,63115,1,1,1110,N,1550,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010190,4655 LABADIE AV,63115,1,1,1110,N,2220,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010100,4656 LABADIE AV,63115,1,1,1110,N,1750,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010200,4659 LABADIE AV,63115,1,1,1110,N,1360,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010090,4660 LABADIE AV,63115,1,1,1110,N,1630,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13710010210,4661 LABADIE AV,63115,1,2,1120,N,3810,Two-family (duplex/flat),2,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010080,4664 LABADIE AV,63115,1,1,1110,N,910,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010070,4666 LABADIE AV,63115,1,1,1110,N,1760,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010350,4682 LABADIE AV,63115,1,38,1185,N,267630,"Residential variant, likely condo/misc (?)",38,4651 Labadie Avenue,1
+14479000300,4700 LABADIE AV,63115,2,4,5000,N,480,"Commercial/retail, general",4,4651 Labadie Avenue,1
+14480000450,4701 LABADIE AV,63115,1,2,1120,N,3900,Two-family (duplex/flat),2,4651 Labadie Avenue,1
+14480000460,4703 LABADIE AV,63115,1,2,1120,N,2370,Two-family (duplex/flat),2,4651 Labadie Avenue,1
+14480000470,4705 LABADIE AV,63115,1,2,1120,N,2060,Two-family (duplex/flat),2,4651 Labadie Avenue,1
+14479000290,4706 LABADIE AV,63115,1,2,1120,N,2960,Two-family (duplex/flat),2,4651 Labadie Avenue,1
+14474000040,4634 LEDUC ST,63113,1,4,1140,N,290,Four-family / small multi-family,4,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+14473000060,4635 LEDUC ST,63113,1,4,1140,N,1630,Four-family / small multi-family,4,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+14473000070,4641 LEDUC ST,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+14474000010,4648 LEDUC ST,63113,1,1,1110,N,580,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+14473000090,4649 LEDUC ST,63113,1,4,1140,N,1800,Four-family / small multi-family,4,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+13781000370,4715-7 LEDUC ST,63113,1,4,1140,N,1740,Four-family / small multi-family,4,4649 N Market Street,1
+13781000380,4719 LEDUC ST,63113,1,2,1120,N,2090,Two-family (duplex/flat),2,4649 N Market Street,1
+14552000230,4727 LEWIS PL,63113,1,1,1110,N,3160,Single-family residence,1,1151 Walton Avenue,1
+15052000060,4730 LEWIS PL,63113,1,1,1110,N,3480,Single-family residence,1,912 Bayard Avenue,1
+15052000050,4734 LEWIS PL,63113,1,1,1110,N,5350,Single-family residence,1,912 Bayard Avenue,1
+14552000240,4735 LEWIS PL,63113,1,1,1110,N,3180,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+15052000040,4738 LEWIS PL,63113,1,1,1110,N,3310,Single-family residence,1,912 Bayard Avenue,1
+14552000250,4739 LEWIS PL,63113,1,1,1110,N,1400,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+15052000030,4740 LEWIS PL,63113,1,1,1110,N,1900,Single-family residence,1,912 Bayard Avenue,1
+14552000260,4741 LEWIS PL,63113,1,1,1110,N,3560,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+15052000020,4744 LEWIS PL,63113,1,1,1110,N,1400,Single-family residence,1,912 Bayard Avenue,1
+14552000270,4745 LEWIS PL,63113,1,1,1110,N,2880,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+15052000010,4752 LEWIS PL,63113,1,1,1110,N,3620,Single-family residence,1,912 Bayard Avenue,1
+14552000280,4753 LEWIS PL,63113,1,1,1110,N,2810,Single-family residence,1,1151 Walton Avenue; 912 Bayard Avenue,2
+14441090120,4207 LEXINGTON AV,63115,1,1,1110,N,650,Single-family residence,1,4236 Sacramento Avenue,1
+14441090150,4217 LEXINGTON AV,63115,1,1,1110,N,500,Single-family residence,1,4236 Sacramento Avenue,1
+14441090160,4219 LEXINGTON AV,63115,1,1,1110,N,1870,Single-family residence,1,4236 Sacramento Avenue,1
+14441090170,4223 LEXINGTON AV,63115,1,1,1110,N,1190,Single-family residence,1,4236 Sacramento Avenue,1
+14441090190,4229 LEXINGTON AV,63115,1,1,1110,N,1070,Single-family residence,1,4236 Sacramento Avenue,1
+14441090200,4233 LEXINGTON AV,63115,1,1,1110,N,410,Single-family residence,1,4236 Sacramento Avenue,1
+14441090210,4239 LEXINGTON AV,63115,1,1,1110,N,1820,Single-family residence,1,4236 Sacramento Avenue,1
+14441090220,4241 LEXINGTON AV,63115,1,2,1120,N,3560,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+14441090230,4243 LEXINGTON AV,63115,1,2,1120,N,3520,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+14441090240,4245 LEXINGTON AV,63115,1,1,1110,N,2220,Single-family residence,1,4236 Sacramento Avenue,1
+14441090250,4247 LEXINGTON AV,63115,1,1,1110,N,2220,Single-family residence,1,4236 Sacramento Avenue,1
+14441090260,4251 LEXINGTON AV,63115,1,1,1110,N,530,Single-family residence,1,4236 Sacramento Avenue,1
+14441090280,4255 LEXINGTON AV,63115,1,1,1120,N,1300,Two-family (duplex/flat),1,4236 Sacramento Avenue,1
+14441090290,4257 LEXINGTON AV,63115,1,2,1120,N,2780,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+14441090300,4265 LEXINGTON AV,63115,1,1,1110,N,1450,Single-family residence,1,4236 Sacramento Avenue,1
+14447040085,4442-4 LEXINGTON AV,63115,1,2,1118,N,10150,"Single-family variant, likely attached/row (?)",2,4461 Elmbank Avenue,1
+14447040081,4450-2 LEXINGTON AV,63115,1,3,1118,N,10280,"Single-family variant, likely attached/row (?)",3,4461 Elmbank Avenue,1
+14447040070,4454 LEXINGTON AV,63115,1,1,1110,N,2060,Single-family residence,1,4461 Elmbank Avenue,1
+14447040060,4456 LEXINGTON AV,63115,1,1,1110,N,2020,Single-family residence,1,4461 Elmbank Avenue,1
+14447040041,4460-2 LEXINGTON AV,63115,1,2,1118,N,3170,"Single-family variant, likely attached/row (?)",2,4461 Elmbank Avenue; 4519 Lexington Avenue,2
+14446040330,4465 LEXINGTON AV,63115,1,1,1110,N,2470,Single-family residence,1,4519 Lexington Avenue,1
+14446040340,4467 LEXINGTON AV,63115,1,1,1110,N,1820,Single-family residence,1,4519 Lexington Avenue,1
+14447040030,4468-70 LEXINGTON AV,63115,1,4,1140,N,2740,Four-family / small multi-family,4,4461 Elmbank Avenue; 4519 Lexington Avenue,2
+14446040350,4469 LEXINGTON AV,63115,1,1,1110,N,940,Single-family residence,1,4519 Lexington Avenue,1
+14447040020,4472 LEXINGTON AV,63115,1,1,1110,N,970,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue,2
+14446040360,4473 LEXINGTON AV,63115,1,1,1110,N,1970,Single-family residence,1,4519 Lexington Avenue,1
+14447040010,4474 LEXINGTON AV,63115,1,1,1110,N,1830,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue,2
+14446040370,4475 LEXINGTON AV,63115,1,1,1110,N,2150,Single-family residence,1,4519 Lexington Avenue,1
+14448060150,4514 LEXINGTON AV,63115,1,1,1110,N,1750,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050320,4517 LEXINGTON AV,63115,1,1,1110,N,2570,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448060140,4518 LEXINGTON AV,63115,1,1,1110,N,1320,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050330,4519 LEXINGTON AV,63115,1,1,1110,N,2240,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14448060130,4520 LEXINGTON AV,63115,1,2,1120,N,3180,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050340,4523 LEXINGTON AV,63115,1,1,1110,N,1590,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060120,4524 LEXINGTON AV,63115,1,2,1120,N,4210,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060110,4526 LEXINGTON AV,63115,1,2,1120,N,1610,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050350,4527 LEXINGTON AV,63115,1,1,1110,N,3000,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050360,4529 LEXINGTON AV,63115,1,1,1110,N,1590,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060100,4530 LEXINGTON AV,63115,1,0,1120,Y,2560,Two-family (duplex/flat),1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060090,4532 LEXINGTON AV,63115,1,1,1110,N,2260,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050370,4533 LEXINGTON AV,63115,1,1,1110,N,3660,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060080,4534 LEXINGTON AV,63115,1,1,1110,N,2240,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050380,4535 LEXINGTON AV,63115,1,1,1110,N,3220,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060070,4538-40 LEXINGTON AV,63115,1,4,1140,N,2770,Four-family / small multi-family,4,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050390,4539 LEXINGTON AV,63115,1,1,1110,N,3190,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050400,4545 LEXINGTON AV,63115,1,1,1110,N,2750,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050410,4547 LEXINGTON AV,63115,1,1,1110,N,1410,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050420,4549 LEXINGTON AV,63115,1,1,1110,N,1750,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448060040,4550 LEXINGTON AV,63115,1,2,1120,N,2810,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050430,4551 LEXINGTON AV,63115,1,1,1110,N,2280,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050440,4553 LEXINGTON AV,63115,1,1,1110,N,800,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448060030,4554 LEXINGTON AV,63115,1,1,1110,N,3560,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050450,4555 LEXINGTON AV,63115,1,1,1110,N,1120,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050460,4557 LEXINGTON AV,63115,1,1,1110,N,2280,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050470,4559 LEXINGTON AV,63115,1,1,1110,N,1640,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448060020,4560 LEXINGTON AV,63115,1,4,1140,N,4600,Four-family / small multi-family,4,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448050480,4561 LEXINGTON AV,63115,1,1,1110,N,2300,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448060010,4562 LEXINGTON AV,63115,1,4,1140,N,1530,Four-family / small multi-family,4,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14449020090,4601 LEXINGTON AV,63115,1,1,1110,N,2620,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14449020100,4605 LEXINGTON AV,63115,1,1,1110,N,930,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14449010060,4606 LEXINGTON AV,63115,1,1,1110,N,1490,Single-family residence,1,4528 Ashland Avenue; 4541 Ashland Avenue,2
+14449010050,4608 LEXINGTON AV,63115,1,1,1110,N,1340,Single-family residence,1,4541 Ashland Avenue,1
+14449020120,4609 LEXINGTON AV,63115,1,1,1110,N,4270,Single-family residence,1,4541 Ashland Avenue,1
+14449010040,4610 LEXINGTON AV,63115,1,1,1110,N,3990,Single-family residence,1,4541 Ashland Avenue,1
+14449020130,4611 LEXINGTON AV,63115,1,1,1110,N,2840,Single-family residence,1,4541 Ashland Avenue,1
+14449020140,4615 LEXINGTON AV,63115,1,1,1110,N,3470,Single-family residence,1,4541 Ashland Avenue,1
+14449010020,4616 LEXINGTON AV,63115,1,1,1110,N,1690,Single-family residence,1,4541 Ashland Avenue,1
+13714000390,4537 MAFFITT AV,63113,1,1,1110,N,840,Single-family residence,1,4547 Maffitt Avenue,1
+13714000400,4539 MAFFITT AV,63113,1,1,1110,N,1410,Single-family residence,1,4547 Maffitt Avenue,1
+13714000440,4557 MAFFITT AV,63113,1,1,1110,N,290,Single-family residence,1,4547 Maffitt Avenue,1
+13714000450,4559 MAFFITT AV,63113,1,1,1110,N,290,Single-family residence,1,4547 Maffitt Avenue,1
+13714000460,4561 MAFFITT AV,63113,1,1,1110,N,670,Single-family residence,1,4547 Maffitt Avenue,1
+13714000520,4583-5 MAFFITT AV,63113,1,1,1110,N,590,Single-family residence,1,4547 Maffitt Avenue,1
+13715000040,4584 MAFFITT AV,63113,1,4,1140,N,290,Four-family / small multi-family,4,4547 Maffitt Avenue; 4577 Cottage Avenue,2
+13715000030,4586 MAFFITT AV,63113,1,1,1110,N,870,Single-family residence,1,4547 Maffitt Avenue; 4577 Cottage Avenue,2
+13715000020,4590 MAFFITT AV,63113,1,1,1110,N,1690,Single-family residence,1,4547 Maffitt Avenue; 4577 Cottage Avenue,2
+13714000550,4593 MAFFITT AV,63113,1,1,1110,N,1540,Single-family residence,1,4547 Maffitt Avenue,1
+13715000010,4594 MAFFITT AV,63113,1,1,1110,N,1460,Single-family residence,1,4547 Maffitt Avenue; 4577 Cottage Avenue,2
+13769000290,4912 MAPLE AV,63113,1,1,1110,N,8220,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13768030261,4915 MAPLE AV,63113,1,1,1110,N,2360,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13768030262,4917 MAPLE AV,63113,1,2,1120,N,1160,Two-family (duplex/flat),2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13768030270,4919-21 MAPLE AV,63113,1,4,1140,N,2260,Four-family / small multi-family,4,1219 Bayard Avenue; 4926 Page Boulevard,2
+13769000280,4920-2 MAPLE AV,63113,1,1,1110,N,25940,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13769000270,4924-6 MAPLE AV,63113,1,2,1120,N,1900,Two-family (duplex/flat),2,4926 Page Boulevard,1
+13767000170,4944-6 MAPLE AV,63113,2,0,5920,Y,0,Code 5920 (not in dictionary),1,4926 Page Boulevard,1
+13767000160,4948 MAPLE AV,63113,1,1,1110,N,460,Single-family residence,1,4926 Page Boulevard,1
+13767000150,4950 MAPLE AV,63113,1,1,1110,N,1140,Single-family residence,1,4926 Page Boulevard,1
+13767000140,4954 MAPLE AV,63113,1,1,1110,N,1720,Single-family residence,1,4926 Page Boulevard,1
+13767000130,4956 MAPLE AV,63113,1,1,1110,N,1980,Single-family residence,1,4926 Page Boulevard,1
+13767000120,4962 MAPLE AV,63113,1,8,1185,N,6760,"Residential variant, likely condo/misc (?)",8,4926 Page Boulevard,1
+13780000410,1723 MARCUS AV,63113,1,1,1110,N,1180,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13780000400,1725 MARCUS AV,63113,1,1,1110,N,1030,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13780000390,1727 MARCUS AV,63113,1,1,1110,N,1300,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13780000370,1737 MARCUS AV,63113,1,1,1110,N,1830,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue,2
+13780000350,1741 MARCUS AV,63113,1,1,1110,N,2720,Single-family residence,1,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+13780000340,1743-5 MARCUS AV,63113,1,1,6913,N,0,Religious-related building (?),1,1803 Cora Avenue; 1825 Cora Avenue; 4649 N Market Street,3
+13781000360,1901-3 MARCUS AV,63113,1,4,1140,N,1980,Four-family / small multi-family,4,1825 Cora Avenue; 4649 N Market Street,2
+13781000350,1905-7 MARCUS AV,63113,1,3,1140,N,2170,Four-family / small multi-family,3,1825 Cora Avenue; 4649 N Market Street,2
+13781000340,1909-11 MARCUS AV,63113,1,4,1140,N,2260,Four-family / small multi-family,4,1825 Cora Avenue; 4649 N Market Street,2
+14473000010,1918-24 MARCUS AV,63113,2,2,1110,N,700,Single-family residence,2,1825 Cora Avenue; 4649 N Market Street,2
+13781000320,1921 MARCUS AV,63113,1,2,1120,N,1890,Two-family (duplex/flat),2,1825 Cora Avenue; 4649 N Market Street,2
+13781000310,1923 MARCUS AV,63113,1,2,1120,N,3420,Two-family (duplex/flat),2,4649 N Market Street,1
+13781000270,2405 MARCUS AV,63113,1,1,6240,N,6630,Code 6240 (not in dictionary),1,4649 N Market Street,1
+14471000310,2500-22 MARCUS AV,63113,1,0,5000,N,0,"Commercial/retail, general",1,4615 Saint Ferdinand Avenue; 4649 N Market Street,2
+14477010280,2507-9 MARCUS AV,63113,2,2,5920,N,4750,Code 5920 (not in dictionary),2,4649 N Market Street,1
+14480000440,3013-5 MARCUS AV,63115,1,4,1140,N,0,Four-family / small multi-family,4,4651 Labadie Avenue,1
+14461000050,3048 MARCUS AV,63115,1,2,1120,N,810,Two-family (duplex/flat),2,4651 Labadie Avenue,1
+14461000060,3052-4 MARCUS AV,63115,1,4,1140,N,1880,Four-family / small multi-family,4,4651 Labadie Avenue,1
+14461000080,3058-60 MARCUS AV,63115,1,4,1140,N,3250,Four-family / small multi-family,4,4651 Labadie Avenue,1
+13621000010,3018 MARNICE PL,63115,1,1,1110,N,1340,Single-family residence,1,4327 Labadie Avenue,1
+13546000460,4501-3 MARY AV,63107,1,3,1130,N,2390,Three-family,3,4016 Carter Avenue,1
+13546000455,4507 MARY AV,63107,1,1,1110,N,1930,Single-family residence,1,4016 Carter Avenue,1
+13546000450,4509 MARY AV,63107,1,1,1110,N,2070,Single-family residence,1,4016 Carter Avenue,1
+13546000410,4519 MARY AV,63107,1,1,1110,N,290,Single-family residence,1,4016 Carter Avenue,1
+13546000400,4523 MARY AV,63107,1,2,1120,N,290,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13546000390,4525 MARY AV,63107,1,2,1120,N,2940,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13546000370,4529 MARY AV,63107,1,1,1110,N,2100,Single-family residence,1,4016 Carter Avenue,1
+13546000360,4531 MARY AV,63107,1,1,1110,N,800,Single-family residence,1,4016 Carter Avenue,1
+13546000310,4547 MARY AV,63107,1,1,1120,N,3530,Two-family (duplex/flat),1,4016 Carter Avenue,1
+13546000300,4549 MARY AV,63107,1,2,1120,N,4070,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13546000290,4551 MARY AV,63107,1,2,1120,N,2790,Two-family (duplex/flat),2,4016 Carter Avenue,1
+15057000040,4732 MCMILLAN AV,63108,1,2,1120,N,660,Two-family (duplex/flat),2,912 Bayard Avenue,1
+15052000260,4733-5 MCMILLAN AV,63108,1,4,1140,N,4270,Four-family / small multi-family,4,912 Bayard Avenue,1
+15057000030,4734 MCMILLAN AV,63108,1,2,1120,N,180,Two-family (duplex/flat),2,912 Bayard Avenue,1
+15052000270,4737-9 MCMILLAN AV,63108,1,4,1140,N,1160,Four-family / small multi-family,4,912 Bayard Avenue,1
+15057000010,4740 MCMILLAN AV,63108,1,1,1110,N,1110,Single-family residence,1,912 Bayard Avenue,1
+15052000290,4747-9 MCMILLAN AV,63108,1,4,1140,N,2620,Four-family / small multi-family,4,912 Bayard Avenue,1
+15052000300,4751 MCMILLAN AV,63108,1,2,1120,N,2370,Two-family (duplex/flat),2,912 Bayard Avenue,1
+15052000310,4755 MCMILLAN AV,63108,2,2,5000,N,5510,"Commercial/retail, general",2,912 Bayard Avenue,1
+13763050140,776 N EUCLID AV,63108,1,1,1110,N,1350,Single-family residence,1,912 Bayard Avenue,1
+13763050150,778 N EUCLID AV,63108,1,1,1110,N,3060,Single-family residence,1,912 Bayard Avenue,1
+13763050210,904-8 N EUCLID AV,63108,1,12,1185,N,23920,"Residential variant, likely condo/misc (?)",12,912 Bayard Avenue,1
+13769000435,1147-57 N EUCLID AV,63113,1,2,1120,N,3630,Two-family (duplex/flat),2,1219 Bayard Avenue,1
+13770000040,1200-4 N EUCLID AV,63113,1,6,1185,N,11300,"Residential variant, likely condo/misc (?)",6,1151 Walton Avenue; 1219 Bayard Avenue,2
+13769000380,1201 N EUCLID AV,63113,1,2,1120,N,2690,Two-family (duplex/flat),2,1219 Bayard Avenue,1
+13769000370,1205 N EUCLID AV,63113,1,2,1120,N,3010,Two-family (duplex/flat),2,1219 Bayard Avenue,1
+13769000360,1207 N EUCLID AV,63113,1,1,1110,N,840,Single-family residence,1,1219 Bayard Avenue,1
+13770000050,1208 N EUCLID AV,63113,1,2,1120,N,5490,Two-family (duplex/flat),2,1219 Bayard Avenue,1
+13769000350,1209 N EUCLID AV,63113,1,1,1110,N,2830,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13770000060,1210 N EUCLID AV,63113,1,2,1120,N,9390,Two-family (duplex/flat),2,1219 Bayard Avenue,1
+13769000340,1215 N EUCLID AV,63113,1,1,1110,N,680,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13769000330,1217 N EUCLID AV,63113,1,1,1110,N,1180,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13769000320,1221 N EUCLID AV,63113,1,1,1110,N,1220,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13770000110,1228 N EUCLID AV,63113,1,2,1120,N,4210,Two-family (duplex/flat),2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13769000300,1231 N EUCLID AV,63113,1,1,1110,N,9160,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13770000135,1232-4 N EUCLID AV,63113,1,2,1110,N,24000,Single-family residence,2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13770000150,1240 N EUCLID AV,63113,1,1,1110,N,1170,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13768030240,1241 N EUCLID AV,63113,1,2,1120,N,2670,Two-family (duplex/flat),2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13768030230,1243-5 N EUCLID AV,63113,1,4,1140,N,3060,Four-family / small multi-family,4,1219 Bayard Avenue; 4926 Page Boulevard,2
+13770000180,1246 N EUCLID AV,63113,1,1,1110,N,1490,Single-family residence,1,1219 Bayard Avenue; 4926 Page Boulevard,2
+13768030220,1247 N EUCLID AV,63113,1,2,1120,N,1850,Two-family (duplex/flat),2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13768030210,1249 N EUCLID AV,63113,1,2,1120,N,2980,Two-family (duplex/flat),2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13770000190,1252 N EUCLID AV,63113,1,2,1120,N,1830,Two-family (duplex/flat),2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13770000200,1254 N EUCLID AV,63113,1,2,1120,N,1920,Two-family (duplex/flat),2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13770000210,1256 N EUCLID AV,63113,1,2,1120,N,680,Two-family (duplex/flat),2,1219 Bayard Avenue; 4926 Page Boulevard,2
+13785000020,1322-6 N EUCLID AV,63113,1,4,1140,N,290,Four-family / small multi-family,4,1336 N Euclid Avenue; 4926 Page Boulevard,2
+13785000040,1332 N EUCLID AV,63113,1,1,1110,N,1140,Single-family residence,1,1336 N Euclid Avenue,1
+13785000080,1342-4 N EUCLID AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1336 N Euclid Avenue,1
+13785000090,1348 N EUCLID AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1336 N Euclid Avenue,1
+13785000100,1400-2 N EUCLID AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1336 N Euclid Avenue,1
+13785000110,1406-10 N EUCLID AV,63113,1,4,1140,N,290,Four-family / small multi-family,4,1336 N Euclid Avenue,1
+13785000130,1416 N EUCLID AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1336 N Euclid Avenue,1
+14839000280,939 N KINGSHIGHWAY BLVD,63108,1,0,5195,N,12200,Code 5195 (not in dictionary),1,5052 Cates Avenue,1
+13768040020,1232 N KINGSHIGHWAY BLVD,63113,1,1,5000,N,9200,"Commercial/retail, general",1,4926 Page Boulevard,1
+13768040030,1236 N KINGSHIGHWAY BLVD,63113,1,1,5000,N,7400,"Commercial/retail, general",1,4926 Page Boulevard,1
+13768040040,1238 N KINGSHIGHWAY BLVD,63113,1,1,6811,N,9500,Code 6811 (not in dictionary),1,4926 Page Boulevard,1
+13768040080,1250-2 N KINGSHIGHWAY BLVD,63113,1,0,5000,N,13800,"Commercial/retail, general",1,4926 Page Boulevard,1
+13787000095,1408 N KINGSHIGHWAY BLVD,63113,3,0,5000,N,0,"Commercial/retail, general",1,1336 N Euclid Avenue; 4926 Page Boulevard,2
+13702000190,1819 N NEWSTEAD AV,63113,1,4,1140,N,1500,Four-family / small multi-family,4,4438 N Market Street,1
+14468060780,2900 N NEWSTEAD AV,63115,1,0,9152,N,2600,Miscellaneous / other (?),1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+14468060800,2906 N NEWSTEAD AV,63115,1,0,9152,N,2000,Miscellaneous / other (?),1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+14468060840,2918 N NEWSTEAD AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+14468060850,2920 N NEWSTEAD AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+14469060170,2921 N NEWSTEAD AV,63115,1,0,5400,N,1700,Code 5400 (not in dictionary),1,3010 N Newstead Avenue,1
+14469060165,2925 N NEWSTEAD AV,63115,1,1,5000,N,2000,"Commercial/retail, general",1,3010 N Newstead Avenue,1
+14469060160,2929-31 N NEWSTEAD AV,63115,2,2,5410,N,950,Code 5410 (not in dictionary),2,3010 N Newstead Avenue,1
+13619000060,3010 N NEWSTEAD AV,63115,1,1,1110,N,290,Single-family residence,1,4327 Labadie Avenue,1
+14469050210,3021 N NEWSTEAD AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue,1
+13619000110,3026 N NEWSTEAD AV,63115,1,2,1120,N,290,Two-family (duplex/flat),2,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13619000140,3034 N NEWSTEAD AV,63115,1,2,1120,N,1420,Two-family (duplex/flat),2,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13619000170,3110 N NEWSTEAD AV,63115,1,0,5000,N,1500,"Commercial/retail, general",1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13619000180,3112 N NEWSTEAD AV,63115,1,1,1110,N,1530,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13619000200,3116-8 N NEWSTEAD AV,63115,1,2,1120,N,1630,Two-family (duplex/flat),2,3010 N Newstead Avenue,1
+13619000230,3124-6 N NEWSTEAD AV,63115,1,4,1140,N,290,Four-family / small multi-family,4,3010 N Newstead Avenue,1
+13720000310,1813 N TAYLOR AV,63113,1,1,1110,N,290,Single-family residence,1,4438 N Market Street,1
+13720000300,1815 N TAYLOR AV,63113,1,1,1110,N,3440,Single-family residence,1,4438 N Market Street,1
+13720000280,1823 N TAYLOR AV,63113,1,2,1120,N,1280,Two-family (duplex/flat),2,4438 N Market Street,1
+13720000270,1827 N TAYLOR AV,63113,1,0,5000,N,0,"Commercial/retail, general",1,4438 N Market Street,1
+13703000395,1900-14 N TAYLOR AV,63113,1,0,5000,N,3700,"Commercial/retail, general",1,4438 N Market Street,1
+13719000305,1911 N TAYLOR AV,63113,1,10,1185,N,31330,"Residential variant, likely condo/misc (?)",10,4438 N Market Street,1
+13703000460,1918 N TAYLOR AV,63113,1,0,6913,N,5300,Religious-related building (?),1,4438 N Market Street,1
+13704000410,2400 N TAYLOR AV,63113,1,0,6913,N,7600,Religious-related building (?),1,4438 N Market Street,1
+13718000380,2417 N TAYLOR AV,63113,1,1,1110,N,3770,Single-family residence,1,4438 N Market Street,1
+13704000460,2420 N TAYLOR AV,63113,1,1,1110,N,1800,Single-family residence,1,4438 N Market Street,1
+13704000475,2424 N TAYLOR AV,63113,1,1,1110,N,3520,Single-family residence,1,4438 N Market Street,1
+13715000320,2701-7 N TAYLOR AV,63113,1,0,5000,N,10300,"Commercial/retail, general",1,4547 Maffitt Avenue,1
+13714000330,2801-11 N TAYLOR AV,63115,1,1,1110,N,1230,Single-family residence,1,4547 Maffitt Avenue,1
+13708000305,2816 N TAYLOR AV,63115,1,1,1110,N,5050,Single-family residence,1,4547 Maffitt Avenue,1
+13711020350,2901-3 N TAYLOR AV,63115,1,4,1140,N,1600,Four-family / small multi-family,4,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020340,2905 N TAYLOR AV,63115,1,2,1120,N,1300,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020325,2915 N TAYLOR AV,63115,1,1,0,N,3780,Unclassified,1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020300,2919 N TAYLOR AV,63115,1,1,1110,N,1210,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020290,2921 N TAYLOR AV,63115,1,1,1110,N,510,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020280,2925 N TAYLOR AV,63115,1,1,1110,N,1140,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13710020290,3001 N TAYLOR AV,63115,1,1,1110,N,3580,Single-family residence,1,4549 Labadie Avenue,1
+14469050520,3006 N TAYLOR AV,63115,1,1,1110,N,1470,Single-family residence,1,4458 Elmbank Avenue,1
+13710020270,3007 N TAYLOR AV,63115,1,1,1110,N,290,Single-family residence,1,4549 Labadie Avenue,1
+13710020260,3009 N TAYLOR AV,63115,1,1,1110,N,1050,Single-family residence,1,4549 Labadie Avenue,1
+14469050530,3010 N TAYLOR AV,63115,1,1,1110,N,1390,Single-family residence,1,4458 Elmbank Avenue,1
+14469050540,3012 N TAYLOR AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue,1
+13710020250,3015 N TAYLOR AV,63115,1,1,1110,N,290,Single-family residence,1,4549 Labadie Avenue,1
+14469050550,3016 N TAYLOR AV,63115,1,1,1110,N,1760,Single-family residence,1,4458 Elmbank Avenue,1
+14469050560,3018 N TAYLOR AV,63115,1,1,1110,N,290,Single-family residence,1,4458 Elmbank Avenue,1
+13710020245,3019 N TAYLOR AV,63115,1,2,1120,N,1280,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4549 Labadie Avenue,2
+13710020240,3021 N TAYLOR AV,63115,1,2,1120,N,3670,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4549 Labadie Avenue,2
+13710020230,3027 N TAYLOR AV,63115,1,0,6911,N,0,Church / religious,1,4458 Elmbank Avenue; 4549 Labadie Avenue,2
+14462060240,3103-5 N TAYLOR AV,63115,1,4,1140,N,3610,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4549 Labadie Avenue,4
+13618000510,3106 N TAYLOR AV,63115,1,2,1120,N,1950,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue,2
+13618000520,3108 N TAYLOR AV,63115,1,2,1120,N,2780,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+13618000530,3112 N TAYLOR AV,63115,1,2,1120,N,3350,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+13618000540,3116 N TAYLOR AV,63115,1,1,1110,N,1890,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+14462060220,3117 N TAYLOR AV,63115,1,2,1120,N,3240,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4549 Labadie Avenue,4
+13618000550,3120 N TAYLOR AV,63115,1,1,1110,N,1760,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+14462060210,3121 N TAYLOR AV,63115,1,2,1120,N,1360,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+13618000560,3122 N TAYLOR AV,63115,1,1,1110,N,2700,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+13618000570,3124 N TAYLOR AV,63115,1,1,1110,N,1230,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+14462060200,3125 N TAYLOR AV,63115,1,2,1120,N,1850,Two-family (duplex/flat),2,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+13618000580,3126 N TAYLOR AV,63115,1,1,1110,N,1970,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+14462050370,3201 N TAYLOR AV,63115,1,1,1110,N,2530,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14463000460,3202 N TAYLOR AV,63115,1,1,1110,N,2660,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+14462050360,3203 N TAYLOR AV,63115,1,1,1110,N,1150,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14463000470,3204 N TAYLOR AV,63115,1,1,1110,N,2540,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+14463000480,3208 N TAYLOR AV,63115,1,1,1110,N,2230,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue,3
+14462050340,3209 N TAYLOR AV,63115,1,1,1110,N,1960,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14463000490,3210 N TAYLOR AV,63115,1,1,1110,N,920,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14463000500,3214 N TAYLOR AV,63115,1,1,1110,N,4680,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14463000510,3216 N TAYLOR AV,63115,1,1,1110,N,3410,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050320,3217 N TAYLOR AV,63115,1,1,1110,N,1990,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14463000530,3218-20 N TAYLOR AV,63115,1,4,1140,N,2930,Four-family / small multi-family,4,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050310,3219 N TAYLOR AV,63115,1,1,1110,N,1980,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050300,3221 N TAYLOR AV,63115,1,1,1110,N,2490,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050290,3223 N TAYLOR AV,63115,1,1,1110,N,2300,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14463000540,3224 N TAYLOR AV,63115,1,1,1110,N,2390,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050280,3225 N TAYLOR AV,63115,1,1,1110,N,2340,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14462050270,3227 N TAYLOR AV,63115,1,1,1110,N,2570,Single-family residence,1,4458 Elmbank Avenue; 4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,5
+14448060280,3501 N TAYLOR AV,63115,1,1,1110,N,2920,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14448060270,3505 N TAYLOR AV,63115,1,1,1110,N,2540,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14447040310,3510 N TAYLOR AV,63115,1,1,1110,N,2460,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14448060250,3511 N TAYLOR AV,63115,1,1,1110,N,1270,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14448060240,3513 N TAYLOR AV,63115,1,1,1110,N,2960,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14448060230,3517 N TAYLOR AV,63115,1,1,1110,N,2460,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14447040330,3520 N TAYLOR AV,63115,1,1,1110,N,1160,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14448060210,3523 N TAYLOR AV,63115,1,1,1110,N,2440,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14447040340,3524 N TAYLOR AV,63115,1,1,1110,N,290,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14448060200,3525 N TAYLOR AV,63115,1,1,1110,N,1660,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14447040350,3526 N TAYLOR AV,63115,1,1,1110,N,930,Single-family residence,1,4461 Elmbank Avenue; 4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,4
+14448060190,3527 N TAYLOR AV,63115,1,1,1110,N,1570,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14447040360,3528 N TAYLOR AV,63115,1,1,1110,N,1680,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14447040370,3530 N TAYLOR AV,63115,1,1,1110,N,540,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060180,3531 N TAYLOR AV,63115,1,1,1110,N,290,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14447040380,3532 N TAYLOR AV,63115,1,1,1110,N,2420,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448060170,3533 N TAYLOR AV,63115,1,1,1110,N,1180,Single-family residence,1,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14448060160,3537 N TAYLOR AV,63115,1,2,1120,N,860,Two-family (duplex/flat),2,4519 Lexington Avenue; 4528 Ashland Avenue; 4541 Ashland Avenue,3
+14446040380,3600-2 N TAYLOR AV,63115,1,4,1140,N,1520,Four-family / small multi-family,4,4519 Lexington Avenue,1
+14448050310,3601 N TAYLOR AV,63115,1,1,1110,N,2110,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050300,3603 N TAYLOR AV,63115,1,1,1110,N,1610,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14446040390,3606 N TAYLOR AV,63115,1,2,1120,N,730,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14448050290,3607 N TAYLOR AV,63115,1,1,1110,N,1760,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14446040400,3608 N TAYLOR AV,63115,1,2,1120,N,930,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14448050280,3609 N TAYLOR AV,63115,1,1,1110,N,1900,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14446040410,3610 N TAYLOR AV,63115,1,2,1120,N,3800,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14448050270,3611 N TAYLOR AV,63115,1,1,1110,N,1740,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14446040420,3614 N TAYLOR AV,63115,1,2,1120,N,2420,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14448050260,3615 N TAYLOR AV,63115,1,1,1110,N,1780,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14446040430,3616 N TAYLOR AV,63115,1,2,1120,N,1550,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14448050250,3617 N TAYLOR AV,63115,1,1,1110,N,2140,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050240,3619 N TAYLOR AV,63115,1,1,1110,N,2750,Single-family residence,1,4519 Lexington Avenue,1
+14446040440,3620 N TAYLOR AV,63115,1,2,1120,N,2920,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14448050230,3621 N TAYLOR AV,63115,1,1,1110,N,2420,Single-family residence,1,4519 Lexington Avenue,1
+14446040450,3622 N TAYLOR AV,63115,1,2,1120,N,2480,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14446040460,3624 N TAYLOR AV,63115,1,2,1120,N,3080,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14448050220,3625 N TAYLOR AV,63115,1,1,1110,N,1210,Single-family residence,1,4519 Lexington Avenue,1
+14446040470,3628 N TAYLOR AV,63115,1,2,1120,N,2640,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14448050210,3629 N TAYLOR AV,63115,1,1,1110,N,1880,Single-family residence,1,4519 Lexington Avenue,1
+14448050200,3631 N TAYLOR AV,63115,1,1,1110,N,2220,Single-family residence,1,4519 Lexington Avenue,1
+14446040480,3632 N TAYLOR AV,63115,1,2,1120,N,3070,Two-family (duplex/flat),2,4519 Lexington Avenue,1
+14446040490,3636 N TAYLOR AV,63115,1,1,1110,N,1950,Single-family residence,1,4519 Lexington Avenue,1
+14409020200,3715-7 N TAYLOR AV,63115,1,4,1140,N,2300,Four-family / small multi-family,4,4519 Lexington Avenue,1
+14409020180,3719-21 N TAYLOR AV,63115,1,4,1140,N,1060,Four-family / small multi-family,4,4519 Lexington Avenue,1
+14409020170,3723 N TAYLOR AV,63115,1,1,1110,N,1260,Single-family residence,1,4519 Lexington Avenue,1
+14441090060,4200-6 NATURAL BRIDGE AV,63115,1,0,6231,N,14900,Personal services business (?),1,4236 Sacramento Avenue,1
+13603000150,4201 NATURAL BRIDGE AV,63115,1,0,5000,N,10100,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+13603000165,4207-19 NATURAL BRIDGE AV,63115,2,0,6411,N,27700,"Repair services, often auto (?)",1,4236 Sacramento Avenue,1
+14441090050,4208 NATURAL BRIDGE AV,63115,1,0,5000,N,22500,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+14441090045,4214-6 NATURAL BRIDGE AV,63115,2,1,5000,N,2930,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+14441090040,4220-2 NATURAL BRIDGE AV,63115,1,1,5000,N,3800,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+14441090035,4226-36 NATURAL BRIDGE AV,63115,1,0,5000,N,13700,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+13603000180,4229-33 NATURAL BRIDGE AV,63115,1,0,6411,N,21200,"Repair services, often auto (?)",1,4236 Sacramento Avenue,1
+14441090030,4242-50 NATURAL BRIDGE AV,63115,1,0,5000,N,7600,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+14441090020,4258 NATURAL BRIDGE AV,63115,1,0,5000,N,4400,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+14441090016,4260-6 NATURAL BRIDGE AV,63115,1,0,5000,N,23400,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+13608000145,4275 NATURAL BRIDGE AV,63115,1,0,5811,N,3500,Restaurant / eating place (?),1,4236 Sacramento Avenue,1
+13608000150,4281 NATURAL BRIDGE AV,63115,1,0,5000,N,6100,"Commercial/retail, general",1,4236 Sacramento Avenue,1
+14446040070,4462 NATURAL BRIDGE AV,63115,1,1,1110,N,2780,Single-family residence,1,4519 Lexington Avenue,1
+14446040060,4464 NATURAL BRIDGE AV,63115,1,1,1110,N,2250,Single-family residence,1,4519 Lexington Avenue,1
+14446040050,4468 NATURAL BRIDGE AV,63115,1,1,1110,N,1860,Single-family residence,1,4519 Lexington Avenue,1
+14446040040,4470 NATURAL BRIDGE AV,63115,1,1,1110,N,1910,Single-family residence,1,4519 Lexington Avenue,1
+14446040030,4472 NATURAL BRIDGE AV,63115,1,1,1110,N,2010,Single-family residence,1,4519 Lexington Avenue,1
+14446040020,4476 NATURAL BRIDGE AV,63115,1,1,1110,N,1880,Single-family residence,1,4519 Lexington Avenue,1
+14446040010,4478-80 NATURAL BRIDGE AV,63115,1,0,6231,N,3900,Personal services business (?),1,4519 Lexington Avenue,1
+14409010315,4487 NATURAL BRIDGE AV,63115,1,0,5810,N,224500,Code 5810 (not in dictionary),1,4519 Lexington Avenue,1
+14448050190,4500-10 NATURAL BRIDGE AV,63115,1,1,5000,N,1190,"Commercial/retail, general",1,4519 Lexington Avenue,1
+14409020220,4501 NATURAL BRIDGE AV,63115,1,0,6300,N,5500,Code 6300 (not in dictionary),1,4519 Lexington Avenue,1
+14409020225,4507 NATURAL BRIDGE AV,63115,1,1,1110,N,3580,Single-family residence,1,4519 Lexington Avenue,1
+14409020230,4509-13 NATURAL BRIDGE AV,63115,1,0,1185,N,5930,"Residential variant, likely condo/misc (?)",1,4519 Lexington Avenue,1
+14448050180,4516 NATURAL BRIDGE AV,63115,1,1,1110,N,2450,Single-family residence,1,4519 Lexington Avenue,1
+14448050170,4518 NATURAL BRIDGE AV,63115,1,1,1110,N,1810,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050160,4520 NATURAL BRIDGE AV,63115,1,1,1110,N,2860,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050150,4524 NATURAL BRIDGE AV,63115,1,1,1110,N,2780,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050140,4526 NATURAL BRIDGE AV,63115,1,1,1110,N,2490,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050130,4530 NATURAL BRIDGE AV,63115,1,1,1110,N,2210,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14409020270,4531 NATURAL BRIDGE AV,63115,1,19,6260,N,48800,Code 6260 (not in dictionary),19,4519 Lexington Avenue,1
+14448050120,4532 NATURAL BRIDGE AV,63115,1,1,1110,N,2340,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050110,4534 NATURAL BRIDGE AV,63115,1,1,1110,N,2340,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14409020290,4537-9 NATURAL BRIDGE AV,63115,1,1,1110,N,2290,Single-family residence,1,4519 Lexington Avenue,1
+14448050100,4538 NATURAL BRIDGE AV,63115,1,1,1110,N,2360,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050080,4542 NATURAL BRIDGE AV,63115,1,1,1110,N,1340,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050070,4546 NATURAL BRIDGE AV,63115,1,1,1110,N,2750,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050060,4548 NATURAL BRIDGE AV,63115,1,1,1110,N,2710,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050050,4550 NATURAL BRIDGE AV,63115,1,1,1110,N,2750,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14409020310,4551 NATURAL BRIDGE AV,63115,1,1,1110,N,1960,Single-family residence,1,4519 Lexington Avenue,1
+14409020320,4553 NATURAL BRIDGE AV,63115,1,1,1110,N,2640,Single-family residence,1,4519 Lexington Avenue,1
+14448050040,4554 NATURAL BRIDGE AV,63115,1,1,1110,N,2710,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14409020330,4555 NATURAL BRIDGE AV,63115,1,1,1110,N,2670,Single-family residence,1,4519 Lexington Avenue,1
+14448050030,4556 NATURAL BRIDGE AV,63115,1,1,1110,N,2390,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14448050020,4558 NATURAL BRIDGE AV,63115,1,1,1110,N,2320,Single-family residence,1,4519 Lexington Avenue; 4541 Ashland Avenue,2
+14449020075,4600-8 NATURAL BRIDGE AV,63115,1,0,6240,N,84700,Code 6240 (not in dictionary),1,4519 Lexington Avenue,1
+14553050360,4555 NEWBERRY TER,63113,1,1,1110,N,4610,Single-family residence,1,4599 Page Boulevard,1
+14553050380,4559 NEWBERRY TER,63113,1,1,1110,N,3510,Single-family residence,1,4599 Page Boulevard,1
+14553050390,4563 NEWBERRY TER,63113,1,1,1110,N,1100,Single-family residence,1,4599 Page Boulevard,1
+14553050400,4565 NEWBERRY TER,63113,1,1,1120,N,10350,Two-family (duplex/flat),1,4599 Page Boulevard,1
+14553050420,4571 NEWBERRY TER,63113,1,1,1110,N,6250,Single-family residence,1,4599 Page Boulevard,1
+14553050430,4573 NEWBERRY TER,63113,1,1,1110,N,290,Single-family residence,1,4599 Page Boulevard,1
+13772000800,4601 NEWBERRY TER,63113,1,1,1110,N,14010,Single-family residence,1,4599 Page Boulevard,1
+13772000810,4607 NEWBERRY TER,63113,1,1,1110,N,14000,Single-family residence,1,4599 Page Boulevard,1
+13772000820,4609 NEWBERRY TER,63113,1,1,1110,N,13660,Single-family residence,1,4599 Page Boulevard,1
+13772000830,4613 NEWBERRY TER,63113,1,1,1110,N,13660,Single-family residence,1,4599 Page Boulevard,1
+13772000390,4617 NEWBERRY TER,63113,1,1,1110,N,890,Single-family residence,1,4599 Page Boulevard,1
+13772000400,4619 NEWBERRY TER,63113,1,1,1110,N,290,Single-family residence,1,4599 Page Boulevard,1
+13772000410,4623 NEWBERRY TER,63113,1,2,1120,N,530,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13772000430,4629 NEWBERRY TER,63113,1,2,1120,N,690,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13772000440,4633 NEWBERRY TER,63113,1,1,1110,N,3090,Single-family residence,1,4599 Page Boulevard,1
+13772000450,4635 NEWBERRY TER,63113,1,1,1110,N,2190,Single-family residence,1,4599 Page Boulevard,1
+13772000460,4637 NEWBERRY TER,63113,1,1,1110,N,3190,Single-family residence,1,4599 Page Boulevard,1
+14552000110,4714 NEWBERRY TER,63113,1,2,1120,N,770,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13772000600,4715 NEWBERRY TER,63113,1,2,1120,N,480,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13772000610,4717 NEWBERRY TER,63113,1,2,1120,N,5280,Two-family (duplex/flat),2,1151 Walton Avenue,1
+14552000100,4718 NEWBERRY TER,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1151 Walton Avenue,1
+14552000090,4720 NEWBERRY TER,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13772000620,4721-3 NEWBERRY TER,63113,1,4,1140,N,7380,Four-family / small multi-family,4,1151 Walton Avenue,1
+14552000080,4722 NEWBERRY TER,63113,1,2,1120,N,3900,Two-family (duplex/flat),2,1151 Walton Avenue,1
+14552000070,4724 NEWBERRY TER,63113,1,2,1120,N,770,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13772000630,4727 NEWBERRY TER,63113,1,2,1120,N,3560,Two-family (duplex/flat),2,1151 Walton Avenue,1
+14552000060,4728 NEWBERRY TER,63113,1,2,1120,N,2180,Two-family (duplex/flat),2,1151 Walton Avenue,1
+14552000050,4730-2 NEWBERRY TER,63113,1,4,1140,N,290,Four-family / small multi-family,4,1151 Walton Avenue,1
+13772000650,4731-3 NEWBERRY TER,63113,1,4,1140,N,1390,Four-family / small multi-family,4,1151 Walton Avenue,1
+13772000670,4739 NEWBERRY TER,63113,1,1,1110,N,3390,Single-family residence,1,1151 Walton Avenue,1
+13772000680,4741 NEWBERRY TER,63113,1,1,1110,N,4110,Single-family residence,1,1151 Walton Avenue,1
+14552000030,4744 NEWBERRY TER,63113,1,1,1110,N,420,Single-family residence,1,1151 Walton Avenue,1
+13772000690,4745-7 NEWBERRY TER,63113,1,2,1120,N,3540,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13772000700,4749-51 NEWBERRY TER,63113,1,4,1140,N,2240,Four-family / small multi-family,4,1151 Walton Avenue,1
+14552000010,4750 NEWBERRY TER,63113,1,1,1110,N,6220,Single-family residence,1,1151 Walton Avenue,1
+13695000360,4363 NORTH MARKET ST,63113,1,1,1110,N,760,Single-family residence,1,4438 N Market Street,1
+13696000015,4370 NORTH MARKET ST,63113,1,0,6911,N,93400,Church / religious,1,4438 N Market Street,1
+13704000240,4411 NORTH MARKET ST,63113,1,1,1110,N,890,Single-family residence,1,4438 N Market Street,1
+13704000250,4413 NORTH MARKET ST,63113,1,1,1110,N,330,Single-family residence,1,4438 N Market Street,1
+13704000260,4415 NORTH MARKET ST,63113,1,2,1120,N,290,Two-family (duplex/flat),2,4438 N Market Street,1
+13704000270,4417 NORTH MARKET ST,63113,1,2,1120,N,290,Two-family (duplex/flat),2,4438 N Market Street,1
+13703000110,4426 NORTH MARKET ST,63113,1,1,1110,N,510,Single-family residence,1,4438 N Market Street,1
+13703000100,4428 NORTH MARKET ST,63113,1,2,1120,N,710,Two-family (duplex/flat),2,4438 N Market Street,1
+13703000070,4436 NORTH MARKET ST,63113,1,1,1110,N,210,Single-family residence,1,4438 N Market Street,1
+13703000050,4440 NORTH MARKET ST,63113,1,1,1110,N,290,Single-family residence,1,4438 N Market Street,1
+13704000370,4445 NORTH MARKET ST,63113,1,1,1110,N,290,Single-family residence,1,4438 N Market Street,1
+13703000020,4448 NORTH MARKET ST,63113,1,1,1110,N,0,Single-family residence,1,4438 N Market Street,1
+13703000010,4452 NORTH MARKET ST,63113,1,1,1120,N,1880,Two-family (duplex/flat),1,4438 N Market Street,1
+13719000196,4516 NORTH MARKET ST,63113,1,24,1185,N,86410,"Residential variant, likely condo/misc (?)",24,4438 N Market Street,1
+13719000175,4528 NORTH MARKET ST,63113,1,7,1185,N,16060,"Residential variant, likely condo/misc (?)",7,4565 Saint Ferdinand Avenue,1
+13718000500,4537 NORTH MARKET ST,63113,1,1,1110,N,500,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13719000170,4538 NORTH MARKET ST,63113,1,1,1110,N,2600,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13718000550,4559 NORTH MARKET ST,63113,1,1,1110,N,770,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13718000580,4567 NORTH MARKET ST,63113,1,1,1110,N,610,Single-family residence,1,4565 Saint Ferdinand Avenue; 4615 Saint Ferdinand Avenue,2
+13718000610,4575 NORTH MARKET ST,63113,1,1,1110,N,1960,Single-family residence,1,4565 Saint Ferdinand Avenue; 4615 Saint Ferdinand Avenue,2
+13719000010,4594-6 NORTH MARKET ST,63113,1,4,1140,N,1160,Four-family / small multi-family,4,1803 Cora Avenue; 1825 Cora Avenue; 4565 Saint Ferdinand Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,5
+13718000710,4613 NORTH MARKET ST,63113,1,1,1110,N,1560,Single-family residence,1,1825 Cora Avenue; 4565 Saint Ferdinand Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,4
+14472000270,4649 NORTH MARKET ST,63113,1,1,1110,N,290,Single-family residence,1,1825 Cora Avenue; 4615 Saint Ferdinand Avenue,2
+14472000295,4655 NORTH MARKET ST,63113,1,1,1110,N,3110,Single-family residence,1,1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,3
+14553050060,4546 PAGE BLVD,63113,1,1,1110,N,18890,Single-family residence,1,4599 Page Boulevard,1
+13774030522,4547 PAGE BLVD,63113,1,1,1110,N,16110,Single-family residence,1,4599 Page Boulevard,1
+13774030523,4549 PAGE BLVD,63113,1,1,1110,N,16080,Single-family residence,1,4599 Page Boulevard,1
+14553050050,4552 PAGE BLVD,63113,1,1,1110,N,19270,Single-family residence,1,4599 Page Boulevard,1
+13774030524,4553 PAGE BLVD,63113,1,1,1110,N,16110,Single-family residence,1,4599 Page Boulevard,1
+13774030570,4555-7 PAGE BLVD,63113,1,2,1120,N,2870,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774030580,4559 PAGE BLVD,63113,1,1,1110,N,2890,Single-family residence,1,4599 Page Boulevard,1
+13774030590,4563 PAGE BLVD,63113,1,1,1110,N,290,Single-family residence,1,4599 Page Boulevard,1
+14553050030,4564 PAGE BLVD,63113,1,1,1110,N,2820,Single-family residence,1,4599 Page Boulevard,1
+13774030600,4565-7 PAGE BLVD,63113,1,2,1120,N,290,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774030620,4571 PAGE BLVD,63113,1,2,1120,N,290,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774030630,4573 PAGE BLVD,63113,1,1,1110,N,320,Single-family residence,1,4599 Page Boulevard,1
+13774030640,4575 PAGE BLVD,63113,1,2,1120,N,440,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774030650,4577 PAGE BLVD,63113,1,2,1120,N,1220,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774030660,4579 PAGE BLVD,63113,1,1,1110,N,290,Single-family residence,1,4599 Page Boulevard,1
+13773000290,4600-8 PAGE BLVD,63113,1,4,5000,N,4090,"Commercial/retail, general",4,4599 Page Boulevard,1
+13774030700,4603 PAGE BLVD,63113,1,2,1120,N,3030,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774030710,4605 PAGE BLVD,63113,1,1,1120,N,4460,Two-family (duplex/flat),1,4599 Page Boulevard,1
+13773000260,4622 PAGE BLVD,63113,1,4,1140,N,4040,Four-family / small multi-family,4,4599 Page Boulevard,1
+13774040140,4623 PAGE BLVD,63113,1,2,1120,N,4420,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13774040150,4625-7 PAGE BLVD,63113,1,4,1140,N,3740,Four-family / small multi-family,4,4599 Page Boulevard,1
+13773000255,4626-8 PAGE BLVD,63113,1,4,0,N,7700,Unclassified,4,4599 Page Boulevard,1
+13774040170,4631 PAGE BLVD,63113,1,2,1120,N,1520,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13773000230,4634-6 PAGE BLVD,63113,1,4,1140,N,2390,Four-family / small multi-family,4,4599 Page Boulevard,1
+13773000200,4646-8 PAGE BLVD,63113,1,2,1120,N,550,Two-family (duplex/flat),2,4599 Page Boulevard,1
+13773000020,4718 PAGE BLVD,63113,1,1,1110,N,870,Single-family residence,1,1151 Walton Avenue,1
+13771000265,4814 PAGE BLVD,63113,1,0,5000,N,200,"Commercial/retail, general",1,1219 Bayard Avenue,1
+13778000460,4837 PAGE BLVD,63113,1,0,5000,N,0,"Commercial/retail, general",1,1336 N Euclid Avenue,1
+13785000320,4845 PAGE BLVD,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1336 N Euclid Avenue,1
+13770000280,4850-2 PAGE BLVD,63113,2,1,6210,N,0,Code 6210 (not in dictionary),1,1219 Bayard Avenue,1
+13770000260,4856-8 PAGE BLVD,63113,1,0,5932,N,0,Code 5932 (not in dictionary),1,1219 Bayard Avenue; 1336 N Euclid Avenue,2
+13770000250,4860-2 PAGE BLVD,63113,1,4,1140,N,3850,Four-family / small multi-family,4,1219 Bayard Avenue; 1336 N Euclid Avenue,2
+13785000380,4865-7 PAGE BLVD,63113,1,0,6370,N,22700,Code 6370 (not in dictionary),1,1336 N Euclid Avenue; 4926 Page Boulevard,2
+13770000220,4872 PAGE BLVD,63113,1,0,6911,N,129800,Church / religious,1,1219 Bayard Avenue; 1336 N Euclid Avenue; 4926 Page Boulevard,3
+13768030160,4910-2 PAGE BLVD,63113,1,2,1120,N,1530,Two-family (duplex/flat),2,1336 N Euclid Avenue; 4926 Page Boulevard,2
+13768030150,4914 PAGE BLVD,63113,1,2,1120,N,1970,Two-family (duplex/flat),2,1336 N Euclid Avenue; 4926 Page Boulevard,2
+13768030140,4916 PAGE BLVD,63113,1,2,1120,N,1550,Two-family (duplex/flat),2,4926 Page Boulevard,1
+13768030130,4920 PAGE BLVD,63113,1,2,1120,N,660,Two-family (duplex/flat),2,4926 Page Boulevard,1
+14447030010,3514 PARIS AV,63115,1,1,1110,N,2200,Single-family residence,1,4461 Elmbank Avenue,1
+14447040160,3515 PARIS AV,63115,1,2,1120,N,1620,Two-family (duplex/flat),2,4461 Elmbank Avenue,1
+14447040150,3519 PARIS AV,63115,1,1,1110,N,290,Single-family residence,1,4461 Elmbank Avenue,1
+14447040140,3521 PARIS AV,63115,1,1,1110,N,1050,Single-family residence,1,4461 Elmbank Avenue,1
+14447040130,3525 PARIS AV,63115,1,1,1110,N,2000,Single-family residence,1,4461 Elmbank Avenue,1
+14447040120,3527 PARIS AV,63115,1,1,1110,N,2200,Single-family residence,1,4461 Elmbank Avenue,1
+14900000220,4015-7 PENROSE ST,63107,1,4,1140,N,2600,Four-family / small multi-family,4,4016 Carter Avenue,1
+14900000230,4019 PENROSE ST,63107,1,1,1110,N,3240,Single-family residence,1,4016 Carter Avenue,1
+14900000240,4023 PENROSE ST,63107,1,1,1110,N,1550,Single-family residence,1,4016 Carter Avenue,1
+14900000260,4027 PENROSE ST,63107,1,1,1110,N,1710,Single-family residence,1,4016 Carter Avenue,1
+14900000280,4031 PENROSE ST,63107,1,1,1110,N,2260,Single-family residence,1,4016 Carter Avenue,1
+14900000320,4043 PENROSE ST,63107,1,1,1110,N,1040,Single-family residence,1,4016 Carter Avenue,1
+14409020410,4520-2R SAN FRANCISCO AV,63115,1,0,5000,N,2300,"Commercial/retail, general",1,4519 Lexington Avenue,1
+14553050450,1212 REV GEORGE H PRUITT PL,63113,1,1,1110,N,4060,Single-family residence,1,4599 Page Boulevard,1
+13602000020,4192-4 SACRAMENTO AV,63115,1,4,1140,N,3940,Four-family / small multi-family,4,4236 Sacramento Avenue,1
+13602000010,4196-8 SACRAMENTO AV,63115,1,4,1140,N,5460,Four-family / small multi-family,4,4236 Sacramento Avenue,1
+13603000140,4200 SACRAMENTO AV,63115,1,1,1110,N,2580,Single-family residence,1,4236 Sacramento Avenue,1
+13604000100,4201 SACRAMENTO AV,63115,1,1,1110,N,3460,Single-family residence,1,4236 Sacramento Avenue,1
+13603000130,4204 SACRAMENTO AV,63115,1,1,1110,N,2140,Single-family residence,1,4236 Sacramento Avenue,1
+13604000110,4205 SACRAMENTO AV,63115,1,1,1110,N,2560,Single-family residence,1,4236 Sacramento Avenue,1
+13603000120,4208 SACRAMENTO AV,63115,1,1,1110,N,2230,Single-family residence,1,4236 Sacramento Avenue,1
+13604000120,4209 SACRAMENTO AV,63115,1,1,1110,N,2340,Single-family residence,1,4236 Sacramento Avenue,1
+13603000110,4210 SACRAMENTO AV,63115,1,1,1110,N,2820,Single-family residence,1,4236 Sacramento Avenue,1
+13604000130,4213 SACRAMENTO AV,63115,1,1,1110,N,1910,Single-family residence,1,4236 Sacramento Avenue,1
+13603000100,4214 SACRAMENTO AV,63115,1,1,1110,N,2650,Single-family residence,1,4236 Sacramento Avenue,1
+13604000140,4215 SACRAMENTO AV,63115,1,1,1110,N,2580,Single-family residence,1,4236 Sacramento Avenue,1
+13604000150,4217 SACRAMENTO AV,63115,1,1,1110,N,1750,Single-family residence,1,4236 Sacramento Avenue,1
+13603000090,4218 SACRAMENTO AV,63115,1,1,1110,N,2850,Single-family residence,1,4236 Sacramento Avenue,1
+13604000160,4219 SACRAMENTO AV,63115,1,1,1110,N,2690,Single-family residence,1,4236 Sacramento Avenue,1
+13603000080,4220 SACRAMENTO AV,63115,1,1,1110,N,2650,Single-family residence,1,4236 Sacramento Avenue,1
+13604000170,4221 SACRAMENTO AV,63115,1,1,1110,N,2380,Single-family residence,1,4236 Sacramento Avenue,1
+13604000180,4223 SACRAMENTO AV,63115,1,1,1110,N,440,Single-family residence,1,4236 Sacramento Avenue,1
+13603000070,4224 SACRAMENTO AV,63115,1,1,1110,N,2580,Single-family residence,1,4236 Sacramento Avenue,1
+13604000190,4225-7 SACRAMENTO AV,63115,1,4,1140,N,2930,Four-family / small multi-family,4,4236 Sacramento Avenue,1
+13603000060,4226 SACRAMENTO AV,63115,1,1,1110,N,2650,Single-family residence,1,4236 Sacramento Avenue,1
+13604000200,4229-31 SACRAMENTO AV,63115,1,4,1140,N,2450,Four-family / small multi-family,4,4236 Sacramento Avenue,1
+13603000050,4230 SACRAMENTO AV,63115,1,1,1110,N,1220,Single-family residence,1,4236 Sacramento Avenue,1
+13603000040,4232 SACRAMENTO AV,63115,1,1,1110,N,2580,Single-family residence,1,4236 Sacramento Avenue,1
+13603000030,4234 SACRAMENTO AV,63115,1,1,1110,N,2900,Single-family residence,1,4236 Sacramento Avenue,1
+13604000210,4235 SACRAMENTO AV,63115,1,1,1110,N,630,Single-family residence,1,4236 Sacramento Avenue,1
+13604000220,4237 SACRAMENTO AV,63115,1,1,1110,N,1070,Single-family residence,1,4236 Sacramento Avenue,1
+13603000010,4240 SACRAMENTO AV,63115,1,1,1110,N,8540,Single-family residence,1,4236 Sacramento Avenue,1
+13604000240,4241 SACRAMENTO AV,63115,1,1,1110,N,680,Single-family residence,1,4236 Sacramento Avenue,1
+13608000120,4250 SACRAMENTO AV,63115,1,2,1120,N,3460,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13607000150,4251 SACRAMENTO AV,63115,1,1,1110,N,4380,Single-family residence,1,4236 Sacramento Avenue,1
+13608000110,4254 SACRAMENTO AV,63115,1,2,1120,N,5860,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13607000170,4257 SACRAMENTO AV,63115,1,1,1110,N,5160,Single-family residence,1,4236 Sacramento Avenue,1
+13608000100,4258 SACRAMENTO AV,63115,1,2,1120,N,4900,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13608000090,4260 SACRAMENTO AV,63115,1,2,1120,N,4480,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13607000180,4261 SACRAMENTO AV,63115,1,1,1110,N,2060,Single-family residence,1,4236 Sacramento Avenue,1
+13608000080,4262 SACRAMENTO AV,63115,1,2,1120,N,3260,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13608000070,4264 SACRAMENTO AV,63115,1,2,1120,N,4320,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13607000190,4265 SACRAMENTO AV,63115,1,1,1110,N,850,Single-family residence,1,4236 Sacramento Avenue,1
+13608000050,4272 SACRAMENTO AV,63115,1,1,1110,N,4090,Single-family residence,1,4236 Sacramento Avenue,1
+13608000040,4274 SACRAMENTO AV,63115,1,2,1120,N,3260,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13608000030,4278-80 SACRAMENTO AV,63115,1,4,1140,N,4160,Four-family / small multi-family,4,4236 Sacramento Avenue,1
+13607000210,4279 SACRAMENTO AV,63115,1,0,6911,N,0,Church / religious,1,4236 Sacramento Avenue,1
+13608000020,4286 SACRAMENTO AV,63115,1,1,1110,N,5160,Single-family residence,1,4236 Sacramento Avenue,1
+13608000010,4288 SACRAMENTO AV,63115,1,1,1110,N,4150,Single-family residence,1,4236 Sacramento Avenue,1
+13607000240,4293 SACRAMENTO AV,63115,1,2,1120,N,3030,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13601000010,4140 SAN FRANCISCO AV,63115,1,2,1120,N,4890,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13604000090,4200-2 SAN FRANCISCO AV,63115,1,2,1120,N,7050,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13605000140,4205 SAN FRANCISCO AV,63115,1,2,1120,N,3690,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13604000080,4206 SAN FRANCISCO AV,63115,1,2,1120,N,3810,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13605000150,4209 SAN FRANCISCO AV,63115,1,2,1120,N,4630,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13604000070,4210 SAN FRANCISCO AV,63115,1,1,1110,N,2120,Single-family residence,1,4236 Sacramento Avenue,1
+13605000160,4211 SAN FRANCISCO AV,63115,1,2,1120,N,4960,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13605000170,4215 SAN FRANCISCO AV,63115,1,2,1120,N,3720,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13604000060,4216 SAN FRANCISCO AV,63115,1,1,1110,N,4230,Single-family residence,1,4236 Sacramento Avenue,1
+13604000050,4220 SAN FRANCISCO AV,63115,1,1,1110,N,3770,Single-family residence,1,4236 Sacramento Avenue,1
+13605000180,4221 SAN FRANCISCO AV,63115,1,1,1110,N,2600,Single-family residence,1,4236 Sacramento Avenue,1
+13605000190,4223 SAN FRANCISCO AV,63115,1,1,1110,N,2650,Single-family residence,1,4236 Sacramento Avenue,1
+13605000200,4227 SAN FRANCISCO AV,63115,1,1,1110,N,2270,Single-family residence,1,4236 Sacramento Avenue,1
+13604000030,4228 SAN FRANCISCO AV,63115,1,1,1110,N,4190,Single-family residence,1,4236 Sacramento Avenue,1
+13605000210,4231 SAN FRANCISCO AV,63115,1,1,1110,N,630,Single-family residence,1,4236 Sacramento Avenue,1
+13605000220,4233 SAN FRANCISCO AV,63115,1,1,1110,N,1340,Single-family residence,1,4236 Sacramento Avenue,1
+13604000020,4234 SAN FRANCISCO AV,63115,1,2,1120,N,6090,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13605000230,4237 SAN FRANCISCO AV,63115,1,1,1110,N,1280,Single-family residence,1,4236 Sacramento Avenue,1
+13605000240,4239 SAN FRANCISCO AV,63115,1,1,1110,N,1200,Single-family residence,1,4236 Sacramento Avenue,1
+13604000010,4242 SAN FRANCISCO AV,63115,1,2,1120,N,5930,Two-family (duplex/flat),2,4236 Sacramento Avenue,1
+13605000250,4243 SAN FRANCISCO AV,63115,1,1,1110,N,2660,Single-family residence,1,4236 Sacramento Avenue,1
+13607000130,4254 SAN FRANCISCO AV,63115,1,1,1110,N,1630,Single-family residence,1,4236 Sacramento Avenue,1
+13606000120,4255 SAN FRANCISCO AV,63115,1,1,1110,N,1800,Single-family residence,1,4236 Sacramento Avenue,1
+13607000120,4256 SAN FRANCISCO AV,63115,1,1,1110,N,1470,Single-family residence,1,4236 Sacramento Avenue,1
+13607000110,4258 SAN FRANCISCO AV,63115,1,1,1110,N,1050,Single-family residence,1,4236 Sacramento Avenue,1
+13606000130,4259 SAN FRANCISCO AV,63115,1,1,1110,N,2580,Single-family residence,1,4236 Sacramento Avenue,1
+13607000100,4260 SAN FRANCISCO AV,63115,1,1,1110,N,2390,Single-family residence,1,4236 Sacramento Avenue,1
+13606000140,4263 SAN FRANCISCO AV,63115,1,1,1110,N,2450,Single-family residence,1,4236 Sacramento Avenue,1
+13607000090,4264 SAN FRANCISCO AV,63115,1,1,1110,N,2590,Single-family residence,1,4236 Sacramento Avenue,1
+13606000150,4265 SAN FRANCISCO AV,63115,1,1,1110,N,1920,Single-family residence,1,4236 Sacramento Avenue,1
+13607000080,4266 SAN FRANCISCO AV,63115,1,1,1110,N,2460,Single-family residence,1,4236 Sacramento Avenue,1
+13607000070,4268 SAN FRANCISCO AV,63115,1,1,1110,N,1580,Single-family residence,1,4236 Sacramento Avenue,1
+13606000160,4269 SAN FRANCISCO AV,63115,1,1,1110,N,2120,Single-family residence,1,4236 Sacramento Avenue,1
+13607000060,4274 SAN FRANCISCO AV,63115,1,1,1110,N,3020,Single-family residence,1,4236 Sacramento Avenue,1
+13606000180,4275 SAN FRANCISCO AV,63115,1,1,1110,N,1430,Single-family residence,1,4236 Sacramento Avenue,1
+13607000040,4282 SAN FRANCISCO AV,63115,1,1,1110,N,3240,Single-family residence,1,4236 Sacramento Avenue,1
+13607000030,4284 SAN FRANCISCO AV,63115,1,1,1110,N,3570,Single-family residence,1,4236 Sacramento Avenue,1
+14409020100,4518 SAN FRANCISCO AV,63115,1,1,1110,N,2760,Single-family residence,1,4519 Lexington Avenue,1
+13704000200,4400 ST FERDINAND AV,63113,1,0,6913,N,0,Religious-related building (?),1,4438 N Market Street,1
+13704000190,4404 ST FERDINAND AV,63113,1,2,1120,N,910,Two-family (duplex/flat),2,4438 N Market Street,1
+13705000240,4411 ST FERDINAND AV,63113,1,1,1110,N,1240,Single-family residence,1,4438 N Market Street,1
+13704000150,4412 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4438 N Market Street,1
+13704000120,4418 ST FERDINAND AV,63113,1,1,1110,N,780,Single-family residence,1,4438 N Market Street,1
+13705000265,4421 ST FERDINAND AV,63113,1,1,1110,N,3010,Single-family residence,1,4438 N Market Street,1
+13704000100,4428 ST FERDINAND AV,63113,1,1,1110,N,3600,Single-family residence,1,4438 N Market Street,1
+13705000290,4429 ST FERDINAND AV,63113,1,1,1110,N,1780,Single-family residence,1,4438 N Market Street,1
+13704000090,4432 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4438 N Market Street,1
+13705000330,4443 ST FERDINAND AV,63113,1,3,1130,N,3710,Three-family,3,4438 N Market Street,1
+13704000045,4444 ST FERDINAND AV,63113,1,1,1110,N,9980,Single-family residence,1,4438 N Market Street,1
+13704000025,4448 ST FERDINAND AV,63113,1,1,1110,N,3620,Single-family residence,1,4438 N Market Street,1
+13705000360,4453 ST FERDINAND AV,63113,1,1,1110,N,720,Single-family residence,1,4438 N Market Street,1
+13718000805,4518 ST FERDINAND AV,63113,1,1,1110,N,1300,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13717000380,4523 ST FERDINAND AV,63113,1,2,1120,N,860,Two-family (duplex/flat),2,4565 Saint Ferdinand Avenue,1
+13718000800,4524 ST FERDINAND AV,63113,1,1,1110,N,3060,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13717000390,4525 ST FERDINAND AV,63113,1,1,1110,N,1930,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13718000295,4526 ST FERDINAND AV,63113,1,1,1110,N,2100,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13717000535,4529 ST FERDINAND AV,63113,1,1,1110,N,3060,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13718000270,4534 ST FERDINAND AV,63113,1,0,1110,N,130,Single-family residence,1,4565 Saint Ferdinand Avenue,1
+13718000795,4538 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13718000230,4546 ST FERDINAND AV,63113,1,1,1110,N,3900,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13717000480,4549 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13718000790,4552 ST FERDINAND AV,63113,1,1,1110,N,4830,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue,2
+13717000525,4561 ST FERDINAND AV,63113,1,1,1110,N,3600,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13717000530,4565 ST FERDINAND AV,63113,1,1,1110,N,1800,Single-family residence,1,4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,2
+13717000570,4575 ST FERDINAND AV,63113,1,1,1110,N,420,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13718000155,4578 ST FERDINAND AV,63113,1,0,5000,N,0,"Commercial/retail, general",1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13717000580,4579 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13717000600,4583 ST FERDINAND AV,63113,1,2,1120,N,890,Two-family (duplex/flat),2,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13718000780,4588 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13718000070,4592 ST FERDINAND AV,63113,1,1,1110,N,820,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue,3
+13718000770,4600 ST FERDINAND AV,63113,1,1,1110,N,5850,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,4
+13717000675,4611 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,4
+13717000680,4615 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4565 Saint Ferdinand Avenue; 4577 Cottage Avenue; 4649 N Market Street,3
+14472000140,4630 ST FERDINAND AV,63113,1,1,1110,N,720,Single-family residence,1,1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,3
+14471000190,4631-3 ST FERDINAND AV,63113,1,4,1140,N,1130,Four-family / small multi-family,4,4615 Saint Ferdinand Avenue; 4649 N Market Street,2
+14472000130,4634 ST FERDINAND AV,63113,1,1,1110,N,680,Single-family residence,1,1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,3
+14472000120,4636 ST FERDINAND AV,63113,1,1,1110,N,3800,Single-family residence,1,1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,3
+14471000200,4637 ST FERDINAND AV,63113,1,1,1110,N,290,Single-family residence,1,4615 Saint Ferdinand Avenue; 4649 N Market Street,2
+14472000110,4638 ST FERDINAND AV,63113,1,1,1110,N,410,Single-family residence,1,1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,3
+14472000100,4642 ST FERDINAND AV,63113,1,1,1110,N,1420,Single-family residence,1,1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,3
+14471000210,4643 ST FERDINAND AV,63113,1,1,1100,N,3370,Code 1100 (not in dictionary),1,4615 Saint Ferdinand Avenue; 4649 N Market Street,2
+14472000090,4644 ST FERDINAND AV,63113,1,1,1110,N,640,Single-family residence,1,1825 Cora Avenue; 4615 Saint Ferdinand Avenue; 4649 N Market Street,3
+14472000075,4650 ST FERDINAND AV,63113,1,1,1110,N,1140,Single-family residence,1,4615 Saint Ferdinand Avenue; 4649 N Market Street,2
+14472000065,4652 ST FERDINAND AV,63113,1,1,1110,N,1060,Single-family residence,1,4615 Saint Ferdinand Avenue; 4649 N Market Street,2
+14472000050,4660 ST FERDINAND AV,63113,1,1,1110,N,690,Single-family residence,1,4615 Saint Ferdinand Avenue; 4649 N Market Street,2
+14472000020,4668 ST FERDINAND AV,63113,1,2,1120,N,1310,Two-family (duplex/flat),2,4649 N Market Street,1
+14468060530,4313 ST LOUIS AV,63115,1,1,1120,N,1970,Two-family (duplex/flat),1,4327 Labadie Avenue,1
+14468060550,4317 ST LOUIS AV,63115,1,2,1120,N,2320,Two-family (duplex/flat),2,4327 Labadie Avenue,1
+13691000180,4336 ST LOUIS AV,63115,1,0,5000,N,0,"Commercial/retail, general",1,4327 Labadie Avenue,1
+14468060680,4349 ST LOUIS AV,63115,1,1,1110,N,1280,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13691000110,4356 ST LOUIS AV,63115,1,1,1110,N,1160,Single-family residence,1,4327 Labadie Avenue,1
+13691000090,4360 ST LOUIS AV,63115,1,1,1110,N,1180,Single-family residence,1,4327 Labadie Avenue,1
+13691000070,4364 ST LOUIS AV,63115,1,2,1110,N,2310,Single-family residence,2,4327 Labadie Avenue,1
+13691000060,4366 ST LOUIS AV,63115,1,2,1120,N,470,Two-family (duplex/flat),2,4327 Labadie Avenue,1
+14468060750,4367 ST LOUIS AV,63115,1,0,6913,N,0,Religious-related building (?),1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13691000050,4368 ST LOUIS AV,63115,1,1,1120,N,1310,Two-family (duplex/flat),1,4327 Labadie Avenue,1
+14469060305,4457 ST LOUIS AV,63115,1,0,0,Y,2590,Unclassified,1,4547 Maffitt Avenue,1
+13714000315,4500-4 ST LOUIS AV,63115,1,6,1185,N,1730,"Residential variant, likely condo/misc (?)",6,4547 Maffitt Avenue,1
+13714000311,4506-10 ST LOUIS AV,63115,1,6,1185,N,3460,"Residential variant, likely condo/misc (?)",6,4547 Maffitt Avenue,1
+13714000305,4514 ST LOUIS AV,63115,1,0,1120,N,290,Two-family (duplex/flat),1,4547 Maffitt Avenue,1
+13714000300,4516 ST LOUIS AV,63115,1,2,1120,N,290,Two-family (duplex/flat),2,4547 Maffitt Avenue,1
+13711020360,4517-9 ST LOUIS AV,63115,1,4,1140,N,290,Four-family / small multi-family,4,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020370,4521 ST LOUIS AV,63115,1,2,1120,N,1080,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13714000280,4522 ST LOUIS AV,63115,1,1,1110,N,290,Single-family residence,1,4547 Maffitt Avenue,1
+13711020380,4525 ST LOUIS AV,63115,1,1,1110,N,290,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13714000260,4526 ST LOUIS AV,63115,1,1,1110,N,290,Single-family residence,1,4547 Maffitt Avenue,1
+13711020390,4527 ST LOUIS AV,63115,1,2,1120,N,1100,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020400,4529 ST LOUIS AV,63115,1,2,1120,N,290,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020440,4541 ST LOUIS AV,63115,1,1,1110,N,290,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13711020460,4557 ST LOUIS AV,63115,1,2,1120,N,2360,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13711020470,4559 ST LOUIS AV,63115,1,2,1120,N,2410,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13714000245,4560 ST LOUIS AV,63115,1,0,5000,N,0,"Commercial/retail, general",1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13711020480,4561 ST LOUIS AV,63115,1,2,1120,N,1350,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13714000171,4566 ST LOUIS AV,63115,1,1,1110,N,3460,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue,2
+13714000160,4570 ST LOUIS AV,63115,1,2,1120,N,630,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13714000150,4574 ST LOUIS AV,63115,1,1,1110,N,2730,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13714000140,4578 ST LOUIS AV,63115,1,2,1120,N,1340,Two-family (duplex/flat),2,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue,3
+13711020500,4601 ST LOUIS AV,63115,1,1,1110,N,4370,Single-family residence,1,4547 Maffitt Avenue; 4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,4
+13711020515,4611 ST LOUIS AV,63115,1,1,1110,N,3780,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711020546,4613 ST LOUIS AV,63115,1,1,1110,N,4210,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13714000070,4616 ST LOUIS AV,63115,1,1,1110,N,2120,Single-family residence,1,4615 Labadie Avenue,1
+13714000050,4620 ST LOUIS AV,63115,1,1,1110,N,910,Single-family residence,1,4615 Labadie Avenue,1
+13714000030,4626 ST LOUIS AV,63115,1,1,1110,N,1910,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13714000020,4628 ST LOUIS AV,63115,1,1,1110,N,1230,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13714000010,4630 ST LOUIS AV,63115,1,1,1110,N,650,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711020570,4631 ST LOUIS AV,63115,1,1,1110,N,540,Single-family residence,1,4549 Labadie Avenue; 4615 Labadie Avenue; 4651 Labadie Avenue,3
+13711010170,4641 ST LOUIS AV,63115,2,1,1122,N,2630,Code 1122 (not in dictionary),1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010180,4643 ST LOUIS AV,63115,1,1,1110,N,1930,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13711010190,4645 ST LOUIS AV,63115,1,1,1110,N,3650,Single-family residence,1,4615 Labadie Avenue; 4651 Labadie Avenue,2
+13712000100,4648 ST LOUIS AV,63115,1,1,1110,N,1900,Single-family residence,1,4651 Labadie Avenue,1
+13712000090,4650 ST LOUIS AV,63115,1,1,1110,N,0,Single-family residence,1,4651 Labadie Avenue,1
+13711010250,4663 ST LOUIS AV,63115,1,1,1110,N,2490,Single-family residence,1,4651 Labadie Avenue,1
+13711010255,4665 ST LOUIS AV,63115,1,1,1110,N,4170,Single-family residence,1,4651 Labadie Avenue,1
+13712000010,4672 ST LOUIS AV,63115,1,0,5300,N,7100,Code 5300 (not in dictionary),1,4651 Labadie Avenue,1
+13711010270,4679-83 ST LOUIS AV,63115,2,1,5000,N,8200,"Commercial/retail, general",1,4651 Labadie Avenue,1
+14845000010,724 UNION BLVD,63108,1,0,6596,N,438300,Code 6596 (not in dictionary),1,5206 Kensington Avenue,1
+14846000390,800-10 UNION BLVD,63108,1,0,6911,N,45000,Church / religious,1,5206 Kensington Avenue,1
+14846000400,812 UNION BLVD,63108,1,0,7000,N,44500,Code 7000 (not in dictionary),1,5206 Kensington Avenue,1
+13772000330,4600-2 VERNON AV,63113,1,4,1140,N,3730,Four-family / small multi-family,4,4599 Page Boulevard,1
+13772000320,4606 VERNON AV,63113,1,1,1110,N,3590,Single-family residence,1,4599 Page Boulevard,1
+13773000300,4623 VERNON AV,63113,1,4,1140,N,1600,Four-family / small multi-family,4,4599 Page Boulevard,1
+13772000230,4634 VERNON AV,63113,1,1,1120,N,2080,Two-family (duplex/flat),1,4599 Page Boulevard,1
+13772000120,4714 VERNON AV,63113,1,1,1110,N,3630,Single-family residence,1,1151 Walton Avenue,1
+13772000110,4716 VERNON AV,63113,1,1,1110,N,2150,Single-family residence,1,1151 Walton Avenue,1
+13773000440,4719 VERNON AV,63113,1,2,1120,N,1240,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13773000450,4721 VERNON AV,63113,1,2,1120,N,1240,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13772000090,4722 VERNON AV,63113,1,1,1110,N,0,Single-family residence,1,1151 Walton Avenue,1
+13773000460,4723-5 VERNON AV,63113,1,4,1140,N,1170,Four-family / small multi-family,4,1151 Walton Avenue,1
+13772000080,4726-8 VERNON AV,63113,1,4,1140,N,2340,Four-family / small multi-family,4,1151 Walton Avenue,1
+13772000060,4732-4 VERNON AV,63113,1,2,1120,N,5730,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13772000050,4736-8 VERNON AV,63113,1,4,1140,N,970,Four-family / small multi-family,4,1151 Walton Avenue,1
+13773000480,4737-9 VERNON AV,63113,1,4,1140,N,1840,Four-family / small multi-family,4,1151 Walton Avenue,1
+13620000020,3004 VINE GROVE AV,63115,1,1,1110,N,800,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000030,3006 VINE GROVE AV,63115,1,1,1110,N,1410,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000050,3012 VINE GROVE AV,63115,1,1,1110,N,2020,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13619000590,3023 VINE GROVE AV,63115,1,1,1110,N,1290,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000080,3024 VINE GROVE AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13619000560,3035 VINE GROVE AV,63115,1,1,1110,N,1110,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000120,3036 VINE GROVE AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000130,3038 VINE GROVE AV,63115,1,1,1110,N,290,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000140,3042 VINE GROVE AV,63115,1,2,1120,N,3370,Two-family (duplex/flat),2,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000160,3050 VINE GROVE AV,63115,1,1,1110,N,2690,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13620000170,3100 VINE GROVE AV,63115,1,1,1110,N,2420,Single-family residence,1,3010 N Newstead Avenue; 4327 Labadie Avenue,2
+13542000350,4161 W FLORISSANT AV,63115,1,2,1120,N,1030,Two-family (duplex/flat),2,2104 Harris Avenue,1
+13542000360,4165 W FLORISSANT AV,63115,1,1,1110,N,2380,Single-family residence,1,2104 Harris Avenue,1
+14468060280,4234 W LABADIE AV,63115,1,1,1110,N,290,Single-family residence,1,4327 Labadie Avenue,1
+14441080014,4126-40 W NATURAL BRIDGE AV,63115,1,0,5593,N,32200,Code 5593 (not in dictionary),1,4236 Sacramento Avenue,1
+13602000150,4139-43 W NATURAL BRIDGE AV,63115,1,2,5000,N,4520,"Commercial/retail, general",2,4236 Sacramento Avenue,1
+13762050610,901 WALTON AV,63108,1,1,1110,N,1220,Single-family residence,1,912 Bayard Avenue,1
+15057000285,906 WALTON AV,63108,1,1,1110,N,410,Single-family residence,1,912 Bayard Avenue,1
+13762050590,907 WALTON AV,63108,1,1,1110,N,3290,Single-family residence,1,912 Bayard Avenue,1
+13762050580,909 WALTON AV,63108,1,1,1110,N,290,Single-family residence,1,912 Bayard Avenue,1
+13762050560,915 WALTON AV,63108,1,1,1110,N,3830,Single-family residence,1,912 Bayard Avenue,1
+13762050550,917 WALTON AV,63108,1,1,1110,N,2580,Single-family residence,1,912 Bayard Avenue,1
+15057000290,918 WALTON AV,63108,1,0,5530,N,12700,Code 5530 (not in dictionary),1,912 Bayard Avenue,1
+13762050510,933-5 WALTON AV,63108,1,0,5820,N,16400,Code 5820 (not in dictionary),1,912 Bayard Avenue,1
+13762050490,1005-7 WALTON AV,63108,1,2,1120,N,290,Two-family (duplex/flat),2,912 Bayard Avenue,1
+13762050480,1009 WALTON AV,63108,1,2,1120,N,2690,Two-family (duplex/flat),2,912 Bayard Avenue,1
+13762050470,1011 WALTON AV,63108,1,2,1120,N,7360,Two-family (duplex/flat),2,912 Bayard Avenue,1
+13762050450,1019 WALTON AV,63108,1,1,1110,N,710,Single-family residence,1,912 Bayard Avenue,1
+13771000590,1125 WALTON AV,63113,1,1,1110,N,1700,Single-family residence,1,1151 Walton Avenue,1
+13771000580,1127 WALTON AV,63113,1,1,1110,N,1220,Single-family residence,1,1151 Walton Avenue,1
+13771000570,1129 WALTON AV,63113,1,2,1120,N,380,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13771000560,1131-5 WALTON AV,63113,1,6,1185,N,100,"Residential variant, likely condo/misc (?)",6,1151 Walton Avenue,1
+13772000720,1150-2 WALTON AV,63113,1,2,1120,N,680,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13771000490,1151 WALTON AV,63113,1,2,1120,N,2730,Two-family (duplex/flat),2,1219 Bayard Avenue,1
+13771000480,1153 WALTON AV,63113,1,1,1110,N,290,Single-family residence,1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13772000740,1156 WALTON AV,63113,1,2,1120,N,3180,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13771000470,1157 WALTON AV,63113,1,1,1110,N,7340,Single-family residence,1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13772000750,1158 WALTON AV,63113,1,2,1120,N,1780,Two-family (duplex/flat),2,1151 Walton Avenue,1
+13771000460,1159 WALTON AV,63113,1,1,1110,N,4180,Single-family residence,1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000450,1163 WALTON AV,63113,1,2,1120,N,2750,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000440,1165 WALTON AV,63113,1,1,1120,N,2420,Two-family (duplex/flat),1,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000430,1167 WALTON AV,63113,1,2,1120,N,6500,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000420,1201 WALTON AV,63113,1,2,1120,N,4470,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000410,1205 WALTON AV,63113,1,2,1120,N,2150,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13773000500,1206-8 WALTON AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000400,1209 WALTON AV,63113,1,2,1120,N,290,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13773000510,1210 WALTON AV,63113,1,2,1120,N,710,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13773000520,1212 WALTON AV,63113,1,2,1120,N,660,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13773000530,1214 WALTON AV,63113,1,2,1120,N,1160,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13773000550,1218 WALTON AV,63113,1,2,1120,N,380,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13773000560,1220-2 WALTON AV,63113,1,2,1120,N,400,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000360,1221 WALTON AV,63113,1,2,1120,N,2870,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000350,1223 WALTON AV,63113,1,2,1120,N,1440,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13773000570,1224 WALTON AV,63113,1,2,1120,N,360,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000340,1225 WALTON AV,63113,1,2,1120,N,1450,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000330,1229 WALTON AV,63113,1,2,1120,N,0,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000320,1231 WALTON AV,63113,1,2,1120,N,1480,Two-family (duplex/flat),2,1151 Walton Avenue; 1219 Bayard Avenue,2
+13771000310,1233 WALTON AV,63113,1,2,1120,N,3710,Two-family (duplex/flat),2,1219 Bayard Avenue,1
+13771000290,1241 WALTON AV,63113,1,1,1120,N,25940,Two-family (duplex/flat),1,1219 Bayard Avenue,1
+13771000280,1245-7 WALTON AV,63113,2,2,5000,N,2700,"Commercial/retail, general",2,1219 Bayard Avenue,1
+13778000350,1337 WALTON AV,63113,1,1,1110,N,1170,Single-family residence,1,1336 N Euclid Avenue,1
+13778000340,1339 WALTON AV,63113,1,1,1110,N,3190,Single-family residence,1,1336 N Euclid Avenue,1
+13778000330,1343 WALTON AV,63113,1,1,1110,N,1780,Single-family residence,1,1336 N Euclid Avenue,1
+13778000320,1401 WALTON AV,63113,1,1,1110,N,1000,Single-family residence,1,1336 N Euclid Avenue,1
+13778000310,1403 WALTON AV,63113,1,1,1110,N,6360,Single-family residence,1,1336 N Euclid Avenue,1
+13778000300,1405 WALTON AV,63113,1,1,1110,N,3720,Single-family residence,1,1336 N Euclid Avenue,1
+13778000280,1411 WALTON AV,63113,1,1,1110,N,530,Single-family residence,1,1336 N Euclid Avenue,1
+13778000270,1415 WALTON AV,63113,1,1,1110,N,350,Single-family residence,1,1336 N Euclid Avenue,1
+13778000260,1417 WALTON AV,63113,1,1,1110,N,1930,Single-family residence,1,1336 N Euclid Avenue,1
+13778000250,1419 WALTON AV,63113,1,1,1110,N,640,Single-family residence,1,1336 N Euclid Avenue,1
+14900000210,4201-5 WARNE AV,63107,1,3,1130,N,5740,Three-family,3,4016 Carter Avenue,1
+13396000020,4202 WARNE AV,63107,1,1,1110,N,1140,Single-family residence,1,4016 Carter Avenue,1
+13396000040,4206 WARNE AV,63107,1,2,1120,N,1890,Two-family (duplex/flat),2,4016 Carter Avenue,1
+14900000180,4211 WARNE AV,63107,1,1,1110,N,1510,Single-family residence,1,4016 Carter Avenue,1
+13396000060,4212 WARNE AV,63107,1,2,1120,N,1180,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13396000070,4214 WARNE AV,63107,1,1,1120,N,2880,Two-family (duplex/flat),1,4016 Carter Avenue,1
+13396000080,4218 WARNE AV,63107,1,2,1120,N,2830,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13396000180,4246 WARNE AV,63107,1,2,1120,N,2830,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13396000190,4250 WARNE AV,63107,1,0,5000,N,1800,"Commercial/retail, general",1,4016 Carter Avenue,1
+13397000010,4300 WARNE AV,63107,1,0,5000,N,1200,"Commercial/retail, general",1,4016 Carter Avenue,1
+13545000025,4301 WARNE AV,63107,1,52,1185,N,500560,"Residential variant, likely condo/misc (?)",52,4016 Carter Avenue,1
+13397000040,4312 WARNE AV,63107,1,2,1120,N,2830,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13545000110,4321 WARNE AV,63107,1,2,1120,N,3280,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13397000080,4326 WARNE AV,63107,1,2,1120,N,1580,Two-family (duplex/flat),2,4016 Carter Avenue,1
+13545000090,4327-37 WARNE AV,63107,1,0,5811,N,23900,Restaurant / eating place (?),1,4016 Carter Avenue,1
+13545000080,4339-47 WARNE AV,63107,2,4,5000,N,3420,"Commercial/retail, general",4,4016 Carter Avenue,1

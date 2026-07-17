@@ -11,17 +11,20 @@ from .matching import norm_id
 
 def find_neighbors(
     sites: pd.DataFrame,
-    parcels: gpd.GeoDataFrame,
+    parcels_m: gpd.GeoDataFrame,
     matches: dict[int, int],
     buffer_feet: float = config.DEFAULT_BUFFER_FEET,
 ) -> tuple[pd.DataFrame, dict[int, object]]:
     """Buffer each matched site and collect every parcel that intersects it.
 
+    `parcels_m` must already be in the projected CRS (config.CRS_EPSG); the
+    caller reprojects once and reuses the same GeoDataFrame for checklist
+    and map rendering rather than reprojecting per call.
+
     Returns a detail DataFrame (one row per site-neighbor pair, sorted by
     site then distance) and a dict of site index to buffer geometry, both
     in the projected CRS, for later map rendering.
     """
-    parcels_m = parcels.to_crs(epsg=config.CRS_EPSG)
     buffer_m = buffer_feet / config.FEET_PER_METER
     sindex = parcels_m.sindex
     out_cols = [c for c in config.OUTPUT_COLS if c in parcels_m.columns]
@@ -86,6 +89,9 @@ def suggested_hangers(numunits: pd.Series) -> pd.Series:
     """Assessor dwelling unit count, floored at 1 hanger per address."""
     units = pd.to_numeric(numunits, errors="coerce").fillna(0)
     return units.clip(lower=1).astype(int)
+
+
+STRUCTURE_FILTER_METHOD = "NUMBLDGS > 0 (assessor's building count)"
 
 
 def _review_reason(vacant_value: str, improved_value: float) -> str:

@@ -1,0 +1,23 @@
+Run date: 2026-07-14
+Buffer distance: 500.0 ft
+Structure filter method: NUMBLDGS > 0 (assessor's building count)
+Demolition parcels matched: 30 of 30 (see match_report.txt)
+Unique addresses on door hanger list: 1636
+Hangers if all sites noticed in a SINGLE PASS: 2598
+Hangers if each site noticed SEPARATELY: 3948
+Parcels on field review list: 134
+
+Assumptions:
+1. 500 ft is measured outward from the demolition parcel's BOUNDARY (not its center and not the building footprint), per client confirmation.
+2. A neighbor counts if any part of its parcel touches the 500 ft buffer, even if the house itself sits farther back on the lot.
+3. Only parcels believed to have a STRUCTURE are included in the main list (assessor building count NUMBLDGS > 0). Excluded parcels are kept on a review sheet; rows with conflicting fields (VACANTLAND, ASMTIMPROV) are listed separately as a Field Review list for in-person verification.
+4. suggested_hangers = the assessor's dwelling unit count (NUMUNITS), but never less than 1 per listed address. Non-residential buildings (NUMUNITS = 0) therefore get 1. The client may adjust this policy.
+5. DEMOLITION TIMING: sites may be demolished at different times, so an address near multiple sites may need notification multiple times. Two totals are reported. The SINGLE-PASS total counts each address once and applies only if all sites are noticed together. The SEPARATE-EVENTS total (sum of the per-site checklist totals) counts overlap addresses once per site and is the correct print quantity if each site is noticed on its own schedule. The client should choose based on the demolition schedule; sites demolished together can share one notification pass.
+6. Checklist walking order is a heuristic (visit the nearest street first, then house-number order within each street), not an optimized route.
+7. Output contains PHYSICAL (situs) addresses only, no owner names or mailing addresses, per client confirmation.
+8. The demolition parcels themselves are excluded from the neighbor list.
+9. Client APNs are matched against the city's ASRPARCEL field first, then HANDLE and other parcel ID fields. See match_report.txt.
+10. City SITEADDR values may show address ranges (e.g., '4613-5 LABADIE AV') for buildings spanning multiple street numbers; these are the same properties the client listed by a single number.
+11. LANDUSE_DESC labels follow the SLUCM coding pattern; labels marked (?) are best interpretations, not verified against the city's code table.
+12. Parcel geometry and attributes come from City of St. Louis Open Data (prcl_shape.zip and par.zip) as of the download date, and are assumed current and accurate. Assessor fields can lag reality; the Field Review list exists for exactly that reason.
+13. Condo buildings can contain many parcel records at one street address. The deduplicated list collapses exact duplicate site addresses.

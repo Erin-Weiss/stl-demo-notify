@@ -5,8 +5,59 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
+from pathlib import Path
 
-from . import citydata
+import geopandas as gpd
+import pandas as pd
+
+from . import analysis, citydata, config, mapping, matching, outputs
+
+logger = logging.getLogger(__name__)
+
+_APN_COLUMN_CANDIDATES = [
+    "apn",
+    "parcel",
+    "parcelid",
+    "parcelnumber",
+    "asrparcel",
+]
+_ADDRESS_COLUMN_CANDIDATES = [
+    "address",
+    "siteaddress",
+    "streetaddress",
+    "propertyaddress",
+]
+
+
+def _find_column(columns: list[str], candidates: list[str]) -> str | None:
+    normalized = {c.lower().replace("_", "").replace(" ", ""): c for c in columns}
+    for candidate in candidates:
+        if candidate in normalized:
+            return normalized[candidate]
+    return None
+
+
+def _load_sites(
+    path: Path, apn_column: str | None, address_column: str | None
+) -> pd.DataFrame:
+    """Read a site list CSV and standardize its APN/address columns to apn/address."""
+    raw = pd.read_csv(path)
+    apn_col = apn_column or _find_column(list(raw.columns), _APN_COLUMN_CANDIDATES)
+    address_col = address_column or _find_column(
+        list(raw.columns), _ADDRESS_COLUMN_CANDIDATES
+    )
+    if apn_col is None and address_col is None:
+        raise SystemExit(
+            "Could not find an APN or address column in "
+            f"{path}. Pass --apn-column or --address-column explicitly."
+        )
+
+    sites = pd.DataFrame(index=raw.index)
+    if apn_col:
+        sites["apn"] = raw[apn_col]
+    if address_col:
+        sites["address"] = raw[address_col]
+    return sites
 
 
 def _prepare_data(args: argparse.Namespace) -> None:
@@ -15,7 +66,61 @@ def _prepare_data(args: argparse.Namespace) -> None:
 
 
 def _run(args: argparse.Namespace) -> None:
-    raise NotImplementedError("the run command is implemented in Phase 3")
+    if not config.PARCEL_CACHE_PATH.exists():
+        raise SystemExit(
+            f"{config.PARCEL_CACHE_PATH} not found. "
+            "Run 'stl-demo-notify prepare-data' first."
+        )
+
+    sites = _load_sites(Path(args.input), args.apn_column, args.address_column)
+    parcels = gpd.read_parquet(config.PARCEL_CACHE_PATH)
+    parcels_m = parcels.to_crs(epsg=config.CRS_EPSG)
+    landuse_lookup = citydata.load_landuse_lookup()
+
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    matches, records = matching.match_sites(sites, parcels_m)
+    outputs.write_match_report(output_dir / "match_report.txt", records)
+    if not matches:
+        raise SystemExit(
+            "No sites matched a city parcel; see "
+            f"{output_dir / 'match_report.txt'} for details."
+        )
+
+    detail, buffers = analysis.find_neighbors(
+        sites, parcels_m, matches, buffer_feet=args.buffer
+    )
+    detail = analysis.label_landuse(detail, landuse_lookup)
+    detail["suggested_hangers"] = analysis.suggested_hangers(detail["NUMUNITS"])
+    kept, excluded, field_review = analysis.apply_structure_filter(detail)
+    dedup, single_pass, separate_events = analysis.dedupe_and_totals(kept)
+
+    outputs.write_doorhanger_outputs(output_dir, dedup, kept, field_review, excluded)
+    outputs.write_site_checklists(
+        output_dir / "site_checklists.xlsx", sites, matches, kept, excluded, parcels_m
+    )
+    outputs.write_assumptions_log(
+        output_dir / "assumptions_log.txt",
+        buffer_feet=args.buffer,
+        structure_filter_method=analysis.STRUCTURE_FILTER_METHOD,
+        matched_count=len(matches),
+        total_sites=len(sites),
+        unique_addresses=len(dedup),
+        total_single_pass=single_pass,
+        total_separate_events=separate_events,
+        field_review_count=len(field_review),
+    )
+    if not args.no_map:
+        m = mapping.build_map(sites, parcels_m, matches, buffers, kept, excluded)
+        m.save(output_dir / "demo_notification_map.html")
+
+    print(f"Matched {len(matches)} of {len(sites)} sites (see match_report.txt)")
+    print(f"Unique addresses on door hanger list: {len(dedup)}")
+    print(f"Hangers, single-pass notification: {single_pass}")
+    print(f"Hangers, separate per-site events: {separate_events}")
+    print(f"Field review parcels: {len(field_review)}")
+    print(f"Files written to {output_dir}/")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -32,7 +137,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     run = subparsers.add_parser("run", help="run the notification analysis")
     run.add_argument("--input", required=True, help="path to a site list CSV")
-    run.add_argument("--buffer", type=float, default=500.0)
+    run.add_argument("--buffer", type=float, default=config.DEFAULT_BUFFER_FEET)
     run.add_argument("--output-dir", default="output")
     run.add_argument("--apn-column")
     run.add_argument("--address-column")
