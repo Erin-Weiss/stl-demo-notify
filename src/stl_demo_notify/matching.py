@@ -2,12 +2,15 @@
 
 from __future__ import annotations
 
+import logging
 import re
 
 import geopandas as gpd
 import pandas as pd
 
 from . import config
+
+logger = logging.getLogger(__name__)
 
 STREET_SUFFIXES = (
     "AVENUE|AVE|BOULEVARD|BLVD|STREET|ST|DRIVE|DR|PLACE|PL|COURT|CT|ROAD|RD|"
@@ -98,8 +101,14 @@ def match_sites(
             num, name = split_address(str(address))
             candidates = parcels.index[
                 blob.str.contains(rf"\b{num}\b", na=False)
-                & blob.str.contains(name, na=False)
+                & blob.str.contains(rf"\b{re.escape(name)}\b", na=False)
             ]
+            if len(candidates) > 1:
+                logger.warning(
+                    "address %r matched %d city parcels; using the first",
+                    address,
+                    len(candidates),
+                )
             if len(candidates) >= 1:
                 parcel_idx, method = candidates[0], "address (SITEADDR)"
 
