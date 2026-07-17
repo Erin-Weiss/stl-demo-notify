@@ -88,7 +88,7 @@ def label_landuse(detail: pd.DataFrame, landuse_lookup: dict[str, str]) -> pd.Da
 def suggested_hangers(numunits: pd.Series) -> pd.Series:
     """Assessor dwelling unit count, floored at 1 hanger per address."""
     units = pd.to_numeric(numunits, errors="coerce").fillna(0)
-    return units.clip(lower=1).astype(int)
+    return units.clip(lower=2).astype(int)
 
 
 STRUCTURE_FILTER_METHOD = "NUMBLDGS > 0 (assessor's building count)"
