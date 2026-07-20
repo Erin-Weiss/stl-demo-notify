@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demolition Neighbor Notification for St. Louis · Case Study</title>
+<meta name="description" content="Case study: parcel-level buffer analysis identifying 1,636 notification addresses across a 30-site demolition task in St. Louis, delivered as door hanger lists, walking checklists, and an interactive map.">
+<style>
+  :root {
+    --navy: #1d3557;
+    --navy-soft: #2b4a75;
+    --ink: #1f2933;
+    --ink-2: #52606d;
+    --ink-3: #7b8794;
+    --line: #e2e8f0;
+    --tile: #f4f7fa;
+    --code-bg: #f6f8fa;
+    --green: #2b7a5b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: #ffffff;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+  header.hero { padding: 56px 0 8px; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 10px; color: var(--navy); }
+  .subtitle { font-size: 1.08rem; color: var(--ink-2); margin: 0 0 14px; }
+  .byline { font-size: 0.95rem; color: var(--ink-3); margin: 0 0 6px; }
+  .byline a { color: var(--navy); }
+  a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
+  a:hover { color: var(--navy-soft); }
+
+  .statband {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 30px 0 8px;
+  }
+  .stat {
+    background: var(--tile);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px 18px;
+  }
+  .stat .value { font-size: 1.75rem; font-weight: 600; color: var(--navy); line-height: 1.15; }
+  .stat .label { font-size: 0.85rem; color: var(--ink-2); margin-top: 4px; }
+  @media (max-width: 720px) {
+    .statband { grid-template-columns: repeat(2, 1fr); }
+    h1 { font-size: 1.7rem; }
+  }
+
+  /* Inline TOC (narrow screens) */
+  nav.toc-inline {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin: 28px 0 8px;
+    background: #fff;
+  }
+  nav.toc-inline .toc-title { font-weight: 600; color: var(--navy); margin-bottom: 8px; font-size: 0.95rem; }
+  nav.toc-inline ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 36px; font-size: 0.93rem; }
+  nav.toc-inline li { margin: 3px 0; break-inside: avoid; }
+  nav.toc-inline a { text-decoration: none; }
+  nav.toc-inline a:hover { text-decoration: underline; }
+  @media (max-width: 620px) { nav.toc-inline ol { columns: 1; } }
+
+  /* Floating TOC (wide screens) */
+  nav.toc-float { display: none; }
+  @media (min-width: 1320px) {
+    nav.toc-float {
+      display: block;
+      position: fixed;
+      top: 40px;
+      left: calc((100vw - 908px) / 2 - 180px);
+      width: 152px;
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+      font-size: 0.8rem;
+      padding-right: 8px;
+    }
+    nav.toc-float .toc-title {
+      font-weight: 600; color: var(--navy); font-size: 0.72rem;
+      letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px;
+    }
+    nav.toc-float ol { list-style: none; margin: 0; padding: 0; }
+    nav.toc-float li { margin: 0; }
+    nav.toc-float a {
+      display: block; padding: 3px 0 3px 10px; text-decoration: none;
+      color: var(--ink-3); border-left: 2px solid var(--line); line-height: 1.35;
+    }
+    nav.toc-float a:hover { color: var(--navy); }
+    nav.toc-float a.active { color: var(--navy); border-left-color: var(--navy); font-weight: 600; }
+    nav.toc-float .part-label {
+      font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--ink-3); margin: 12px 0 4px; padding-left: 10px;
+    }
+  }
+
+  h2.part {
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    border-top: 1px solid var(--line);
+    padding-top: 34px;
+    margin: 44px 0 4px;
+  }
+  h2.section { font-size: 1.45rem; color: var(--navy); margin: 34px 0 10px; line-height: 1.25; scroll-margin-top: 24px; }
+  h3 { font-size: 1.05rem; color: var(--ink); margin: 24px 0 6px; }
+  p { margin: 0 0 16px; }
+  strong { color: var(--ink); }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 18px 0 22px;
+    font-size: 0.93rem;
+  }
+  th, td { border: 1px solid var(--line); padding: 9px 12px; text-align: left; vertical-align: top; }
+  th { background: var(--tile); color: var(--navy); font-weight: 600; }
+  td:first-child { color: var(--ink-2); }
+
+  ul.deliverables { padding-left: 0; list-style: none; margin: 0 0 16px; }
+  ul.deliverables > li { margin: 0 0 14px; padding-left: 16px; border-left: 3px solid var(--line); }
+  ul.deliverables > li > ul { margin: 6px 0 0; padding-left: 18px; font-size: 0.95rem; color: var(--ink-2); }
+  ul.deliverables code, p code, li code, td code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.88em;
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 1px 5px;
+  }
+
+  .flow2 { display: flex; align-items: center; gap: 10px; margin: 6px 0 10px; }
+  .flow2 .inputs { display: flex; flex-direction: column; gap: 8px; flex: 0 0 150px; width: 150px; }
+  .flow2 .inputs .step { flex: 1 1 auto; min-width: 0; font-size: 0.78rem; }
+  .flow2 .stages { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; flex: 1 1 auto; }
+  .step {
+    background: var(--tile);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 0.82rem;
+    color: var(--ink-2);
+    text-align: center;
+    flex: 1 1 130px;
+    min-width: 118px;
+  }
+  .step b { display: block; color: var(--navy); font-size: 0.9rem; margin-bottom: 3px; }
+  .arrow { align-self: center; color: var(--ink-3); font-size: 1.1rem; flex: 0 0 auto; text-align: center; }
+  @media (max-width: 620px) {
+    .flow2 { flex-direction: column; align-items: stretch; }
+    .flow2 .inputs { width: auto; flex: 1 1 auto; }
+    .flow2 .inputs .step { font-size: 0.82rem; }
+    .flow2 .stages { flex-direction: column; }
+    .flow2 .arrow { transform: rotate(90deg); }
+  }
+
+  .codewrap { position: relative; }
+  pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+    overflow-x: auto;
+    margin: 14px 0 20px;
+    line-height: 1.5;
+  }
+  pre code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.83rem;
+    color: var(--ink);
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .k { color: var(--navy); font-weight: 600; }
+  .s { color: var(--green); }
+  .c { color: var(--ink-3); font-style: italic; }
+  .copybtn {
+    position: absolute; top: 8px; right: 8px;
+    font: inherit; font-size: 0.72rem;
+    background: #fff; color: var(--ink-2);
+    border: 1px solid var(--line); border-radius: 5px;
+    padding: 3px 9px; cursor: pointer; opacity: 0; transition: opacity 0.15s;
+  }
+  .codewrap:hover .copybtn, .copybtn:focus { opacity: 1; }
+  .copybtn:hover { color: var(--navy); border-color: var(--navy); }
+
+  .formula {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.12rem;
+    text-align: center;
+    margin: 16px 0 18px;
+    color: var(--ink);
+  }
+  .formula .radicand { border-top: 1px solid var(--ink); padding: 2px 6px 0; margin-left: -2px; }
+
+  .mapframe {
+    width: 100%;
+    height: 640px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    margin: 6px 0 8px;
+  }
+  @media (max-width: 720px) { .mapframe { height: 460px; } }
+  .mapnote { font-size: 0.88rem; color: var(--ink-3); margin-bottom: 20px; }
+
+  .callout {
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--navy);
+    border-radius: 6px;
+    background: var(--tile);
+    padding: 12px 16px;
+    font-size: 0.94rem;
+    color: var(--ink-2);
+    margin: 16px 0 20px;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    margin-top: 48px;
+    padding: 26px 0 48px;
+    font-size: 0.92rem;
+    color: var(--ink-3);
+  }
+</style>
+</head>
+<body>
+
+<nav class="toc-float" aria-label="Table of contents">
+  <div class="toc-title">Contents</div>
+  <div class="part-label">Part 1</div>
+  <ol>
+    <li><a href="#client">The Client</a></li>
+    <li><a href="#problem">The Problem</a></li>
+    <li><a href="#approach">The Approach</a></li>
+    <li><a href="#deliverables">The Deliverables</a></li>
+    <li><a href="#map">The Map</a></li>
+    <li><a href="#run">Run It Yourself</a></li>
+  </ol>
+  <div class="part-label">Part 2</div>
+  <ol>
+    <li><a href="#pipeline">Assembling the Parcel Table</a></li>
+    <li><a href="#buffers">Buffer vs. Circle</a></li>
+    <li><a href="#search">Two-Pass Search</a></li>
+    <li><a href="#rules">Decision Rules in Code</a></li>
+    <li><a href="#walk">The Skipped Square Root</a></li>
+    <li><a href="#mapeng">Map Engineering</a></li>
+    <li><a href="#production">Production Details</a></li>
+    <li><a href="#validation">Validating the Refactor</a></li>
+    <li><a href="#future">Future Work</a></li>
+  </ol>
+</nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <h1>Demolition Neighbor Notification</h1>
+  <p class="subtitle">Parcel-level buffer analysis for a 30-site demolition project · Aftermath Disaster Recovery · St. Louis, MO</p>
+  <p class="byline">Erin Weiss · <a href="https://erin-weiss.github.io/index.html">Portfolio</a> · <a href="https://github.com/Erin-Weiss/stl-demo-notify">Source repository</a></p>
+
+  <div class="statband">
+    <div class="stat"><div class="value">30</div><div class="label">demolition sites analyzed</div></div>
+    <div class="stat"><div class="value">1,636</div><div class="label">notification addresses identified</div></div>
+    <div class="stat"><div class="value">2,598 / 3,948</div><div class="label">door hangers, single pass / separate events</div></div>
+    <div class="stat"><div class="value">134</div><div class="label">parcels flagged for field review</div></div>
+  </div>
+</header>
+
+<nav class="toc-inline" aria-label="Table of contents">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#client">The Client</a></li>
+    <li><a href="#problem">The Problem</a></li>
+    <li><a href="#approach">The Approach</a></li>
+    <li><a href="#deliverables">The Deliverables</a></li>
+    <li><a href="#map">The Interactive Map</a></li>
+    <li><a href="#run">Run It Yourself</a></li>
+    <li><a href="#pipeline">Assembling the Parcel Table</a></li>
+    <li><a href="#buffers">The Buffer That Only Looks Like a Circle</a></li>
+    <li><a href="#search">Searching 126,958 Parcels in Two Passes</a></li>
+    <li><a href="#rules">The Decision Rules in Code</a></li>
+    <li><a href="#walk">The Square Root the Walk Skips</a></li>
+    <li><a href="#mapeng">The Map's Invisible Engineering</a></li>
+    <li><a href="#production">Production Details</a></li>
+    <li><a href="#validation">Validating the Refactor</a></li>
+    <li><a href="#future">Future Work</a></li>
+  </ol>
+</nav>
+
+<h2 class="part">Part 1 · The Engagement</h2>
+
+<h2 class="section" id="client">The Client</h2>
+<p>Aftermath Disaster Recovery is a disaster recovery and demolition contractor working in St. Louis. A returning client, they brought 30 new demolition sites across north St. Louis and needed a neighbor notification plan for each one, starting with a same-day turnaround on the first site.</p>
+
+<h2 class="section" id="problem">The Problem</h2>
+<p>Before a structure comes down, the occupants of every building near the site need notice. For this project the rule was every occupied structure within 500 feet of each demolition parcel.</p>
+<p>The manual approach fails in three ways at once. Looking up parcels one at a time on the assessor's website means thousands of lookups across 30 demolition sites, and days of clerical work per round. Judging distance by eye is its own problem, because a parcel counts if any part of it touches the 500 foot zone, and at the margins there is no way to tell from an aerial view whether a lot 480 or 520 feet out qualifies. And vacancy is a guess, because nothing on a map says whether a lot holds an occupied two-family flat or an empty foundation. Each failure has a real cost. A missed notification creates liability, and a hanger on a vacant lot wastes crew time.</p>
+
+<table>
+  <thead><tr><th>Task</th><th>By hand</th><th>With this analysis</th></tr></thead>
+  <tbody>
+    <tr><td>Finding neighboring parcels</td><td>One-at-a-time lookups on the assessor's site, days per round</td><td>All 126,958 city parcels searched in about a minute</td></tr>
+    <tr><td>Applying the 500 foot rule</td><td>Distance estimated by eye from an aerial view</td><td>Measured boundary to boundary in a projected coordinate system</td></tr>
+    <tr><td>Handling vacant lots</td><td>Guessed from the map</td><td>Filtered on assessor records, with 134 conflicting parcels flagged for field review</td></tr>
+    <tr><td>Ordering door hangers</td><td>A single count that ignores addresses near several sites</td><td>Two totals covering either demolition schedule</td></tr>
+  </tbody>
+</table>
+
+<h2 class="section" id="approach">The Approach</h2>
+<p>The analysis was built around decisions the client could stand behind, each confirmed rather than assumed.</p>
+<p><strong>The 500 feet measures from the parcel boundary.</strong> The buffer extends from the edge of the demolition parcel, not from its center, a rule confirmed with the client before the first list was delivered. A center-measured buffer would quietly shrink coverage around large lots, which is exactly where a missed notification would be hardest to defend.</p>
+<p><strong>Parcels with contradictory records are flagged for review in the field.</strong> A parcel is excluded from the notification list when the assessor's records show no buildings on it. But assessor data lags reality, and some records contradict themselves. A lot can have no buildings on file while its vacancy flag reads N or its improvement value is greater than zero. Those parcels go onto a field review list that names the exact conflict for each one. The program produced 134 of them, and field crews resolve each at the door rather than the office resolving them by assumption.</p>
+<p><strong>Both print totals are reported, because the correct one depends on the demolition schedule.</strong> Every address gets a suggested hanger count from the assessor's dwelling unit count, never less than one. If all 30 sites are noticed together, 2,598 hangers cover every address once. If sites are demolished on separate schedules, each event triggers its own notification, and an address near three sites needs three hangers, for a total of 3,948. The schedule is the client's decision, so the analysis reports both totals and the client orders the quantity that matches the demolition calendar, with the overlap already counted.</p>
+<p><strong>Checklists are ordered the way crews walk.</strong> Each site gets a printable checklist sorted nearest street first, then house number within each street, so a crew works one street at a time instead of following a spreadsheet sorted alphabetically. The method is documented in the deliverables as a heuristic rather than an optimized route.</p>
+<p><strong>Every assumption is written down.</strong> Each run ships with an assumptions log stating the buffer rule, the structure filter, the hanger policy, and every other judgment call in plain language. When the client forwards a list to a city inspector or a subcontractor, the methodology travels with it.</p>
+
+<h2 class="section" id="deliverables">The Deliverables</h2>
+<p>The client received seven files covering all angles:</p>
+<ul class="deliverables">
+  <li><strong><code>doorhanger_list.csv</code></strong> · The master list of 1,636 unique addresses, one row each, sorted street by street. Each row carries the address and ZIP, building and dwelling unit counts, the land use code with the city's official description, the vacancy and improvement fields, the suggested hanger count, every demolition site the address is near, and the number of separate notifications it would need.</li>
+  <li><strong><code>doorhanger_list.xlsx</code></strong> · One workbook holding four sheets:
+    <ul>
+      <li>the master list above, formatted for review</li>
+      <li>the same addresses reorganized by demolition site instead of deduplicated, so an address near several sites appears once under each, with its exact distance in feet to that site</li>
+      <li>the field review list</li>
+      <li>every excluded parcel with the reason it was left off, with the field review parcels flagged among them as a subset, so nothing is dropped silently and any exclusion can be defended</li>
+    </ul>
+  </li>
+  <li><strong><code>field_review_list.csv</code></strong> · The 134 flagged parcels as a standalone file, each naming the specific conflicting assessor fields, ready to hand to a crew for door-by-door verification.</li>
+  <li><strong><code>site_checklists.xlsx</code></strong> · Printable walking checklists, one sheet per site, 30 in this round. Each sheet opens with a header naming the site address and APN, its address and hanger totals, and the walking-order method, followed by the checklist itself: a done column, the walking order, hanger counts, land use, and distance, with that site's field review parcels listed underneath. A summary sheet totals addresses, hangers, and review parcels per site.</li>
+  <li><strong><code>match_report.txt</code></strong> · How each of the 30 client sites matched a city parcel record, including which ID field matched, so the link between the client's list and the city's records is auditable.</li>
+  <li><strong><code>assumptions_log.txt</code></strong> · The run parameters, the headline totals, and the full numbered methodology in plain language.</li>
+  <li><strong><code>demo_notification_map.html</code></strong> · The interactive map below, a single file the client can open in any browser and share with anyone.</li>
+</ul>
+
+<h2 class="section" id="map">The Interactive Map</h2>
+<p>Every site is a toggleable layer, so a crew lead can display only the sites scheduled for a given day. Parcels show their address, hanger count, and land use on hover, orange parcels are field review flags, and the search box finds any address in the program. The map below is the actual deliverable from this engagement, embedded here to explore.</p>
+<iframe class="mapframe" src="map.html" title="Interactive notification map for all 30 demolition sites" loading="lazy"></iframe>
+<p class="mapnote">Best explored on a larger screen. <a href="map.html" target="_blank" rel="noopener">Open the map full screen</a>.</p>
+
+<h2 class="section" id="run">Run It Yourself</h2>
+<p>The engagement was generalized into an installable command-line tool, so any future site list runs with one command against fresh city data:</p>
+<pre><code>git clone https://github.com/Erin-Weiss/stl-demo-notify.git
+cd stl-demo-notify &amp;&amp; pip install -e ".[dev]"
+stl-demo-notify prepare-data
+stl-demo-notify run --input your_sites.csv --output-dir output/</code></pre>
+<div class="callout">A hosted browser interface, where a site list can be uploaded and results downloaded without installing anything, is in development and will be available here.</div>
+
+<h2 class="part">Part 2 · Engineering the Analysis</h2>
+<p>The original deliverable was a script written under a same-day deadline. This section documents the engineering in the generalized tool, focusing on the design decisions that do not show up in a feature list.</p>
+<p>The tool runs as a pipeline. The client's list and the city's data enter on the left, and the finished deliverables come out on the right. Each stage below gets its own section.</p>
+
+<div class="flow2">
+  <div class="inputs">
+    <div class="step"><b>City parcel data</b>shapes, land records, land use vocabulary</div>
+    <div class="step"><b>Client site list</b>CSV or Excel, any columns</div>
+  </div>
+  <div class="arrow">→</div>
+  <div class="stages">
+    <div class="step"><b>Match</b>APN cascade + address fallback</div>
+    <div class="arrow">→</div>
+    <div class="step"><b>Buffer &amp; search</b>500 ft zones, spatial index</div>
+    <div class="arrow">→</div>
+    <div class="step"><b>Filter &amp; totals</b>structure filter, field review, hangers</div>
+    <div class="arrow">→</div>
+    <div class="step"><b>Deliverables</b>lists, checklists, logs, map</div>
+  </div>
+</div>
+
+<h2 class="section" id="pipeline">Assembling the Parcel Table</h2>
+<p>The city publishes geometry and attributes as separate downloads. The parcel shapes file carries polygons for 126,958 parcels with almost no descriptive fields. The land records file carries the assessor's attributes, site address, building and unit counts, land use code, vacancy flag, and improvement value, with no geometry. The two are joined on a shared parcel handle to make one working table, and a third download, the city's official Assessor Land Use vocabulary, supplies the text descriptions for the numeric land use codes.</p>
+<p>Land use is where the original script guessed. It labeled codes from a hand-built dictionary, with several entries marked as unverified. The tool now downloads the official vocabulary, so code 5811 resolves to the city's own label, FAST FOODS, and a code missing from the table falls back to a labeled placeholder instead of raising an error.</p>
+<p>Matching the client's list to this table is where identifiers get difficult. A client site is matched against four of the table's ID columns in priority order, and those columns do not agree on what an ID looks like. ASRPARCEL is text with leading zeros, HANDLE is plain text, PARCEL10 is an integer, and PARCEL is a floating-point number, so parcel 5 is stored as 5.0. The client's own APN arrives from a spreadsheet as yet another type. Comparing a float 5.0 against an integer 5 against the text "5" matches nothing until each is reduced to one canonical form. Every identifier on both sides passes through a single normalizer first:</p>
+<pre><code><span class="k">def</span> norm_id(value: <span class="k">object</span>) -&gt; <span class="k">str</span>:
+    <span class="k">if</span> value <span class="k">is None or</span> (<span class="k">isinstance</span>(value, <span class="k">float</span>) <span class="k">and</span> pd.isna(value)):
+        <span class="k">return</span> <span class="s">""</span>
+    s = re.sub(<span class="s">r"\.0+$"</span>, <span class="s">""</span>, <span class="k">str</span>(value).strip())
+    <span class="k">return</span> re.sub(<span class="s">r"[^0-9]"</span>, <span class="s">""</span>, s)</code></pre>
+<p>It drops a trailing <code>.0</code>, strips any non-digit characters, and returns digits only, so the float <code>5.0</code>, the integer <code>5</code>, and a stray <code>"5 "</code> all become <code>"5"</code>. Leading zeros are preserved, because they are significant in the ASRPARCEL column. Without this step, equivalent IDs fail to match and parcels drop out of the results with no error raised.</p>
+<p>A <code>prepare-data</code> command does the downloading, joining, and normalizing once, caching the result as GeoParquet, a columnar format that stores the geometry and attributes together. The cache loads in about two seconds, and analysis runs never touch the network, so a rerun works identically with no internet connection at all.</p>
+
+<h2 class="section" id="buffers">The Buffer That Only Looks Like a Circle</h2>
+<p>The notification zones on the map look like circles, but they are not. Buffering a polygon pushes every edge outward and rounds the corners, producing an inflated version of the parcel's own shape. For one rectangular lot in this file, the 500 foot buffer measured 347.5 by 334.6 meters, visibly close to round but 13 meters off square. The distinction matters because it preserves the client-confirmed rule that distance measures from the parcel boundary. A true circle drawn from the parcel center would be simpler to compute and wrong at the margins.</p>
+<p>All distance math runs in EPSG 26996, the Missouri East projected coordinate system, where coordinates are in meters and Euclidean distance is accurate. Latitude and longitude cannot support that arithmetic, because a degree of longitude covers less ground the farther it sits from the equator. Coordinates convert back to latitude and longitude only at the end, for the web map.</p>
+
+<h2 class="section" id="search">Searching 126,958 Parcels in Two Passes</h2>
+<p>Exact polygon intersection is expensive. Running it between every buffer and every one of 126,958 parcels would give the right answer slowly. The search instead runs in two passes. A spatial index answers a cheap approximate question first, which parcels' bounding boxes overlap this buffer's bounding box, and the expensive exact geometry runs only on that shortlist:</p>
+<pre><code>cand_idx = <span class="k">list</span>(sindex.intersection(buf.bounds))
+hits = parcels_m.iloc[cand_idx]
+hits = hits[hits.intersects(buf)]</code></pre>
+<p>The same two-pass shape, a coarse cheap filter feeding a precise expensive one, appears throughout database indexing and retrieval systems. Here it cuts each site's exact-geometry workload from 126,958 candidates to a few dozen, which is the difference between a runtime measured in minutes and one measured in seconds.</p>
+
+<h2 class="section" id="rules">The Decision Rules in Code</h2>
+<p>Each notification decision the client agreed to is a short, explicit piece of code. Because assessor data is inconsistent, arriving as text, blanks, or numbers depending on the column and the year, every field is read defensively rather than trusted.</p>
+<p>The structure filter is the rule that a parcel makes the list only when the assessor records at least one building on it. The building count is coerced to a number, with anything unparseable treated as zero:</p>
+<pre><code>numbldgs = pd.to_numeric(detail[<span class="s">"NUMBLDGS"</span>], errors=<span class="s">"coerce"</span>).fillna(<span class="k">0</span>)
+has_structure = numbldgs &gt; <span class="k">0</span></code></pre>
+<p>An excluded parcel earns a field review flag when its own record disagrees with the exclusion. That disagreement is one boolean expression:</p>
+<pre><code>conflict = (vacant == <span class="s">"N"</span>) | (improved &gt; <span class="k">0</span>)</code></pre>
+<p>Rather than a generic warning, each flagged parcel gets a reason generated from whichever condition fired, so the field review list tells a crew exactly what to check:</p>
+<pre><code><span class="k">def</span> _review_reason(vacant_value, improved_value):
+    reasons = []
+    <span class="k">if</span> vacant_value == <span class="s">"N"</span>:
+        reasons.append(<span class="s">"VACANTLAND marked 'N' (not vacant)"</span>)
+    <span class="k">if</span> improved_value &gt; <span class="k">0</span>:
+        reasons.append(<span class="k">f</span><span class="s">"ASMTIMPROV recorded at {improved_value:g} (&gt; 0)"</span>)
+    <span class="k">return</span> <span class="s">"CHECK: "</span> + <span class="s">"; "</span>.join(reasons)</code></pre>
+<p>The hanger policy is the rule that every listed address gets at least one hanger, with multi-unit buildings getting one per dwelling unit:</p>
+<pre><code>units = pd.to_numeric(numunits, errors=<span class="s">"coerce"</span>).fillna(<span class="k">0</span>)
+suggested = units.clip(lower=<span class="k">1</span>).astype(<span class="k">int</span>)</code></pre>
+<p>And the two project totals fall directly out of the deduplicated list. The single-pass total sums hangers across unique addresses. The separate-events total weights each address by the number of sites it neighbors:</p>
+<pre><code>total_single_pass = <span class="k">int</span>(dedup[<span class="s">"suggested_hangers"</span>].sum())
+total_separate_events = <span class="k">int</span>(
+    (dedup[<span class="s">"suggested_hangers"</span>] * dedup[<span class="s">"notifications_needed"</span>]).sum()
+)</code></pre>
+<p>Each of these rules is also stated in plain language in the assumptions log delivered with the run. The log does not reproduce the code, but it records the buffer rule, the structure filter, the hanger policy, and the rest in sentences a client can read and question, so the reasoning behind every list is written down rather than buried in the program.</p>
+
+<h2 class="section" id="walk">The Square Root the Walk Skips</h2>
+<p>Each checklist orders a site's addresses with a greedy nearest-street walk. Starting at the demolition site, visit the closest street, then the closest remaining street from wherever you now stand, and so on until every street is ranked, with house numbers sorted within each street.</p>
+<p>Finding the closest street means comparing straight-line distances between street centroids. The Euclidean distance between two points is:</p>
+<p class="formula">d = &radic;<span class="radicand">(x&#8322; &minus; x&#8321;)&sup2; + (y&#8322; &minus; y&#8321;)&sup2;</span></p>
+<p>Only the comparison matters here: which street is nearest, not how many meters away it sits. The square root is a monotonically increasing function, so for any two non-negative numbers <em>a</em> and <em>b</em>, the inequality <em>a</em> &lt; <em>b</em> holds exactly when &radic;<em>a</em> &lt; &radic;<em>b</em>. Ranking the streets by the value inside the root therefore produces the identical order as ranking them by the true distance. The code compares those squared distances and never calls the root at all:</p>
+<pre><code>nearest = <span class="k">min</span>(
+    remaining,
+    key=<span class="k">lambda</span> s: (street_centroid.loc[s, <span class="s">"_x"</span>] - cx) ** <span class="k">2</span>
+    + (street_centroid.loc[s, <span class="s">"_y"</span>] - cy) ** <span class="k">2</span>,
+)</code></pre>
+<p>On its own the skipped square root saves almost nothing. It reflects a habit that runs through the tool: work out the quantity the result actually depends on, and compute only that.</p>
+
+<h2 class="section" id="mapeng">The Map's Invisible Engineering</h2>
+<p>The interactive map is a single self-contained HTML file built with <code>Folium</code> on <code>Leaflet.js</code>, extended with custom JavaScript for the operational controls. Some of its engineering is invisible by design:</p>
+<ul>
+  <li>The address search is powered by a fully transparent layer that exists only to be searched, so search covers every notification parcel without adding a visible layer to the map.</li>
+  <li>Parcel geometry is simplified before rendering, trimming vertices the eye cannot see at map scale, which keeps a 1,636-parcel map fast in a browser.</li>
+  <li>Address labels mount and unmount based on zoom level, so the zoomed-out view shows numbered site badges and the zoomed-in view shows full addresses.</li>
+  <li>Every custom control runs inside the page's load event, because the map object the controls reference does not exist until the generated page finishes loading. Violating that ordering renders a blank map, a constraint discovered by debugging and documented in the code for the next person.</li>
+</ul>
+
+<h2 class="section" id="production">Production Details</h2>
+<p>A handful of smaller decisions carry the tool from a working analysis to something a business can rely on:</p>
+<ul>
+  <li><strong>Reruns cannot destroy delivered work by accident.</strong> Client task orders arrive in rounds, so the run command refuses to write into a directory that already holds output unless replacement is explicitly requested.</li>
+  <li><strong>The address fallback is hardened against real addresses.</strong> When a site arrives without a usable APN, matching falls back to the address. Street names are regex-escaped and matched on word boundaries, so a search for Oak Avenue cannot silently match Oakland Avenue, and any address that matches multiple parcels logs a warning instead of picking one silently.</li>
+  <li><strong>Excel's limits are handled up front.</strong> Sheet names are sanitized against Excel's forbidden characters and its 31-character limit before writing, so a long street address cannot crash the checklist writer.</li>
+  <li><strong>Input is flexible, with a manual override when it is not.</strong> Client files are accepted as CSV or Excel, and APN and address columns are detected by common names, backed by content-based detection that recognizes address-shaped text. When detection is not enough, command-line flags name the columns directly.</li>
+</ul>
+
+<h2 class="section" id="validation">Validating the Refactor</h2>
+<p>The generalized tool was validated against the original engagement's delivered files. All four headline figures reproduce exactly: 1,636 addresses, 2,598 and 3,948 hangers, and 134 field review parcels. The remaining row-level differences were investigated individually, and each traced to a deliberate improvement rather than a defect. The official land use vocabulary replaced interpreted labels. The field review reasons became specific instead of generic.</p>
+<p>One difference took a closer look. A parcel flagged for review can sit near several demolition sites at once, and the field review list files it under a single representative site. The original script chose that site by sorting the parcel IDs as text, an incidental effect of alphabetical ordering. The rebuild makes the choice deliberate, filing each parcel under the first matching site in the client's own list. Both versions flag the same parcels and record the same full set of nearby sites for each; only the single site shown at the head of the row changed.</p>
+<p>The test suite runs 29 tests on synthetic parcels, including a grid of squares where the correct neighbors and distances are computable by hand, so the geometry math is verified against known answers rather than against itself. The tests need no network and no city data, finish in under a second, and run on every push through GitHub Actions alongside <code>ruff</code> linting configured beyond its defaults, adding import-order, bug-pattern, and modern-syntax checks.</p>
+
+<h2 class="section" id="future">Future Work</h2>
+<ul>
+  <li><strong>Demolition schedule grouping.</strong> Sites demolished together can share one notification pass. A grouping input, where the client declares that sites 1 and 13 go together, would recompute hanger totals per group and answer scheduling questions with a rerun instead of hand math.</li>
+  <li><strong>Route optimization.</strong> The walking checklists use a nearest-street heuristic. A true routing pass over the street network would shorten crew time further.</li>
+  <li><strong>Address-point data.</strong> A second city dataset locating individual buildings would refine structure detection on the parcels the assessor's records leave ambiguous.</li>
+  <li><strong>A multi-city adapter layer.</strong> The analysis is general; the data sources are St. Louis specific. Per-jurisdiction configuration for columns, coordinate systems, and download endpoints would carry the tool to other cities.</li>
+  <li><strong>A hosted interface.</strong> Upload a site list, adjust the buffer, and download the full deliverable package from a browser.</li>
+</ul>
+
+<footer>
+  <p>Source, tests, and documentation: <a href="https://github.com/Erin-Weiss/stl-demo-notify">github.com/Erin-Weiss/stl-demo-notify</a> · More work: <a href="https://erin-weiss.github.io/index.html">erin-weiss.github.io</a></p>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  // Copy buttons on every code block
+  document.querySelectorAll("pre").forEach(function (pre) {
+    var wrap = document.createElement("div");
+    wrap.className = "codewrap";
+    pre.parentNode.insertBefore(wrap, pre);
+    wrap.appendChild(pre);
+    var btn = document.createElement("button");
+    btn.className = "copybtn";
+    btn.type = "button";
+    btn.textContent = "Copy";
+    btn.addEventListener("click", function () {
+      navigator.clipboard.writeText(pre.innerText).then(function () {
+        btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = "Copy"; }, 1500);
+      });
+    });
+    wrap.appendChild(btn);
+  });
+
+  // Scroll-spy for the floating table of contents
+  var links = document.querySelectorAll("nav.toc-float a");
+  if (!links.length || !("IntersectionObserver" in window)) return;
+  var byId = {};
+  links.forEach(function (a) { byId[a.getAttribute("href").slice(1)] = a; });
+  var sections = document.querySelectorAll("h2.section[id]");
+  var current = null;
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        if (current) current.classList.remove("active");
+        current = byId[entry.target.id];
+        if (current) current.classList.add("active");
+      }
+    });
+  }, { rootMargin: "-80px 0px -70% 0px" });
+  sections.forEach(function (s) { observer.observe(s); });
+})();
+</script>
+
+</body>
+</html>

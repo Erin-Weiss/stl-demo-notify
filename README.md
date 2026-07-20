@@ -182,6 +182,7 @@ The original client deliverables and the regenerated outputs that reproduce them
 
 ## Future Work
 
+- **Demolition schedule grouping** · Let the client group sites that will be demolished together, then recompute hanger totals per group, so a question like "what does the count become if sites 1 and 13 share one notification pass" is answered by a rerun instead of hand math
 - **Multi-city adapter layer** · Per-jurisdiction configuration for column names, coordinate systems, and download endpoints
 - **Route optimization** · A true routing pass for the walking checklists, which currently use a nearest-street heuristic
 - **Address-point data** · Refining structure detection on flagged parcels with a second data source
