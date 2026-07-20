@@ -229,9 +229,15 @@ def write_assumptions_log(
     total_single_pass: int,
     total_separate_events: int,
     field_review_count: int,
+    schedule_groups: str | None = None,
 ) -> None:
     """Write the run's parameters and client-facing methodology assumptions."""
     path.parent.mkdir(parents=True, exist_ok=True)
+    separate_label = (
+        "Hangers if each site noticed SEPARATELY"
+        if schedule_groups is None
+        else "Hangers with the schedule groups below"
+    )
     lines = [
         f"Run date: {date.today().isoformat()}",
         f"Buffer distance: {buffer_feet:g} ft",
@@ -240,8 +246,16 @@ def write_assumptions_log(
         "(see match_report.txt)",
         f"Unique addresses on door hanger list: {unique_addresses}",
         f"Hangers if all sites noticed in a SINGLE PASS: {total_single_pass}",
-        f"Hangers if each site noticed SEPARATELY: {total_separate_events}",
+        f"{separate_label}: {total_separate_events}",
         f"Parcels on field review list: {field_review_count}",
+    ]
+    if schedule_groups is not None:
+        lines.append(
+            f"Schedule groups (sites demolished together, by site number): "
+            f"{schedule_groups}. Per-site checklists are unchanged; this only "
+            f"affects the separate-events hanger total above."
+        )
+    lines += [
         "",
         "Assumptions:",
     ]

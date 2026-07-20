@@ -109,6 +109,7 @@ stl-demo-notify run --input data/sample_input.csv --output-dir output/
 | `--apn-column`, `--address-column` | Name the columns explicitly when auto-detection misses |
 | `--no-map` | Skip the map for a faster numbers-only run |
 | `--overwrite` | Required to replace an existing output directory |
+| `--group` | Sites demolished together as one notification pass, by 1-based site number; repeatable (e.g. `--group 1,13 --group 5,7`) |
 | `--force` (on `prepare-data`) | Re-download the city data and rebuild the cache |
 
 ---
@@ -182,7 +183,7 @@ The original client deliverables and the regenerated outputs that reproduce them
 
 ## Future Work
 
-- **Demolition schedule grouping** · Let the client group sites that will be demolished together, then recompute hanger totals per group, so a question like "what does the count become if sites 1 and 13 share one notification pass" is answered by a rerun instead of hand math
+- **Grouped checklists and map** · The `--group` flag already recomputes hanger totals when sites are demolished together; extending grouping to merge those sites' walking checklists and map layers into a single combined pass is the remaining piece
 - **Multi-city adapter layer** · Per-jurisdiction configuration for column names, coordinate systems, and download endpoints
 - **Route optimization** · A true routing pass for the walking checklists, which currently use a nearest-street heuristic
 - **Address-point data** · Refining structure detection on flagged parcels with a second data source

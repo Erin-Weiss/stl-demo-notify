@@ -107,6 +107,35 @@ def _load_sites(
     return sites
 
 
+def _parse_groups(group_specs: list[str], n_sites: int) -> dict[int, int]:
+    """Turn --group specs of 1-based site numbers into a {site_index: group_id} map.
+
+    Site numbers match the map badges and checklist sheets (1-based). Sites not
+    named in any group are left out and stand alone.
+    """
+    groups: dict[int, int] = {}
+    for group_id, spec in enumerate(group_specs):
+        for token in spec.split(","):
+            token = token.strip()
+            if not token:
+                continue
+            try:
+                number = int(token)
+            except ValueError:
+                raise SystemExit(
+                    f"--group takes site numbers; got {token!r}"
+                ) from None
+            if not 1 <= number <= n_sites:
+                raise SystemExit(
+                    f"--group site number {number} is out of range 1..{n_sites}"
+                )
+            site_index = number - 1
+            if site_index in groups:
+                raise SystemExit(f"site {number} appears in more than one --group")
+            groups[site_index] = group_id
+    return groups
+
+
 def _prepare_data(args: argparse.Namespace) -> None:
     citydata.fetch_landuse_vocabulary(force=args.force)
     citydata.build_parcel_cache(force=args.force)
@@ -128,6 +157,7 @@ def _run(args: argparse.Namespace) -> None:
         )
 
     sites = _load_sites(Path(args.input), args.apn_column, args.address_column)
+    groups = _parse_groups(args.group, len(sites)) if args.group else None
     parcels = gpd.read_parquet(config.PARCEL_CACHE_PATH)
     parcels_m = parcels.to_crs(epsg=config.CRS_EPSG)
     landuse_lookup = citydata.load_landuse_lookup()
@@ -148,7 +178,13 @@ def _run(args: argparse.Namespace) -> None:
     detail = analysis.label_landuse(detail, landuse_lookup)
     detail["suggested_hangers"] = analysis.suggested_hangers(detail["NUMUNITS"])
     kept, excluded, field_review = analysis.apply_structure_filter(detail)
-    dedup, single_pass, separate_events = analysis.dedupe_and_totals(kept)
+    dedup, single_pass, separate_events = analysis.dedupe_and_totals(
+        kept, groups=groups
+    )
+
+    schedule_note = None
+    if groups:
+        schedule_note = "; ".join("+".join(spec.split(",")) for spec in args.group)
 
     outputs.write_doorhanger_outputs(output_dir, dedup, kept, field_review, excluded)
     outputs.write_site_checklists(
@@ -164,15 +200,23 @@ def _run(args: argparse.Namespace) -> None:
         total_single_pass=single_pass,
         total_separate_events=separate_events,
         field_review_count=len(field_review),
+        schedule_groups=schedule_note,
     )
     if not args.no_map:
         m = mapping.build_map(sites, parcels_m, matches, buffers, kept, excluded)
         m.save(output_dir / "demo_notification_map.html")
 
+    events_label = (
+        "Hangers, separate events (with schedule groups)"
+        if groups
+        else "Hangers, separate per-site events"
+    )
     print(f"Matched {len(matches)} of {len(sites)} sites (see match_report.txt)")
     print(f"Unique addresses on door hanger list: {len(dedup)}")
     print(f"Hangers, single-pass notification: {single_pass}")
-    print(f"Hangers, separate per-site events: {separate_events}")
+    print(f"{events_label}: {separate_events}")
+    if schedule_note:
+        print(f"Schedule groups (site numbers): {schedule_note}")
     print(f"Field review parcels: {len(field_review)}")
     print(f"Files written to {output_dir}/")
 
@@ -202,6 +246,13 @@ def build_parser() -> argparse.ArgumentParser:
         "--overwrite",
         action="store_true",
         help="allow overwriting an existing output directory",
+    )
+    run.add_argument(
+        "--group",
+        action="append",
+        metavar="N,M,...",
+        help="sites demolished together as one notification pass, by 1-based "
+        "site number; repeatable (e.g. --group 1,13 --group 5,7)",
     )
     run.set_defaults(func=_run)
 

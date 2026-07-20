@@ -159,17 +159,40 @@ def parse_siteaddr(siteaddr: pd.Series) -> tuple[pd.Series, pd.Series]:
     return street, house_num
 
 
-def dedupe_and_totals(detail_kept: pd.DataFrame) -> tuple[pd.DataFrame, int, int]:
+def notifications_per_handle(
+    detail_kept: pd.DataFrame, groups: dict[int, object] | None = None
+) -> pd.Series:
+    """Count the distinct notification passes each neighbor_handle requires.
+
+    Without groups this is the number of demolition sites an address is near.
+    A groups mapping (site index to a shared group key) collapses sites that
+    are demolished together, so an address near several sites in one group
+    counts that group once. Sites absent from the mapping stand alone.
+    """
+    groups = groups or {}
+    group_key = detail_kept["site_index"].map(lambda si: groups.get(si, ("_site", si)))
+    return (
+        detail_kept.assign(_group=group_key)
+        .groupby("neighbor_handle")["_group"]
+        .nunique()
+    )
+
+
+def dedupe_and_totals(
+    detail_kept: pd.DataFrame, groups: dict[int, object] | None = None
+) -> tuple[pd.DataFrame, int, int]:
     """Collapse neighbor rows to one per unique address, with print-order totals.
 
     Returns the deduplicated door hanger list, the single-pass hanger total
     (each address noticed once), and the separate-events total (each address
-    noticed once per nearby site it falls within, summed).
+    noticed once per nearby notification pass, summed). A groups mapping of
+    site index to shared group key merges sites demolished together, lowering
+    the separate-events total for addresses near more than one grouped site.
     """
     out_cols = [c for c in config.OUTPUT_COLS if c in detail_kept.columns]
 
-    near_sites = grouped_demo_addresses(detail_kept)
-    near_sites_join = near_sites.apply("; ".join)
+    near_sites_join = grouped_demo_addresses(detail_kept).apply("; ".join)
+    notifications = notifications_per_handle(detail_kept, groups)
 
     dedup = detail_kept.drop_duplicates("neighbor_handle").copy()
     keep_cols = ["neighbor_handle"] + out_cols + [
@@ -177,7 +200,7 @@ def dedupe_and_totals(detail_kept: pd.DataFrame) -> tuple[pd.DataFrame, int, int
     ]
     dedup = dedup[keep_cols + ["_row"]]
     dedup["near_demo_sites"] = dedup["neighbor_handle"].map(near_sites_join)
-    dedup["notifications_needed"] = dedup["neighbor_handle"].map(near_sites.apply(len))
+    dedup["notifications_needed"] = dedup["neighbor_handle"].map(notifications)
 
     if "SITEADDR" in dedup.columns:
         street, house_num = parse_siteaddr(dedup["SITEADDR"])

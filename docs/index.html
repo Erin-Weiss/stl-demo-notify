@@ -460,7 +460,7 @@ total_separate_events = <span class="k">int</span>(
 
 <h2 class="section" id="future">Future Work</h2>
 <ul>
-  <li><strong>Demolition schedule grouping.</strong> Sites demolished together can share one notification pass. A grouping input, where the client declares that sites 1 and 13 go together, would recompute hanger totals per group and answer scheduling questions with a rerun instead of hand math.</li>
+  <li><strong>Grouped checklists and map.</strong> Sites demolished together can share one notification pass. The tool already recomputes the hanger total for a declared schedule, so the client can ask what the count becomes if sites 1 and 13 go together and get the answer from a rerun. Extending that grouping to merge those sites' walking checklists and map layers into one combined pass is the remaining step.</li>
   <li><strong>Route optimization.</strong> The walking checklists use a nearest-street heuristic. A true routing pass over the street network would shorten crew time further.</li>
   <li><strong>Address-point data.</strong> A second city dataset locating individual buildings would refine structure detection on the parcels the assessor's records leave ambiguous.</li>
   <li><strong>A multi-city adapter layer.</strong> The analysis is general; the data sources are St. Louis specific. Per-jurisdiction configuration for columns, coordinate systems, and download endpoints would carry the tool to other cities.</li>

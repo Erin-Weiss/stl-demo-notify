@@ -58,22 +58,39 @@ class TestApplyStructureFilter:
 
 
 class TestDedupeAndTotals:
-    def test_dedupe_and_hanger_totals(self):
-        detail_kept = pd.DataFrame(
+    def _detail_kept(self) -> pd.DataFrame:
+        # Address A is near sites 0 and 1; address B is near site 0 only.
+        return pd.DataFrame(
             {
                 "neighbor_handle": ["A", "A", "B"],
+                "site_index": [0, 1, 0],
                 "demo_address": ["Site 1", "Site 2", "Site 1"],
                 "SITEADDR": ["100 MAIN ST", "100 MAIN ST", "200 OAK AV"],
                 "suggested_hangers": [2, 2, 1],
                 "_row": [0, 0, 1],
             }
         )
-        dedup, single_pass, separate_events = dedupe_and_totals(detail_kept)
+
+    def test_dedupe_and_hanger_totals(self):
+        dedup, single_pass, separate_events = dedupe_and_totals(self._detail_kept())
 
         assert len(dedup) == 2
         assert single_pass == 3
         # A is near 2 sites (2 hangers x 2 sites = 4) + B near 1 site (1 x 1 = 1).
         assert separate_events == 5
+
+    def test_grouping_merges_sites_into_one_pass(self):
+        # Grouping sites 0 and 1 means address A, near both, needs one pass.
+        groups = {0: "g", 1: "g"}
+        dedup, single_pass, separate_events = dedupe_and_totals(
+            self._detail_kept(), groups=groups
+        )
+
+        assert single_pass == 3
+        # A now counts its group once (2 x 1) + B (1 x 1) = 3.
+        assert separate_events == 3
+        a_row = dedup[dedup["neighbor_handle"] == "A"].iloc[0]
+        assert a_row["notifications_needed"] == 1
 
 
 class TestWalkingOrder:
