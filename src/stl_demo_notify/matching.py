@@ -98,19 +98,24 @@ def match_sites(
                     break
 
         if parcel_idx is None and address is not None and pd.notna(address):
-            num, name = split_address(str(address))
-            candidates = parcels.index[
-                blob.str.contains(rf"\b{num}\b", na=False)
-                & blob.str.contains(rf"\b{re.escape(name)}\b", na=False)
-            ]
-            if len(candidates) > 1:
-                logger.warning(
-                    "address %r matched %d city parcels; using the first",
-                    address,
-                    len(candidates),
-                )
-            if len(candidates) >= 1:
-                parcel_idx, method = candidates[0], "address (SITEADDR)"
+            try:
+                num, name = split_address(str(address))
+            except ValueError:
+                # An unparseable value (e.g. a stray header row) simply skips matching.
+                num = name = None
+            if num is not None:
+                candidates = parcels.index[
+                    blob.str.contains(rf"\b{num}\b", na=False)
+                    & blob.str.contains(rf"\b{re.escape(name)}\b", na=False)
+                ]
+                if len(candidates) > 1:
+                    logger.warning(
+                        "address %r matched %d city parcels; using the first",
+                        address,
+                        len(candidates),
+                    )
+                if len(candidates) >= 1:
+                    parcel_idx, method = candidates[0], "address (SITEADDR)"
 
         city_siteaddr = None
         if parcel_idx is not None:

@@ -94,3 +94,10 @@ class TestMatchSites:
         sites = pd.DataFrame({"foo": ["bar"]})
         with pytest.raises(ValueError):
             match_sites(sites, parcels)
+
+    def test_unparseable_address_does_not_crash(self, parcels):
+        # A stray header row read as data has no leading house number.
+        sites = pd.DataFrame({"address": ["address", "100 Main Street"]})
+        matches, records = match_sites(sites, parcels)
+        assert records[0]["matched"] is False
+        assert matches == {1: 0}

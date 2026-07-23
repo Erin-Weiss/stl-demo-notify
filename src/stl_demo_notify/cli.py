@@ -4,35 +4,14 @@ from __future__ import annotations
 
 import argparse
 import logging
-import re
 import sys
 from pathlib import Path
 
 import geopandas as gpd
-import pandas as pd
 
-from . import analysis, citydata, config, mapping, matching, outputs
+from . import analysis, citydata, config, mapping, matching, outputs, siteinput
 
 logger = logging.getLogger(__name__)
-
-_APN_COLUMN_CANDIDATES = [
-    "apn",
-    "parcel",
-    "parcelid",
-    "parcelno",
-    "parcelnum",
-    "parcelnumber",
-    "asrparcel",
-    "taxid",
-]
-_ADDRESS_COLUMN_CANDIDATES = [
-    "address",
-    "siteaddress",
-    "streetaddress",
-    "propertyaddress",
-    "situsaddress",
-    "fulladdress",
-]
 
 _OUTPUT_FILENAMES = [
     "match_report.txt",
@@ -43,68 +22,6 @@ _OUTPUT_FILENAMES = [
     "assumptions_log.txt",
     "demo_notification_map.html",
 ]
-
-
-def _find_column(columns: list[str], candidates: list[str]) -> str | None:
-    normalized = {c.lower().replace("_", "").replace(" ", ""): c for c in columns}
-    for candidate in candidates:
-        if candidate in normalized:
-            return normalized[candidate]
-    return None
-
-
-def _looks_like_address(value: str) -> bool:
-    return bool(re.match(r"^\d+\s", value)) and bool(
-        re.search(rf"\b({matching.STREET_SUFFIXES})\b", value, re.IGNORECASE)
-    )
-
-
-def _find_address_column_by_content(df: pd.DataFrame, exclude: set[str]) -> str | None:
-    """Fall back to sniffing column values for address-shaped text.
-
-    Only used when no column name matches _ADDRESS_COLUMN_CANDIDATES, e.g. a
-    client CSV with an unrecognized header like "Property Location".
-    """
-    for col in df.columns:
-        if col in exclude:
-            continue
-        values = df[col].dropna().astype(str)
-        if values.empty:
-            continue
-        if values.map(_looks_like_address).mean() > 0.5:
-            return col
-    return None
-
-
-def _load_sites(
-    path: Path, apn_column: str | None, address_column: str | None
-) -> pd.DataFrame:
-    """Read a site list (CSV or Excel) and standardize its APN/address columns."""
-    if path.suffix.lower() in (".xlsx", ".xls"):
-        raw = pd.read_excel(path)
-    else:
-        raw = pd.read_csv(path)
-
-    apn_col = apn_column or _find_column(list(raw.columns), _APN_COLUMN_CANDIDATES)
-    address_col = address_column or _find_column(
-        list(raw.columns), _ADDRESS_COLUMN_CANDIDATES
-    )
-    if address_col is None:
-        claimed = {apn_col} if apn_col else set()
-        address_col = _find_address_column_by_content(raw, claimed)
-
-    if apn_col is None and address_col is None:
-        raise SystemExit(
-            "Could not find an APN or address column in "
-            f"{path}. Pass --apn-column or --address-column explicitly."
-        )
-
-    sites = pd.DataFrame(index=raw.index)
-    if apn_col:
-        sites["apn"] = raw[apn_col]
-    if address_col:
-        sites["address"] = raw[address_col]
-    return sites
 
 
 def _parse_groups(group_specs: list[str], n_sites: int) -> dict[int, int]:
@@ -156,7 +73,14 @@ def _run(args: argparse.Namespace) -> None:
             f"({', '.join(existing)}). Pass --overwrite to replace it."
         )
 
-    sites = _load_sites(Path(args.input), args.apn_column, args.address_column)
+    try:
+        sites = siteinput.load_sites(
+            Path(args.input), args.apn_column, args.address_column
+        )
+    except ValueError as exc:
+        raise SystemExit(
+            f"{exc} in {args.input}. Pass --apn-column or --address-column."
+        ) from exc
     groups = _parse_groups(args.group, len(sites)) if args.group else None
     parcels = gpd.read_parquet(config.PARCEL_CACHE_PATH)
     parcels_m = parcels.to_crs(epsg=config.CRS_EPSG)

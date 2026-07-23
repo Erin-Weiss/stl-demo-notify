@@ -21,6 +21,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest", "ruff"]
+app = ["streamlit"]
 
 [project.scripts]
 stl-demo-notify = "stl_demo_notify.cli:main"

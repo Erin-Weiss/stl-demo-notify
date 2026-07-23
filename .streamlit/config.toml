@@ -1,0 +1,7 @@
+# Theme for the Streamlit app
+[theme]
+primaryColor = "#1d3557"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f7fa"
+textColor = "#1f2933"
+font = "sans serif"

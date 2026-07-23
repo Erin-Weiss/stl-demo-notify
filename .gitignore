@@ -7,9 +7,11 @@ venv/
 dist/
 build/
 *.egg-info/
-data/cache/
+data/cache/*
+!data/cache/parcels.parquet
 stl_data/
 output/
 .DS_Store
 .ipynb_checkpoints/
 ~$*
+.streamlit/secrets.toml

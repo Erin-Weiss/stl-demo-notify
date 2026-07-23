@@ -1,0 +1,4 @@
+# Dependencies for Streamlit Community Cloud.
+
+.
+streamlit

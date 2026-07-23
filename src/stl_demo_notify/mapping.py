@@ -87,7 +87,11 @@ def _site_label_html(i: int, address: str) -> str:
     )
 
 
-def _map_js(map_name: str, bounds: tuple[float, float, float, float]) -> str:
+def _map_js(
+    map_name: str,
+    bounds: tuple[float, float, float, float],
+    search_control_name: str,
+) -> str:
     miny, minx, maxy, maxx = bounds
     return f"""
     window.addEventListener('load', function () {{
@@ -98,8 +102,32 @@ def _map_js(map_name: str, bounds: tuple[float, float, float, float]) -> str:
         // 13 = whole area, 15 = a few blocks, 17 = single block.
         var ADDRESS_ZOOM = 15;
 
+        // Outline the found parcel, since the search layer itself is invisible;
+        // clear it on the next search, on collapse, or on home.
+        var FOUND = null;
+        function clearFound() {{
+            if (FOUND) {{
+                try {{ FOUND.setStyle({{opacity: 0, fillOpacity: 0}}); }} catch (e) {{}}
+                FOUND = null;
+            }}
+        }}
+        var SEARCH = window['{search_control_name}'];
+        if (SEARCH && SEARCH.on) {{
+            SEARCH.on('search:locationfound', function (e) {{
+                clearFound();
+                if (e.layer && e.layer.setStyle) {{
+                    e.layer.setStyle({{color: '#111827', weight: 3, opacity: 1,
+                                       fillColor: '#111827', fillOpacity: 0.12}});
+                    if (e.layer.bringToFront) {{ e.layer.bringToFront(); }}
+                    FOUND = e.layer;
+                }}
+            }});
+            SEARCH.on('search:collapsed', function () {{ clearFound(); }});
+        }}
+
         var HOME_BOUNDS = [[{miny}, {minx}], [{maxy}, {maxx}]];
         window.goHome = function () {{
+            clearFound();
             MAP.fitBounds(HOME_BOUNDS, {{padding: [30, 30]}});
         }};
 
@@ -189,12 +217,23 @@ def build_map(
         tiles="CartoDB positron",
     )
 
-    # Invisible layer that powers the address search; not a user-toggleable overlay.
+    # Invisible layer powering search: door hanger, review, and demo parcels.
     unique_kept = detail_kept.drop_duplicates("_row")
+    review_parcels = excluded[excluded["review_flag"] != ""].drop_duplicates("_row")
+    search_addrs = list(unique_kept["SITEADDR"].fillna("").astype(str))
+    search_geoms = list(simplified.loc[unique_kept["_row"]].values)
+    search_addrs += list(review_parcels["SITEADDR"].fillna("").astype(str))
+    search_geoms += list(simplified.loc[review_parcels["_row"]].values)
+    for parcel_idx in matches.values():
+        addr = (
+            str(parcels_m.at[parcel_idx, "SITEADDR"])
+            if "SITEADDR" in parcels_m.columns
+            else ""
+        )
+        search_addrs.append(addr)
+        search_geoms.append(simplified.loc[parcel_idx])
     search_gdf = gpd.GeoDataFrame(
-        unique_kept[["SITEADDR"]].fillna("").astype(str),
-        geometry=simplified.loc[unique_kept["_row"]].values,
-        crs=parcels_m.crs,
+        {"SITEADDR": search_addrs}, geometry=search_geoms, crs=parcels_m.crs
     ).to_crs(4326)
     search_layer = folium.GeoJson(
         search_gdf,
@@ -309,6 +348,7 @@ def build_map(
     Search(
         layer=search_layer,
         search_label="SITEADDR",
+        geom_type="Polygon",
         collapsed=True,
         placeholder="Search an address...",
         position="topleft",
@@ -323,8 +363,11 @@ def build_map(
     # after this script element appears in the page; everything must therefore
     # run inside a window 'load' listener, or referencing the map before load
     # renders a blank page.
+    search_control_name = f"{search_layer.get_name()}searchControl"
     m.get_root().script.add_child(
-        folium.Element(_map_js(m.get_name(), (miny, minx, maxy, maxx)))
+        folium.Element(
+            _map_js(m.get_name(), (miny, minx, maxy, maxx), search_control_name)
+        )
     )
 
     return m
