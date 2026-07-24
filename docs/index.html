@@ -212,6 +212,15 @@
   @media (max-width: 720px) { .mapframe { height: 460px; } }
   .mapnote { font-size: 0.88rem; color: var(--ink-3); margin-bottom: 20px; }
 
+  .appshot {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    margin: 6px 0 8px;
+  }
+  a:hover .appshot { border-color: var(--navy); }
+
   .callout {
     border: 1px solid var(--line);
     border-left: 3px solid var(--navy);
@@ -310,7 +319,7 @@
     <tr><td>Finding neighboring parcels</td><td>One-at-a-time lookups on the assessor's site, days per round</td><td>All 126,958 city parcels searched in about a minute</td></tr>
     <tr><td>Applying the 500 foot rule</td><td>Distance estimated by eye from an aerial view</td><td>Measured boundary to boundary in a projected coordinate system</td></tr>
     <tr><td>Handling vacant lots</td><td>Guessed from the map</td><td>Filtered on assessor records, with 134 conflicting parcels flagged for field review</td></tr>
-    <tr><td>Ordering door hangers</td><td>A single count that ignores addresses near several sites</td><td>Two totals covering either demolition schedule</td></tr>
+    <tr><td>Ordering door hangers</td><td>A single count that ignores addresses near several sites</td><td>Two totals covering either demolition schedule, plus grouping for mixed schedules</td></tr>
   </tbody>
 </table>
 
@@ -318,7 +327,7 @@
 <p>The analysis was built around decisions the client could stand behind, each confirmed rather than assumed.</p>
 <p><strong>The 500 feet measures from the parcel boundary.</strong> The buffer extends from the edge of the demolition parcel, not from its center, a rule confirmed with the client before the first list was delivered. A center-measured buffer would quietly shrink coverage around large lots, which is exactly where a missed notification would be hardest to defend.</p>
 <p><strong>Parcels with contradictory records are flagged for review in the field.</strong> A parcel is excluded from the notification list when the assessor's records show no buildings on it. But assessor data lags reality, and some records contradict themselves. A lot can have no buildings on file while its vacancy flag reads N or its improvement value is greater than zero. Those parcels go onto a field review list that names the exact conflict for each one. The program produced 134 of them, and field crews resolve each at the door rather than the office resolving them by assumption.</p>
-<p><strong>Both print totals are reported, because the correct one depends on the demolition schedule.</strong> Every address gets a suggested hanger count from the assessor's dwelling unit count, never less than one. If all 30 sites are noticed together, 2,598 hangers cover every address once. If sites are demolished on separate schedules, each event triggers its own notification, and an address near three sites needs three hangers, for a total of 3,948. The schedule is the client's decision, so the analysis reports both totals and the client orders the quantity that matches the demolition calendar, with the overlap already counted.</p>
+<p><strong>Both print totals are reported, because the correct one depends on the demolition schedule.</strong> Every address gets a suggested hanger count from the assessor's dwelling unit count, never less than one. If all 30 sites are noticed together, 2,598 hangers cover every address once. If sites are demolished on separate schedules, each event triggers its own notification, and an address near three sites needs three hangers, for a total of 3,948. When only some sites share a schedule, they can be grouped, so overlaps within a group count once and overlaps across groups count separately. The tool recomputes the total for any declared grouping, so the client can ask what the count becomes if sites 1 and 13 go together and get the answer from a rerun. The schedule is the client's decision, so the analysis reports both totals and the client orders the quantity that matches the demolition calendar, with the overlap already counted.</p>
 <p><strong>Checklists are ordered the way crews walk.</strong> Each site gets a printable checklist sorted nearest street first, then house number within each street, so a crew works one street at a time instead of following a spreadsheet sorted alphabetically. The method is documented in the deliverables as a heuristic rather than an optimized route.</p>
 <p><strong>Every assumption is written down.</strong> Each run ships with an assumptions log stating the buffer rule, the structure filter, the hanger policy, and every other judgment call in plain language. When the client forwards a list to a city inspector or a subcontractor, the methodology travels with it.</p>
 
@@ -342,17 +351,19 @@
 </ul>
 
 <h2 class="section" id="map">The Interactive Map</h2>
-<p>Every site is a toggleable layer, so a crew lead can display only the sites scheduled for a given day. Parcels show their address, hanger count, and land use on hover, orange parcels are field review flags, and the search box finds any address in the program. The map below is the actual deliverable from this engagement, embedded here to explore.</p>
+<p>Every site is a toggleable layer, so a crew lead can display only the sites scheduled for a given day. Parcels show their address, hanger count, and land use on hover, orange parcels are field review flags, and the search box finds any address in the program, whether a notification parcel, a demolition site, or a field review flag. The map below is the actual deliverable from this engagement, embedded here to explore.</p>
 <iframe class="mapframe" src="map.html" title="Interactive notification map for all 30 demolition sites" loading="lazy"></iframe>
 <p class="mapnote">Best explored on a larger screen. <a href="map.html" target="_blank" rel="noopener">Open the map full screen</a>.</p>
 
 <h2 class="section" id="run">Run It Yourself</h2>
-<p>The engagement was generalized into an installable command-line tool, so any future site list runs with one command against fresh city data:</p>
+<p>The engagement was generalized to run on any site list, two ways. The web app takes an uploaded list and returns the full package in the browser. The command-line tool runs the identical pipeline for scripted or repeat work.</p>
+<a href="https://stl-demo-notify.streamlit.app/" target="_blank" rel="noopener"><img class="appshot" src="images/app-overview.jpg" alt="The web app showing the notification map and headline totals for a 30-site run"></a>
+<p class="mapnote"><a href="https://stl-demo-notify.streamlit.app/" target="_blank" rel="noopener">Open the live app in a new tab</a> to upload a site list and download the results. The screenshot reflects a run on current city data, so its totals differ slightly from the delivered figures. The app sleeps when idle and can take a few seconds to wake.</p>
+<p>To run it locally, or to script repeat work, install the command-line tool. The parcel cache is committed, so a clone runs immediately.</p>
 <pre><code>git clone https://github.com/Erin-Weiss/stl-demo-notify.git
 cd stl-demo-notify &amp;&amp; pip install -e ".[dev]"
-stl-demo-notify prepare-data
 stl-demo-notify run --input your_sites.csv --output-dir output/</code></pre>
-<div class="callout">A hosted browser interface, where a site list can be uploaded and results downloaded without installing anything, is in development and will be available here.</div>
+<p>Rebuilding the cache from fresh city data is a single command, <code>stl-demo-notify prepare-data --force</code>.</p>
 
 <h2 class="part">Part 2 · Engineering the Analysis</h2>
 <p>The original deliverable was a script written under a same-day deadline. This section documents the engineering in the generalized tool, focusing on the design decisions that do not show up in a feature list.</p>
@@ -360,7 +371,7 @@ stl-demo-notify run --input your_sites.csv --output-dir output/</code></pre>
 
 <div class="flow2">
   <div class="inputs">
-    <div class="step"><b>City parcel data</b>shapes, land records, land use vocabulary</div>
+    <div class="step"><b>City parcel data</b>three files: shapes, land records, vocabulary</div>
     <div class="step"><b>Client site list</b>CSV or Excel, any columns</div>
   </div>
   <div class="arrow">→</div>
@@ -416,11 +427,12 @@ has_structure = numbldgs &gt; <span class="k">0</span></code></pre>
 <p>The hanger policy is the rule that every listed address gets at least one hanger, with multi-unit buildings getting one per dwelling unit:</p>
 <pre><code>units = pd.to_numeric(numunits, errors=<span class="s">"coerce"</span>).fillna(<span class="k">0</span>)
 suggested = units.clip(lower=<span class="k">1</span>).astype(<span class="k">int</span>)</code></pre>
-<p>And the two project totals fall directly out of the deduplicated list. The single-pass total sums hangers across unique addresses. The separate-events total weights each address by the number of sites it neighbors:</p>
+<p>And the two project totals fall directly out of the deduplicated list. The single-pass total sums hangers across unique addresses. The separate-events total weights each address by the number of separate notification passes near it, one per nearby site, or one per group when sites share a schedule:</p>
 <pre><code>total_single_pass = <span class="k">int</span>(dedup[<span class="s">"suggested_hangers"</span>].sum())
 total_separate_events = <span class="k">int</span>(
     (dedup[<span class="s">"suggested_hangers"</span>] * dedup[<span class="s">"notifications_needed"</span>]).sum()
 )</code></pre>
+<p>A declared grouping lowers <code>notifications_needed</code> for addresses near several sites in one group, which lowers the separate-events total without changing the formula.</p>
 <p>Each of these rules is also stated in plain language in the assumptions log delivered with the run. The log does not reproduce the code, but it records the buffer rule, the structure filter, the hanger policy, and the rest in sentences a client can read and question, so the reasoning behind every list is written down rather than buried in the program.</p>
 
 <h2 class="section" id="walk">The Square Root the Walk Skips</h2>
@@ -438,7 +450,8 @@ total_separate_events = <span class="k">int</span>(
 <h2 class="section" id="mapeng">The Map's Invisible Engineering</h2>
 <p>The interactive map is a single self-contained HTML file built with <code>Folium</code> on <code>Leaflet.js</code>, extended with custom JavaScript for the operational controls. Some of its engineering is invisible by design:</p>
 <ul>
-  <li>The address search is powered by a fully transparent layer that exists only to be searched, so search covers every notification parcel without adding a visible layer to the map.</li>
+  <li>The address search is powered by a fully transparent layer that exists only to be searched, so search covers every notification parcel, demolition site, and field review flag without adding a visible layer to the map.</li>
+  <li>A match flies the map to the found parcel and outlines it, rather than dropping a pin that would linger after the next search. The outline clears on the following search, on collapse of the search box, or on return to the home view.</li>
   <li>Parcel geometry is simplified before rendering, trimming vertices the eye cannot see at map scale, which keeps a 1,636-parcel map fast in a browser.</li>
   <li>Address labels mount and unmount based on zoom level, so the zoomed-out view shows numbered site badges and the zoomed-in view shows full addresses.</li>
   <li>Every custom control runs inside the page's load event, because the map object the controls reference does not exist until the generated page finishes loading. Violating that ordering renders a blank map, a constraint discovered by debugging and documented in the code for the next person.</li>
@@ -447,24 +460,25 @@ total_separate_events = <span class="k">int</span>(
 <h2 class="section" id="production">Production Details</h2>
 <p>A handful of smaller decisions carry the tool from a working analysis to something a business can rely on:</p>
 <ul>
-  <li><strong>Reruns cannot destroy delivered work by accident.</strong> Client task orders arrive in rounds, so the run command refuses to write into a directory that already holds output unless replacement is explicitly requested.</li>
+  <li><strong>Reruns cannot destroy delivered work by accident.</strong> Client task orders arrive in rounds, so the CLI's run command refuses to write into a directory that already holds output unless replacement is explicitly requested.</li>
   <li><strong>The address fallback is hardened against real addresses.</strong> When a site arrives without a usable APN, matching falls back to the address. Street names are regex-escaped and matched on word boundaries, so a search for Oak Avenue cannot silently match Oakland Avenue, and any address that matches multiple parcels logs a warning instead of picking one silently.</li>
   <li><strong>Excel's limits are handled up front.</strong> Sheet names are sanitized against Excel's forbidden characters and its 31-character limit before writing, so a long street address cannot crash the checklist writer.</li>
-  <li><strong>Input is flexible, with a manual override when it is not.</strong> Client files are accepted as CSV or Excel, and APN and address columns are detected by common names, backed by content-based detection that recognizes address-shaped text. When detection is not enough, command-line flags name the columns directly.</li>
+  <li><strong>Input is flexible, with a manual override when it is not.</strong> Client files are accepted as CSV or Excel, and parcel-number and address columns are detected by common names, backed by content-based detection that recognizes both parcel-number and address-shaped values when the names are unfamiliar. A file with no header row is handled too, through a checkbox in the web app and automatic detection on the command line. When detection is not enough, command-line flags or the app's column picker name the columns directly. Both interfaces share the same detection logic.</li>
+  <li><strong>One malformed row cannot sink a batch.</strong> A site whose address will not parse, such as a stray header row read as data, is recorded as unmatched in the match report rather than halting the run.</li>
 </ul>
 
 <h2 class="section" id="validation">Validating the Refactor</h2>
 <p>The generalized tool was validated against the original engagement's delivered files. All four headline figures reproduce exactly: 1,636 addresses, 2,598 and 3,948 hangers, and 134 field review parcels. The remaining row-level differences were investigated individually, and each traced to a deliberate improvement rather than a defect. The official land use vocabulary replaced interpreted labels. The field review reasons became specific instead of generic.</p>
+<p>These are the delivered engagement's figures. Because city parcel records change over time, rerunning against a refreshed cache shifts the counts slightly. A refresh to July 2026 data, for example, returns 1,635 addresses in place of 1,636. The committed cache is the permanent copy; a refresh through the app updates only its running container until that container restarts.</p>
 <p>One difference took a closer look. A parcel flagged for review can sit near several demolition sites at once, and the field review list files it under a single representative site. The original script chose that site by sorting the parcel IDs as text, an incidental effect of alphabetical ordering. The rebuild makes the choice deliberate, filing each parcel under the first matching site in the client's own list. Both versions flag the same parcels and record the same full set of nearby sites for each; only the single site shown at the head of the row changed.</p>
-<p>The test suite runs 29 tests on synthetic parcels, including a grid of squares where the correct neighbors and distances are computable by hand, so the geometry math is verified against known answers rather than against itself. The tests need no network and no city data, finish in under a second, and run on every push through GitHub Actions alongside <code>ruff</code> linting configured beyond its defaults, adding import-order, bug-pattern, and modern-syntax checks.</p>
+<p>The test suite runs 44 tests, from identifier normalization and column detection to a grid of synthetic squares where the correct neighbors and distances are computable by hand, so the geometry math is verified against known answers rather than against itself. The tests need no network and no city data, finish in under a second, and run on every push through GitHub Actions alongside <code>ruff</code> linting configured beyond its defaults, adding import-order, bug-pattern, and modern-syntax checks.</p>
 
 <h2 class="section" id="future">Future Work</h2>
 <ul>
-  <li><strong>Grouped checklists and map.</strong> Sites demolished together can share one notification pass. The tool already recomputes the hanger total for a declared schedule, so the client can ask what the count becomes if sites 1 and 13 go together and get the answer from a rerun. Extending that grouping to merge those sites' walking checklists and map layers into one combined pass is the remaining step.</li>
+  <li><strong>Grouped checklists and map.</strong> Grouping already recomputes the hanger total for a declared schedule. Extending it to merge those sites' walking checklists and map layers into one combined pass is the remaining step.</li>
   <li><strong>Route optimization.</strong> The walking checklists use a nearest-street heuristic. A true routing pass over the street network would shorten crew time further.</li>
   <li><strong>Address-point data.</strong> A second city dataset locating individual buildings would refine structure detection on the parcels the assessor's records leave ambiguous.</li>
   <li><strong>A multi-city adapter layer.</strong> The analysis is general; the data sources are St. Louis specific. Per-jurisdiction configuration for columns, coordinate systems, and download endpoints would carry the tool to other cities.</li>
-  <li><strong>A hosted interface.</strong> Upload a site list, adjust the buffer, and download the full deliverable package from a browser.</li>
 </ul>
 
 <footer>

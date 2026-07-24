@@ -4,6 +4,7 @@ import pandas as pd
 import pytest
 
 from stl_demo_notify.siteinput import (
+    load_sites,
     looks_like_header_row,
     looks_like_parcel_id,
     standardize_columns,
@@ -52,6 +53,26 @@ class TestStandardizeColumns:
         raw = pd.DataFrame({"note": ["hello", "world"]})
         with pytest.raises(ValueError):
             standardize_columns(raw)
+
+
+class TestLoadSites:
+    def test_recovers_headerless_file(self, tmp_path):
+        # Without recovery, pandas would consume the first row as the header.
+        path = tmp_path / "sites.csv"
+        path.write_text(
+            "56389420000,1825 Cora Avenue\n36199060000,3010 N Newstead Avenue\n"
+        )
+        sites = load_sites(path)
+        assert len(sites) == 2
+        assert "apn" in sites.columns
+        assert sites["apn"].iloc[0] == 56389420000
+
+    def test_keeps_normal_header(self, tmp_path):
+        path = tmp_path / "sites.csv"
+        path.write_text("apn,address\n56389420000,1825 Cora Avenue\n")
+        sites = load_sites(path)
+        assert len(sites) == 1
+        assert list(sites.columns) == ["apn", "address"]
 
 
 class TestHeaderRowDetection:

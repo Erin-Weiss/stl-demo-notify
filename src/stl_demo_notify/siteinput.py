@@ -5,12 +5,15 @@ Column detection failure raises ValueError; callers decide how to handle it.
 
 from __future__ import annotations
 
+import logging
 import re
 from pathlib import Path
 
 import pandas as pd
 
 from .matching import STREET_SUFFIXES
+
+logger = logging.getLogger(__name__)
 
 APN_COLUMN_CANDIDATES = [
     "apn",
@@ -89,6 +92,13 @@ def looks_like_header_row(values: list) -> bool:
     )
 
 
+def header_looks_like_data(columns: list[object]) -> bool:
+    """True if the inferred column names are themselves parcel-id or address values."""
+    return any(
+        looks_like_parcel_id(c) or looks_like_address(str(c)) for c in columns
+    )
+
+
 def read_site_table(
     source: object, filename: str | None = None, header: object = "infer"
 ) -> pd.DataFrame:
@@ -134,5 +144,17 @@ def load_sites(
     apn_column: str | None = None,
     address_column: str | None = None,
 ) -> pd.DataFrame:
-    """Read a site list file and standardize it to apn/address columns."""
-    return standardize_columns(read_site_table(path), apn_column, address_column)
+    """Read a site list file and standardize it to apn/address columns.
+
+    A file with no header row would otherwise lose its first row to pandas'
+    header inference; it is re-read with no header when detected.
+    """
+    raw = read_site_table(path)
+    if header_looks_like_data(list(raw.columns)):
+        logger.warning(
+            "no header row detected in %s; reading all rows and detecting "
+            "columns by content",
+            path,
+        )
+        raw = read_site_table(path, header=None)
+    return standardize_columns(raw, apn_column, address_column)
